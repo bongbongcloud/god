@@ -494,13 +494,19 @@
       <div class="eyebrow">Browse</div>
       <div class="row">
         <select data-change="browseBook" style="flex:2">${C.books.map(([b]) => `<option ${b === browse.book ? "selected" : ""}>${b}</option>`).join("")}</select>
-        <select data-change="browseCh" style="flex:1">${Array.from({ length: bookChapters(browse.book) }, (_, i) => `<option value="${i + 1}" ${i + 1 === browse.ch ? "selected" : ""}>${i + 1}</option>`).join("")}</select>
-        <a class="btn btn-primary" href="#read/${encodeURIComponent(browse.book)}/${browse.ch}">Read</a>
+        <select id="browse-ch" data-change="browseCh" style="flex:1">${Array.from({ length: bookChapters(browse.book) }, (_, i) => `<option value="${i + 1}" ${i + 1 === browse.ch ? "selected" : ""}>${i + 1}</option>`).join("")}</select>
+        <button class="btn-primary" data-act="browseGo">Read</button>
       </div>
     </div>`;
   }
   ACT.browseBook = (el) => { browse.book = el.value; browse.ch = 1; render(); };
   ACT.browseCh = (el) => { browse.ch = +el.value; };
+  ACT.browseGo = () => {
+    const book = $("[data-change=browseBook]")?.value || browse.book;
+    const ch = +($("#browse-ch")?.value || browse.ch || 1);
+    browse = { book, ch };
+    location.hash = `#read/${encodeURIComponent(book)}/${ch}`;
+  };
 
   routes.read = (book, ch) => {
     if (!book || !bookChapters(book)) return routes.bible();
@@ -597,6 +603,7 @@
         </div>
         <div class="row" style="margin-top:12px"><button class="btn-primary" data-act="startCustom" ${cn ? "" : "disabled"}>Start custom plan</button></div>
       </div>
+      ${browseBox()}
       <div class="card flat">
         <div class="eyebrow">Translation</div>
         <select data-change="setTranslation">${C.translations.map(([k, n]) => `<option value="${k}" ${k === tr ? "selected" : ""}>${k} — ${n}</option>`).join("")}</select>

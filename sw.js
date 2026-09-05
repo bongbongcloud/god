@@ -1,5 +1,5 @@
 // Minimal service worker: app shell cached, feed.json always tries the network first.
-const VERSION = "abide-v3";
+const VERSION = "abide-v3.1";
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./content.js", "./firebase-config.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", (e) => {
