@@ -1,6 +1,7 @@
 /* Abide — daily walk. Plain JS, no build step. */
 (() => {
   "use strict";
+  const APP_VERSION = "3.2";
 
   // ------------------------------------------------------------ utilities
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -499,7 +500,11 @@
       </div>
     </div>`;
   }
-  ACT.browseBook = (el) => { browse.book = el.value; browse.ch = 1; render(); };
+  ACT.browseBook = (el) => {
+    browse.book = el.value; browse.ch = 1;
+    const chSel = $("#browse-ch");
+    if (chSel) chSel.innerHTML = Array.from({ length: bookChapters(browse.book) }, (_, i) => `<option value="${i + 1}">${i + 1}</option>`).join("");
+  };
   ACT.browseCh = (el) => { browse.ch = +el.value; };
   ACT.browseGo = () => {
     const book = $("[data-change=browseBook]")?.value || browse.book;
@@ -599,7 +604,7 @@
         <div class="row" style="margin-top:10px">
           <span class="small">Chapters per day</span>
           <div class="seg">${[1, 2, 3].map((n) => `<button class="${custom.perDay === n ? "on" : ""}" data-act="customPer" data-v="${n}">${n}</button>`).join("")}</div>
-          <span class="tiny">= ${cn} day${cn === 1 ? "" : "s"}</span>
+          <span class="tiny" id="custom-days">= ${cn} day${cn === 1 ? "" : "s"}</span>
         </div>
         <div class="row" style="margin-top:12px"><button class="btn-primary" data-act="startCustom" ${cn ? "" : "disabled"}>Start custom plan</button></div>
       </div>
@@ -635,8 +640,11 @@
     const a = names.indexOf(from), b = to ? names.indexOf(to) : a;
     return b >= a ? names.slice(a, b + 1) : [from];
   }
-  ACT.customBook = () => { const c = settings().customDraft || { perDay: 1 }; c.books = customBooks(); settings().customDraft = c; emit(); render(); };
-  ACT.customPer = (el) => { const c = settings().customDraft || { books: ["Romans"] }; c.perDay = +el.dataset.v; settings().customDraft = c; emit(); };
+  ACT.customBook = () => {
+    const c = settings().customDraft || { perDay: 1 }; c.books = customBooks(); settings().customDraft = c; saveLocal();
+    const n = planReadings(c).length; const lab = $("#custom-days"); if (lab) lab.textContent = `= ${n} day${n === 1 ? "" : "s"}`;
+  };
+  ACT.customPer = (el) => { const c = settings().customDraft || { books: ["Romans"] }; c.books = customBooks(); c.perDay = +el.dataset.v; settings().customDraft = c; emit(); };
   ACT.startCustom = () => {
     const c = settings().customDraft || { books: ["Romans"], perDay: 1 };
     const name = c.books.length === 1 ? c.books[0] : `${c.books[0]} → ${c.books[c.books.length - 1]}`;
@@ -1234,6 +1242,11 @@
         <p class="tiny" style="margin-top:8px">${list("prayers").length} prayer points · ${list("recaps").length} recaps · ${list("days").length} days</p>
       </div>
       <div class="card flat">
+        <div class="eyebrow">About</div>
+        <div class="small">Abide v${APP_VERSION} · <a href="#" data-act="forceUpdate">check for update</a></div>
+        <div class="tiny" style="margin-top:4px">If a feature you expect is missing, tap “check for update”, then close and reopen the app.</div>
+      </div>
+      <div class="card flat">
         <div class="eyebrow">Danger zone</div>
         <button class="btn-danger" data-act="wipe">Erase everything on this device</button>
       </div>
@@ -1285,5 +1298,31 @@
   initFirebase();
   render();
   loadFeed();
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").then((reg) => {
+      S.swReg = reg;
+      reg.addEventListener("updatefound", () => {
+        const w = reg.installing; if (!w) return;
+        w.addEventListener("statechange", () => {
+          if (w.state === "installed" && navigator.serviceWorker.controller) showUpdateBar();
+        });
+      });
+    }).catch(() => {});
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => { if (!reloaded) { reloaded = true; location.reload(); } });
+  }
+  function showUpdateBar() {
+    const el = $("#toast"); el.innerHTML = `New version ready — <a href="#" id="do-update" style="color:#f3e7c9;text-decoration:underline">tap to update</a>`; el.hidden = false; clearTimeout(toastTimer);
+    $("#do-update").onclick = (e) => { e.preventDefault(); S.swReg?.waiting?.postMessage("skipWaiting"); setTimeout(() => location.reload(), 800); };
+  }
+  ACT.forceUpdate = async () => {
+    toast("Checking…");
+    try {
+      const reg = S.swReg || (await navigator.serviceWorker?.getRegistration());
+      if (reg) { await reg.update(); if (reg.waiting) { reg.waiting.postMessage("skipWaiting"); setTimeout(() => location.reload(), 800); return; } }
+      // Hard refresh regardless: clear caches and reload from network.
+      if (window.caches) { const keys = await caches.keys(); await Promise.all(keys.map((k) => caches.delete(k))); }
+      location.reload();
+    } catch (e) { location.reload(); }
+  };
 })();
