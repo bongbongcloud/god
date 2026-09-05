@@ -1,0 +1,23 @@
+{
+ "sources": [
+  {
+   "id": "tq",
+   "name": "unfoldingWord® translationQuestions",
+   "license": "CC BY-SA 4.0",
+   "url": "https://www.unfoldingword.org/tq",
+   "note": "© unfoldingWord. Questions and suggested answers; lightly adapted for display."
+  },
+  {
+   "id": "mhcc",
+   "name": "Matthew Henry's Concise Commentary",
+   "license": "Public domain",
+   "url": "https://ccel.org/ccel/henry/mhcc",
+   "note": "Via the Christian Classics Ethereal Library."
+  }
+ ],
+ "report": {
+  "tq": 16521,
+  "tq_failed": [],
+  "mhcc_books": 66
+ }
+}
