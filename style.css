@@ -266,3 +266,19 @@ body.quiet-mode .view { max-width: 520px; min-height: 100dvh; display: flex; ali
 .quiet-list { width: 100%; max-width: 420px; text-align: left; margin-top: 8px; }
 .quiet-list .eyebrow { color: rgba(243,239,230,.55); }
 .quiet-pt { padding: 8px 0; border-top: 1px solid rgba(255,255,255,.12); color: rgba(255,255,255,.9); font-size: .95rem; }
+
+/* ---------- v3: inline Bible reader ---------- */
+.reader-tools { display: flex; gap: 4px; align-items: center; flex: none; }
+.reader { margin-top: 12px; font-family: var(--serif); line-height: 1.7; }
+.chapter + .chapter { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); }
+.chapter-head { font-family: var(--sans); font-weight: 600; font-size: .85rem; color: var(--ink-2); margin-bottom: 6px; }
+.verses { margin: 0; }
+.verse { cursor: pointer; border-radius: 4px; padding: 1px 2px; transition: background .12s; }
+.verse:hover { background: var(--bg-2); }
+.verse.sel { background: var(--gold-soft); box-shadow: 0 0 0 2px var(--gold-soft); }
+.verse sup { font-family: var(--sans); font-size: .62em; color: var(--ink-3); margin-right: 3px; font-weight: 600; }
+.verse-bar { display: inline-flex; gap: 4px; flex-wrap: wrap; margin: 4px 0 6px; font-family: var(--sans); vertical-align: middle; }
+.verse-bar button { font-size: .78rem; padding: 4px 9px; }
+.reader-credit { margin-top: 14px; font-family: var(--sans); }
+.verse-card { border-left: 4px solid var(--gold); }
+.verse-quote { font-family: var(--serif); font-size: 1.1rem; line-height: 1.5; }

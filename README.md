@@ -10,6 +10,8 @@ style.css           styles (light + dark)
 firebase-config.js  paste your Firebase config here (optional)
 data/feed.json      latest devotional links, written daily by the Action
 scripts/fetch_feeds.py         pulls the RSS feeds → data/feed.json
+scripts/fetch_bible.py         downloads the WEB Bible → data/bible/web/… (one time)
+.github/workflows/bible.yml    runs fetch_bible.py once (or on demand)
 .github/workflows/feeds.yml    runs the script every day at 05:30 SGT
 manifest.json, sw.js, icon*.   PWA install + offline
 ```
@@ -82,7 +84,17 @@ The workflow time is set in `.github/workflows/feeds.yml` (`30 21 * * *` UTC = 0
 - **Answered-prayer wall** (`#answered`, or tap the "answered" stat on the home page). When you mark a point answered you can write one line about how God answered; the wall shows each answered prayer with how long and how many times you prayed for it, and the journey notes.
 - **Quiet prayer timer** (button at the top of the Pray page, or the link under "Today's prayer focus"). Full-screen, 3/5/10/15 minutes (default 5), one prompt, a countdown ring, keeps the screen awake, ends with a soft three-note chime and a vibration. Finishing marks that ACTS step done and logs the minutes in your journal.
 
-## 5. Making it yours
+## 5. Bible text inside the app (v3)
+
+Chapters now display inline on the Bible tab and in a free reader (`#read/<Book>/<chapter>`, or the Browse box). Tap any verse to **save it** (♥, listed under Saved verses), turn it into a prayer point, or copy it. **A− / A+** sets the text size per device.
+
+**One-time setup:** the text comes from the public-domain *World English Bible* and lives in your repo under `data/bible/web/`. After pushing v3, GitHub → **Actions** → *Fetch Bible text (WEB)* → **Run workflow** (it also triggers itself the first time `scripts/fetch_bible.py` is pushed). It downloads ~5 MB of JSON and commits it; a minute later the reader works. Until then the reader shows a pointer to that workflow plus a BibleGateway link.
+
+**ESV instead (optional):** copyrighted translations can't be stored in the repo, but Crossway offers a free personal API. Create a key at [api.esv.org](https://api.esv.org) (non-commercial, 5,000 requests/day), paste it in **Settings → Bible text in the app → ESV API key**, Save. The app then fetches ESV chapters live and falls back to WEB when offline or if the request fails. The key is stored in your app settings (synced through your own Firestore), never committed to the repo. The reader shows Crossway's attribution line when ESV is displayed, as their terms require.
+
+**Offline:** chapters you've opened are cached automatically. **Settings → Download whole Bible for offline** fetches all 1,189 WEB chapters once so the entire Bible reads offline.
+
+## 6. Making it yours
 
 - **Plans, groups, prompts and verses** live in `content.js` (`plans`, `defaultGroups`, `acts`, `verses`, `lens`) — add your own ACTS prompts, change the gospel-lens questions, add verses (the app rotates one per day).
 - **Greeting name** is in `routes.home` in `app.js`.

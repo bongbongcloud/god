@@ -40,7 +40,7 @@
   // Everything lives in `S.data`, mirrored to localStorage and (if signed in) Firestore.
   const LS_KEY = "abide.v1";
   const S = {
-    data: { prayers: {}, recaps: {}, days: {}, settings: { hiddenSources: [] } },
+    data: { prayers: {}, recaps: {}, days: {}, verses: {}, settings: { hiddenSources: [] } },
     feed: null,
     mode: "local",     // local | cloud
     user: null,
@@ -54,7 +54,7 @@
       const raw = localStorage.getItem(LS_KEY);
       if (raw) {
         const d = JSON.parse(raw);
-        S.data = { prayers: {}, recaps: {}, days: {}, settings: { hiddenSources: [] }, ...d };
+        S.data = { prayers: {}, recaps: {}, days: {}, verses: {}, settings: { hiddenSources: [] }, ...d };
       }
     } catch (e) { console.warn("local load failed", e); }
   }
@@ -119,7 +119,7 @@
     const plan = settings().plan; if (!plan) return null;
     const readings = planReadings(plan);
     const i = Math.min(plan.progress || 0, readings.length);
-    return { plan, readings, index: i, total: readings.length, finished: i >= readings.length, ref: i < readings.length ? refOf(readings[i]) : null };
+    return { plan, readings, index: i, total: readings.length, finished: i >= readings.length, ref: i < readings.length ? refOf(readings[i]) : null, chunk: i < readings.length ? readings[i] : [] };
   }
 
   // ------------------------------------------------------------ firebase
@@ -149,8 +149,8 @@
     setPill("syncing", "pill-warn");
     const root = S.fs.collection("users").doc(S.user.uid);
     const localCopy = JSON.parse(JSON.stringify(S.data));
-    let first = { prayers: true, recaps: true, days: true };
-    ["prayers", "recaps", "days"].forEach((coll) => {
+    let first = { prayers: true, recaps: true, days: true, verses: true };
+    ["prayers", "recaps", "days", "verses"].forEach((coll) => {
       const un = root.collection(coll).onSnapshot((snap) => {
         const next = {};
         snap.forEach((doc) => (next[doc.id] = doc.data()));
@@ -200,12 +200,14 @@
 
   // ------------------------------------------------------------ router
   const routes = {};
+  const afterRender = {};
   function render() {
     const hash = location.hash.replace(/^#\/?/, "") || "home";
-    const [name, arg] = hash.split("/");
+    const [name, arg, arg2] = hash.split("/").map((x) => { try { return decodeURIComponent(x); } catch (e) { return x; } });
     const fn = routes[name] || routes.home;
     const view = $("#view");
-    view.innerHTML = fn(arg) || "";
+    view.innerHTML = fn(arg, arg2) || "";
+    if (afterRender[name]) afterRender[name](arg, arg2);
     $$(".tabbar a").forEach((a) => a.classList.toggle("on", a.dataset.tab === name || (name === "prayers" && a.dataset.tab === "pray")));
   }
   window.addEventListener("hashchange", () => { render(); window.scrollTo({ top: 0 }); });
@@ -342,12 +344,15 @@
 
       ${r.finished ? `<div class="card accent"><h2>You finished ${esc(r.plan.name)} 🎉</h2><p class="muted">Start another plan, or read it again with fresh eyes.</p><button data-act="planPicker">Choose next plan</button></div>` : `
       <div class="card">
-        <div class="eyebrow">${doneToday.length ? "Next reading" : "Today’s reading"}</div>
-        <h2>${esc(r.ref)}</h2>
-        <p class="muted small">Read slowly. Ask what it shows about God, about us, and where Jesus is — then let it become prayer.</p>
-        <div class="row">
-          <a class="btn btn-primary" href="${bibleUrl(r.ref)}" target="_blank" rel="noopener">Open in ${esc(translation())} ↗</a>
-          <button data-act="markRead">I’ve read it ✓</button>
+        <div class="row between">
+          <div><div class="eyebrow">${doneToday.length ? "Next reading" : "Today’s reading"}</div><h2>${esc(r.ref)}</h2></div>
+          ${readerTools()}
+        </div>
+        <p class="muted small" style="margin-top:6px">Read slowly. Ask what it shows about God, about us, and where Jesus is — then let it become prayer. Tap a verse to keep it.</p>
+        <div id="reader" class="reader" style="font-size:${readerFs()}rem"><div class="empty">Loading…</div></div>
+        <div class="row" style="margin-top:12px">
+          <button class="btn-primary" data-act="markRead">I’ve read it ✓</button>
+          <a class="btn btn-sm" href="${bibleUrl(r.ref)}" target="_blank" rel="noopener">Open in ${esc(translation())} ↗</a>
         </div>
       </div>`}
 
@@ -361,8 +366,205 @@
           <button data-act="lensToPrayer" data-target="readingLens" data-from="${esc(doneToday.join(", "))}">Turn response into a prayer point</button>
         </div>
       </div>` : ""}
+      ${browseBox()}
       <p class="tiny">Sequential plan: a missed day just means you continue where you left off. No backlog.</p>
     </div>`;
+  };
+  afterRender.bible = () => { const r = currentReading(); if (r && !planPicker && !r.finished) mountReader(r.chunk); };
+
+  // ------------------------------------------------------------ READER (inline Bible text)
+  const readerCache = {};
+  let selVerse = null;
+  const bookSlug = (b) => b.toLowerCase().replace(/ /g, "");
+  const readerFs = () => { try { return +(localStorage.getItem("abide.fs") || 1.05); } catch (e) { return 1.05; } };
+  const bookChapters = (b) => (C.books.find((x) => x[0] === b) || [])[1] || 0;
+  const displayBook = (b) => (b === "Psalms" ? "Psalm" : b);
+
+  function readerTools() {
+    const n = list("verses").length;
+    return `<div class="reader-tools">
+      <button class="btn-sm" data-act="fontSize" data-v="-1" title="Smaller text">A−</button>
+      <button class="btn-sm" data-act="fontSize" data-v="1" title="Larger text">A+</button>
+      <a class="btn btn-sm" href="#verses" title="Saved verses">♥ ${n}</a>
+    </div>`;
+  }
+
+  async function fetchESV(q, key) {
+    const url = `https://api.esv.org/v3/passage/text/?q=${encodeURIComponent(q)}&include-headings=false&include-footnotes=false&include-footnote-body=false&include-short-copyright=false&include-passage-references=false&include-verse-numbers=true&include-first-verse-numbers=true&indent-poetry=false&indent-paragraphs=0&indent-declares=0&indent-psalm-doxology=0&line-length=0`;
+    const res = await fetch(url, { headers: { Authorization: "Token " + key } });
+    if (!res.ok) throw new Error("ESV API " + res.status);
+    const j = await res.json();
+    const text = (j.passages || [])[0] || "";
+    const parts = text.split(/\[(\d+)\]/);
+    const verses = [];
+    for (let i = 1; i < parts.length; i += 2) verses.push({ v: +parts[i], t: parts[i + 1].replace(/[ \t]+/g, " ").replace(/\n{2,}/g, "\n").trim() });
+    if (!verses.length) throw new Error("ESV: empty passage");
+    return verses;
+  }
+
+  async function getChapter(book, ch) {
+    const key = settings().esvKey;
+    const id = `${book} ${ch}`;
+    if (key && navigator.onLine !== false) {
+      if (readerCache["ESV:" + id]) return readerCache["ESV:" + id];
+      try {
+        const verses = await fetchESV(`${displayBook(book)} ${ch}`, key);
+        return (readerCache["ESV:" + id] = { book, chapter: ch, translation: "ESV", verses });
+      } catch (e) { console.warn("ESV failed, falling back to WEB:", e.message); }
+    }
+    if (readerCache["WEB:" + id]) return readerCache["WEB:" + id];
+    const r = await fetch(`data/bible/web/${bookSlug(book)}/${ch}.json`);
+    if (!r.ok) throw new Error("missing");
+    const data = await r.json();
+    return (readerCache["WEB:" + id] = { book, chapter: ch, translation: "WEB", verses: data.verses });
+  }
+
+  function chapterHtml(c) {
+    return `
+    <div class="chapter">
+      <div class="chapter-head">${esc(displayBook(c.book))} ${c.chapter} <span class="tiny">${esc(c.translation)}</span></div>
+      <p class="verses">${c.verses.map((v) => {
+        const ref = `${displayBook(c.book)} ${c.chapter}:${v.v}`;
+        const sel = selVerse && selVerse.ref === ref;
+        return `<span class="verse ${sel ? "sel" : ""}" data-act="tapVerse" data-ref="${esc(ref)}" data-tr="${esc(c.translation)}"><sup>${v.v}</sup>${esc(v.t).replace(/\n/g, "<br>")}</span>${sel ? verseBar(ref) : ""} `;
+      }).join("")}</p>
+    </div>`;
+  }
+  function verseBar(ref) {
+    const saved = list("verses").some((x) => x.ref === ref);
+    return `<span class="verse-bar"><button class="btn-sm ${saved ? "" : "btn-primary"}" data-act="saveVerse" ${saved ? "disabled" : ""}>${saved ? "♥ saved" : "♥ Save verse"}</button><button class="btn-sm" data-act="verseToPrayer">🙏 Pray this</button><button class="btn-sm" data-act="copyVerse">copy</button><button class="btn-sm btn-ghost" data-act="tapVerse" data-ref="${esc(ref)}">✕</button></span>`;
+  }
+
+  async function mountReader(chunk) {
+    const el = $("#reader"); if (!el || !chunk?.length) return;
+    try {
+      const chapters = await Promise.all(chunk.map((c) => getChapter(c.book, c.ch)));
+      if (!$("#reader")) return;
+      el.innerHTML = chapters.map(chapterHtml).join("") + readerFooter(chapters[0].translation);
+    } catch (e) {
+      el.innerHTML = `<div class="empty">Bible text isn’t in the repo yet. In GitHub → <b>Actions</b> → “Fetch Bible text (WEB)” → <b>Run workflow</b> (one time, ~1 min), then reload.<br><br><a class="btn btn-sm" href="${bibleUrl(refOf(chunk))}" target="_blank" rel="noopener">Open on BibleGateway instead ↗</a></div>`;
+    }
+  }
+  function readerFooter(tr) {
+    return tr === "ESV"
+      ? `<div class="tiny reader-credit">Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway. Used by permission.</div>`
+      : `<div class="tiny reader-credit">World English Bible (WEB), public domain.${settings().esvKey ? " ESV unavailable right now — showing WEB." : ""}</div>`;
+  }
+  function repaintReader() {
+    // Re-render only the reader from cache (no network) so a tap feels instant.
+    const el = $("#reader"); if (!el) return;
+    const chunk = el.dataset.chunk ? JSON.parse(el.dataset.chunk) : null;
+    if (chunk) mountReader(chunk); else { const r = currentReading(); if (r) mountReader(r.chunk); }
+  }
+  ACT.fontSize = (el) => {
+    const v = Math.min(1.6, Math.max(0.85, +(readerFs() + 0.1 * +el.dataset.v).toFixed(2)));
+    try { localStorage.setItem("abide.fs", v); } catch (e) {}
+    const r = $("#reader"); if (r) r.style.fontSize = v + "rem";
+  };
+  ACT.tapVerse = (el) => {
+    const ref = el.dataset.ref;
+    if (selVerse && selVerse.ref === ref) selVerse = null;
+    else {
+      const span = el.closest(".verse") || el;
+      selVerse = { ref, tr: el.dataset.tr || selVerse?.tr || "", text: span.textContent.replace(/^\d+/, "").trim() };
+    }
+    repaintReader();
+  };
+  ACT.saveVerse = () => {
+    if (!selVerse) return;
+    if (list("verses").some((x) => x.ref === selVerse.ref)) return toast("Already saved");
+    put("verses", { id: uid(), ref: selVerse.ref, text: selVerse.text, translation: selVerse.tr, created: nowIso() });
+    toast("Verse saved ♥"); repaintReader();
+  };
+  ACT.verseToPrayer = () => {
+    if (!selVerse) return;
+    addPrayer("S", `${selVerse.ref} — “${selVerse.text.length > 120 ? selVerse.text.slice(0, 117) + "…" : selVerse.text}”`, { from: selVerse.ref });
+    toast("Added as a prayer point");
+  };
+  ACT.copyVerse = async () => {
+    if (!selVerse) return;
+    try { await navigator.clipboard.writeText(`“${selVerse.text}” — ${selVerse.ref} (${selVerse.tr})`); toast("Copied"); } catch (e) { toast("Copy not available"); }
+  };
+
+  // Browse any chapter
+  let browse = { book: "John", ch: 1 };
+  function browseBox() {
+    return `
+    <div class="card flat">
+      <div class="eyebrow">Browse</div>
+      <div class="row">
+        <select data-change="browseBook" style="flex:2">${C.books.map(([b]) => `<option ${b === browse.book ? "selected" : ""}>${b}</option>`).join("")}</select>
+        <select data-change="browseCh" style="flex:1">${Array.from({ length: bookChapters(browse.book) }, (_, i) => `<option value="${i + 1}" ${i + 1 === browse.ch ? "selected" : ""}>${i + 1}</option>`).join("")}</select>
+        <a class="btn btn-primary" href="#read/${encodeURIComponent(browse.book)}/${browse.ch}">Read</a>
+      </div>
+    </div>`;
+  }
+  ACT.browseBook = (el) => { browse.book = el.value; browse.ch = 1; render(); };
+  ACT.browseCh = (el) => { browse.ch = +el.value; };
+
+  routes.read = (book, ch) => {
+    if (!book || !bookChapters(book)) return routes.bible();
+    ch = Math.max(1, Math.min(bookChapters(book), +ch || 1));
+    if (browse.hash !== location.hash) browse = { book, ch, hash: location.hash };
+    const idx = C.books.findIndex((b) => b[0] === book);
+    const prev = ch > 1 ? `#read/${encodeURIComponent(book)}/${ch - 1}` : idx > 0 ? `#read/${encodeURIComponent(C.books[idx - 1][0])}/${C.books[idx - 1][1]}` : null;
+    const next = ch < bookChapters(book) ? `#read/${encodeURIComponent(book)}/${ch + 1}` : idx < C.books.length - 1 ? `#read/${encodeURIComponent(C.books[idx + 1][0])}/1` : null;
+    return `
+    <div class="stack">
+      <div class="row between">
+        <div><a href="#bible" class="tiny">← Bible</a><h1>${esc(displayBook(book))} ${ch}</h1></div>
+        ${readerTools()}
+      </div>
+      <div class="card">
+        <div id="reader" class="reader" style="font-size:${readerFs()}rem" data-chunk='${JSON.stringify([{ book, ch }])}'><div class="empty">Loading…</div></div>
+      </div>
+      <div class="row between">
+        ${prev ? `<a class="btn" href="${prev}">← previous</a>` : "<span></span>"}
+        <a class="btn btn-sm" href="${bibleUrl(`${displayBook(book)} ${ch}`)}" target="_blank" rel="noopener">${esc(translation())} ↗</a>
+        ${next ? `<a class="btn" href="${next}">next →</a>` : "<span></span>"}
+      </div>
+      ${browseBox()}
+    </div>`;
+  };
+  afterRender.read = (book, ch) => { if (book && bookChapters(book)) mountReader([{ book, ch: Math.max(1, Math.min(bookChapters(book), +ch || 1)) }]); };
+
+  // Saved verses
+  routes.verses = () => {
+    const items = list("verses").sort((a, b) => (b.created || "").localeCompare(a.created || ""));
+    return `
+    <div class="stack">
+      <div class="row between"><h1>Saved verses</h1><a href="#bible" class="btn btn-ghost btn-sm">← Bible</a></div>
+      <p class="muted">Verses you tapped while reading. Reread them, pray them, let them sink in.</p>
+      ${items.length === 0 ? `<div class="empty">Nothing saved yet. While reading, tap a verse and choose ♥ Save.</div>` : ""}
+      ${items.map((v) => {
+        const m = v.ref.match(/^(.*) (\d+):(\d+)$/); const book = m ? (m[1] === "Psalm" ? "Psalms" : m[1]) : null;
+        return `
+        <div class="card verse-card">
+          <div class="verse-quote">“${esc(v.text).replace(/\n/g, "<br>")}”</div>
+          <div class="row between" style="margin-top:8px">
+            <div class="tiny"><b>${esc(v.ref)}</b> ${esc(v.translation || "")} · saved ${relDate(v.created)}</div>
+            <div class="row" style="gap:4px">
+              ${book ? `<a class="btn btn-sm" href="#read/${encodeURIComponent(book)}/${m[2]}">open</a>` : ""}
+              <button class="btn-sm" data-act="savedToPrayer" data-id="${v.id}">🙏 pray</button>
+              <button class="btn-sm btn-danger" data-act="delVerse" data-id="${v.id}">delete</button>
+            </div>
+          </div>
+        </div>`;
+      }).join("")}
+    </div>`;
+  };
+  ACT.savedToPrayer = (el) => { const v = S.data.verses[el.dataset.id]; addPrayer("S", `${v.ref} — “${v.text.length > 120 ? v.text.slice(0, 117) + "…" : v.text}”`, { from: v.ref }); toast("Added as a prayer point"); };
+  ACT.delVerse = (el) => { remove("verses", el.dataset.id); };
+
+  // Offline download of the whole WEB text (service worker caches each chapter)
+  ACT.downloadBible = async (el) => {
+    el.disabled = true;
+    const all = []; C.books.forEach(([b, n]) => { for (let i = 1; i <= n; i++) all.push(`data/bible/web/${bookSlug(b)}/${i}.json`); });
+    let done = 0, failed = 0;
+    const worker = async () => { while (all.length) { const u = all.shift(); try { const r = await fetch(u); if (!r.ok) failed++; } catch (e) { failed++; } done++; if (done % 100 === 0) el.textContent = `Downloading… ${done}/1189`; } };
+    await Promise.all(Array.from({ length: 6 }, worker));
+    el.textContent = failed ? `Done, ${failed} chapters missing` : "Bible available offline ✓";
+    toast(failed ? "Some chapters missing — has the Bible workflow run?" : "Whole Bible cached for offline reading");
   };
 
   function renderPlanPicker(r) {
@@ -955,7 +1157,7 @@
         <div class="day">
           <div class="day-date">${esc(fmtDate(d.id, { weekday: "long", day: "numeric", month: "long" }))}</div>
           <ul>
-            ${(d.readingsDone || []).length ? `<li>Bible: ${d.readingsDone.map((r) => `<a href="${bibleUrl(r)}" target="_blank" rel="noopener">${esc(r)}</a>`).join(", ")}</li>` : ""}
+            ${(d.readingsDone || []).length ? `<li>Bible: ${d.readingsDone.map((r) => { const m = r.match(/^([1-3]? ?[A-Za-z ]+?) (\d+)/); const b = m ? (m[1] === "Psalm" ? "Psalms" : m[1]) : null; return b && bookChapters(b) ? `<a href="#read/${encodeURIComponent(b)}/${m[2]}">${esc(r)}</a>` : esc(r); }).join(", ")}</li>` : ""}
             ${rLens.map(([k, v]) => `<li><span class="tiny">${esc(C.lens.find((q) => q.key === k)?.label || k)}</span><br>${esc(v)}</li>`).join("")}
             ${d.quietMin ? `<li>${d.quietMin} quiet minute${d.quietMin === 1 ? "" : "s"} in prayer</li>` : ""}
             ${d.devotional ? `<li>Read: <a href="${esc(d.devotional.link)}" target="_blank" rel="noopener">${esc(d.devotional.title)}</a> <span class="tiny">(${esc(d.devotional.sourceName)})</span></li>` : ""}
@@ -1001,6 +1203,16 @@
         ${settings().plan ? `<div class="tiny" style="margin-top:8px">Current plan: ${esc(settings().plan.name)} · <a href="#bible">manage</a></div>` : ""}
       </div>
       <div class="card">
+        <div class="eyebrow">Bible text in the app</div>
+        <p class="small muted">Chapters show inline from the World English Bible (public domain, stored in your repo). To read the <b>ESV</b> instead, paste a free key from <a href="https://api.esv.org" target="_blank" rel="noopener">api.esv.org</a> — it’s kept in your synced settings, not in the repo, and the app falls back to WEB when offline.</p>
+        <label class="field"><span>ESV API key (optional)</span><input type="text" id="esv-key" value="${esc(settings().esvKey || "")}" placeholder="paste key, then Save" autocomplete="off"></label>
+        <div class="row">
+          <button class="btn-sm" data-act="saveEsvKey">Save key</button>
+          ${settings().esvKey ? `<button class="btn-sm btn-danger" data-act="clearEsvKey">Remove key</button>` : ""}
+          <button class="btn-sm" data-act="downloadBible">Download whole Bible for offline (~5 MB)</button>
+        </div>
+      </div>
+      <div class="card">
         <div class="eyebrow">Devotional sources</div>
         ${(S.feed?.sources || []).map((s) => `
           <label class="row" style="padding:6px 0"><input type="checkbox" data-change="toggleSource" data-id="${s.id}" ${hidden.has(s.id) ? "" : "checked"}> ${esc(s.name)} <span class="tiny">${esc(s.speaker)}</span></label>`).join("") || `<p class="muted">Feed not loaded yet.</p>`}
@@ -1022,6 +1234,8 @@
   };
   ACT.signIn = signIn;
   ACT.signOut = signOut;
+  ACT.saveEsvKey = () => { const k = ($("#esv-key")?.value || "").trim(); settings().esvKey = k || null; Object.keys(readerCache).forEach((x) => delete readerCache[x]); saveSettings(); toast(k ? "ESV key saved" : "Key cleared"); };
+  ACT.clearEsvKey = () => { settings().esvKey = null; Object.keys(readerCache).forEach((x) => delete readerCache[x]); saveSettings(); toast("Key removed — showing WEB"); };
   function ensureGroups() { if (!settings().groups) settings().groups = JSON.parse(JSON.stringify(C.defaultGroups)); return settings().groups; }
   ACT.groupName = (el) => { const g = ensureGroups()[+el.dataset.i]; if (g && el.value.trim()) { g.name = el.value.trim(); saveSettings(); } };
   ACT.groupDay = (el) => {
@@ -1049,13 +1263,13 @@
     try {
       const d = JSON.parse(await f.text());
       let n = 0;
-      ["prayers", "recaps", "days"].forEach((c) => Object.values(d[c] || {}).forEach((it) => { if (it && it.id) { put(c, it); n++; } }));
+      ["prayers", "recaps", "days", "verses"].forEach((c) => Object.values(d[c] || {}).forEach((it) => { if (it && it.id) { put(c, it); n++; } }));
       toast(`Imported ${n} items`);
     } catch (e) { toast("Import failed: " + e.message); }
   };
   ACT.wipe = () => {
     if (!confirm("Erase all local data on this device? (Cloud data is untouched.)")) return;
-    localStorage.removeItem(LS_KEY); S.data = { prayers: {}, recaps: {}, days: {}, settings: { hiddenSources: [] } }; render(); toast("Erased");
+    localStorage.removeItem(LS_KEY); S.data = { prayers: {}, recaps: {}, days: {}, verses: {}, settings: { hiddenSources: [] } }; render(); toast("Erased");
   };
 
   // ------------------------------------------------------------ boot
