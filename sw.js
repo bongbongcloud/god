@@ -2,7 +2,7 @@
 //  - App shell (html/js/css): NETWORK FIRST, cache fallback → an online phone always runs the latest build.
 //  - Bible chapters: CACHE FIRST (they never change) → offline reading.
 //  - feed.json: network first, cache fallback.
-const VERSION = "abide-v3.2";
+const VERSION = "abide-v4.0";
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./content.js", "./firebase-config.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", (e) => {
@@ -23,7 +23,7 @@ self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
 
   // Bible chapters: cache first.
-  if (url.pathname.includes("/data/bible/")) {
+  if (url.pathname.includes("/data/bible/") || url.pathname.includes("/data/study/")) {
     e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request).then((r) => {
       if (r.ok) caches.open(VERSION).then((c) => c.put(e.request, r.clone()));
       return r;

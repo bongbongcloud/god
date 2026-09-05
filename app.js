@@ -1,7 +1,7 @@
 /* Abide — daily walk. Plain JS, no build step. */
 (() => {
   "use strict";
-  const APP_VERSION = "3.2";
+  const APP_VERSION = "4.0";
 
   // ------------------------------------------------------------ utilities
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -41,7 +41,7 @@
   // Everything lives in `S.data`, mirrored to localStorage and (if signed in) Firestore.
   const LS_KEY = "abide.v1";
   const S = {
-    data: { prayers: {}, recaps: {}, days: {}, verses: {}, settings: { hiddenSources: [] } },
+    data: { prayers: {}, recaps: {}, days: {}, verses: {}, study: {}, settings: { hiddenSources: [] } },
     feed: null,
     mode: "local",     // local | cloud
     user: null,
@@ -55,7 +55,7 @@
       const raw = localStorage.getItem(LS_KEY);
       if (raw) {
         const d = JSON.parse(raw);
-        S.data = { prayers: {}, recaps: {}, days: {}, verses: {}, settings: { hiddenSources: [] }, ...d };
+        S.data = { prayers: {}, recaps: {}, days: {}, verses: {}, study: {}, settings: { hiddenSources: [] }, ...d };
       }
     } catch (e) { console.warn("local load failed", e); }
   }
@@ -150,8 +150,8 @@
     setPill("syncing", "pill-warn");
     const root = S.fs.collection("users").doc(S.user.uid);
     const localCopy = JSON.parse(JSON.stringify(S.data));
-    let first = { prayers: true, recaps: true, days: true, verses: true };
-    ["prayers", "recaps", "days", "verses"].forEach((coll) => {
+    let first = { prayers: true, recaps: true, days: true, verses: true, study: true };
+    ["prayers", "recaps", "days", "verses", "study"].forEach((coll) => {
       const un = root.collection(coll).onSnapshot((snap) => {
         const next = {};
         snap.forEach((doc) => (next[doc.id] = doc.data()));
@@ -225,7 +225,8 @@
     view.addEventListener("click", (e) => {
       const el = e.target.closest("[data-act]");
       if (!el || !ACT[el.dataset.act]) return;
-      if (el.tagName === "A" && el.getAttribute("href")?.startsWith("http")) { ACT[el.dataset.act](el, e); return; } // let link open
+      const href = el.tagName === "A" ? (el.getAttribute("href") || "") : "";
+      if (href.startsWith("http") || (href.startsWith("#") && href.length > 1)) { ACT[el.dataset.act](el, e); return; } // let the link navigate
       e.preventDefault();
       ACT[el.dataset.act](el, e);
     });
@@ -339,7 +340,7 @@
     <div class="stack">
       <div class="row between">
         <div><h1>Bible</h1><div class="tiny">${esc(r.plan.name)} · ${r.index} of ${r.total} readings · ${pct}%</div></div>
-        <button class="btn-sm" data-act="planPicker">change plan</button>
+        <div class="row" style="gap:4px"><a class="btn btn-sm" href="#study">📚 Study</a><button class="btn-sm" data-act="planPicker">change plan</button></div>
       </div>
       <div class="progress"><div style="width:${pct}%"></div></div>
 
@@ -441,11 +442,163 @@
     try {
       const chapters = await Promise.all(chunk.map((c) => getChapter(c.book, c.ch)));
       if (!$("#reader")) return;
-      el.innerHTML = chapters.map(chapterHtml).join("") + readerFooter(chapters[0].translation);
+      el.innerHTML = chapters.map(chapterHtml).join("") + readerFooter(chapters[0].translation) + studyToggle(chunk);
+      if (studyOpen === `${chunk[0].book}/${chunk[0].ch}`) mountStudy(chunk[0].book, chunk[0].ch);
     } catch (e) {
       el.innerHTML = `<div class="empty">Bible text isn’t in the repo yet. In GitHub → <b>Actions</b> → “Fetch Bible text (WEB)” → <b>Run workflow</b> (one time, ~1 min), then reload.<br><br><a class="btn btn-sm" href="${bibleUrl(refOf(chunk))}" target="_blank" rel="noopener">Open on BibleGateway instead ↗</a></div>`;
     }
   }
+  // ------------------------------------------------------------ STUDY (questions, commentary, book guides)
+  const studyCache = {};
+  let studyOpen = null;   // "Book/ch" currently expanded
+  let studyTab = "questions";
+  function studyToggle(chunk) {
+    const c = chunk[0]; const key = `${c.book}/${c.ch}`;
+    return `<div class="study-wrap" id="study-wrap">
+      <button class="btn btn-block ${studyOpen === key ? "" : "btn-primary"}" data-act="studyToggle" data-book="${esc(c.book)}" data-ch="${c.ch}">${studyOpen === key ? "Hide study ▲" : "Study this chapter ▼"}</button>
+      <div id="study-panel"></div>
+    </div>`;
+  }
+  async function getStudy(book, ch) {
+    const id = `${book}/${ch}`;
+    if (studyCache[id]) return studyCache[id];
+    const r = await fetch(`data/study/${bookSlug(book)}/${ch}.json`);
+    if (!r.ok) throw new Error("missing");
+    return (studyCache[id] = await r.json());
+  }
+  async function getBookIntro(book) {
+    const id = `${book}/intro`;
+    if (studyCache[id] !== undefined) return studyCache[id];
+    try { const r = await fetch(`data/study/${bookSlug(book)}/intro.json`); studyCache[id] = r.ok ? (await r.json()).intro : null; }
+    catch (e) { studyCache[id] = null; }
+    return studyCache[id];
+  }
+  const studyDocId = (book, ch) => `${bookSlug(book)}-${ch}`;
+  const guidesFor = (book) => (settings().guides || {})[book] || [];
+  const ytId = (url) => { const m = String(url).match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-]{11})/); return m ? m[1] : null; };
+
+  async function mountStudy(book, ch) {
+    const el = $("#study-panel"); if (!el) return;
+    el.innerHTML = `<div class="empty">Loading…</div>`;
+    let data = null, intro = null;
+    try { data = await getStudy(book, ch); } catch (e) { data = null; }
+    intro = await getBookIntro(book);
+    if (!$("#study-panel")) return;
+    if (!data && !intro) {
+      el.innerHTML = `<div class="empty">Study material isn’t in the repo yet. GitHub → <b>Actions</b> → “Fetch study material” → <b>Run workflow</b> (one time), then reload.</div>${bookGuidesHtml(book)}`;
+      return;
+    }
+    const saved = S.data.study[studyDocId(book, ch)] || { answers: {}, notes: "" };
+    const tabs = [["questions", `Questions${data?.questions?.length ? " · " + data.questions.length : ""}`], ["commentary", "Commentary"], ["book", "Book"]];
+    let body = "";
+    if (studyTab === "questions") {
+      const qs = data?.questions || [];
+      body = qs.length ? `
+        <p class="tiny">Comprehension questions for every chapter, from unfoldingWord® (CC BY-SA 4.0). Write your own answer, then compare with the suggested one. Your answers are saved.</p>
+        ${qs.map((q, i) => `
+          <div class="sq">
+            <div class="sq-ref">${esc(displayBook(book))} ${esc(q.ref)}</div>
+            <div class="sq-q">${esc(q.q)}</div>
+            <textarea class="sq-ans" data-study-q="${i}" placeholder="My answer…">${esc(saved.answers?.[i] || "")}</textarea>
+            ${q.a ? `<details class="sq-a"><summary>Suggested answer</summary><div>${esc(q.a)}</div></details>` : ""}
+          </div>`).join("")}
+        <label class="field" style="margin-top:12px"><span>Notes / questions for the group</span><textarea id="study-notes" placeholder="What I want to raise at Bible study…">${esc(saved.notes || "")}</textarea></label>
+        <div class="row"><button class="btn-primary" data-act="saveStudy" data-book="${esc(book)}" data-ch="${ch}">Save answers</button><a href="#recap/new" class="btn">Write a recap →</a></div>`
+        : `<div class="empty">No questions for this chapter.</div>`;
+    } else if (studyTab === "commentary") {
+      const cs = data?.commentary || [];
+      body = cs.length ? `<p class="tiny">Matthew Henry’s Concise Commentary (public domain).</p>` + cs.map((c) => `<div class="sc">${c.ref ? `<div class="sc-ref">${esc(c.ref)}</div>` : ""}<div class="sc-text">${esc(c.text)}</div></div>`).join("")
+        : `<div class="empty">No commentary for this chapter.</div>`;
+    } else {
+      body = `${intro?.length ? `<div class="eyebrow">About ${esc(displayBook(book))}</div>` + intro.map((c) => `<p class="sc-text">${esc(c.text)}</p>`).join("") : ""}${bookGuidesHtml(book)}`;
+    }
+    el.innerHTML = `
+      <div class="seg study-tabs">${tabs.map(([k, l]) => `<button class="${studyTab === k ? "on" : ""}" data-act="studyTab" data-v="${k}" data-book="${esc(book)}" data-ch="${ch}">${l}</button>`).join("")}</div>
+      <div class="study-body">${body}</div>`;
+  }
+  function bookGuidesHtml(book) {
+    const gs = guidesFor(book);
+    const q = encodeURIComponent(`BibleProject ${displayBook(book)} overview`);
+    return `
+      <div class="eyebrow" style="margin-top:14px">Guides &amp; videos for ${esc(displayBook(book))}</div>
+      ${gs.map((g, i) => {
+        const id = ytId(g.url);
+        return `<div class="guide">
+          ${id ? `<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${id}" title="${esc(g.title)}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>` : ""}
+          <div class="row between"><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.title || g.url)} ↗</a><button class="btn-sm btn-danger" data-act="guideDel" data-book="${esc(book)}" data-i="${i}">✕</button></div>
+        </div>`;
+      }).join("")}
+      <div class="tiny" style="margin:6px 0">Add links to guides you find (TGC, church notes, PDFs). YouTube links play inline. <a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Find the BibleProject overview ↗</a></div>
+      <div class="row"><input type="text" id="guide-title" placeholder="Title" style="flex:1"><input type="text" id="guide-url" placeholder="https://…" style="flex:2"><button class="btn-sm" data-act="guideAdd" data-book="${esc(book)}">Add</button></div>`;
+  }
+  ACT.studyToggle = (el) => {
+    const key = `${el.dataset.book}/${el.dataset.ch}`;
+    studyOpen = studyOpen === key ? null : key;
+    const wrap = $("#study-wrap"); if (!wrap) return;
+    wrap.querySelector("button").textContent = studyOpen ? "Hide study ▲" : "Study this chapter ▼";
+    wrap.querySelector("button").classList.toggle("btn-primary", !studyOpen);
+    if (studyOpen) { mountStudy(el.dataset.book, +el.dataset.ch); setTimeout(() => wrap.scrollIntoView({ behavior: "smooth", block: "start" }), 50); }
+    else $("#study-panel").innerHTML = "";
+  };
+  ACT.studyTab = (el) => { studyTab = el.dataset.v; mountStudy(el.dataset.book, +el.dataset.ch); };
+  ACT.saveStudy = (el) => {
+    const book = el.dataset.book, ch = +el.dataset.ch;
+    const answers = {}; $$("[data-study-q]").forEach((t) => { if (t.value.trim()) answers[t.dataset.studyQ] = t.value.trim(); });
+    put("study", { id: studyDocId(book, ch), book, chapter: ch, answers, notes: ($("#study-notes")?.value || "").trim(), date: today() });
+    const d = day(); d.studied = Array.from(new Set([...(d.studied || []), `${displayBook(book)} ${ch}`])); saveDay(d);
+    toast("Answers saved"); mountStudy(book, ch);
+  };
+  ACT.guideAdd = (el) => {
+    const book = el.dataset.book;
+    const title = ($("#guide-title")?.value || "").trim(), url = ($("#guide-url")?.value || "").trim();
+    if (!/^https?:\/\//.test(url)) return toast("Paste a full link starting with https://");
+    settings().guides = settings().guides || {}; settings().guides[book] = [...guidesFor(book), { title: title || url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 60), url }];
+    saveSettings(); toast("Link added");
+    if ($("#study-panel")) mountStudy(book, +($("#study-wrap button")?.dataset.ch || 1)); else render();
+  };
+  ACT.guideDel = (el) => {
+    const book = el.dataset.book; const gs = guidesFor(book).slice(); gs.splice(+el.dataset.i, 1);
+    settings().guides = settings().guides || {}; settings().guides[book] = gs; saveSettings();
+    if ($("#study-panel")) mountStudy(book, +($("#study-wrap button")?.dataset.ch || 1)); else render();
+  };
+
+  // Study directory: all books
+  routes.study = (book) => {
+    if (book && bookChapters(book)) return studyBook(book);
+    const ot = C.books.slice(0, 39), nt = C.books.slice(39);
+    const cell = ([b, n]) => `<a class="book-cell" href="#study/${encodeURIComponent(b)}">${esc(displayBook(b))}<span class="tiny">${n} ch${guidesFor(b).length ? " · " + guidesFor(b).length + " link" + (guidesFor(b).length === 1 ? "" : "s") : ""}</span></a>`;
+    const studied = list("study").length;
+    return `
+    <div class="stack">
+      <div class="row between"><h1>Study</h1><a href="#bible" class="btn btn-ghost btn-sm">← Bible</a></div>
+      <p class="muted">Every chapter has study questions and Matthew Henry’s commentary; every book has a place for the guides you collect.${studied ? ` You’ve worked through ${studied} chapter${studied === 1 ? "" : "s"}.` : ""}</p>
+      <div class="eyebrow">Old Testament</div><div class="book-grid">${ot.map(cell).join("")}</div>
+      <div class="eyebrow" style="margin-top:14px">New Testament</div><div class="book-grid">${nt.map(cell).join("")}</div>
+    </div>`;
+  };
+  function studyBook(book) {
+    const n = bookChapters(book);
+    const done = new Set(list("study").filter((x) => x.book === book).map((x) => x.chapter));
+    return `
+    <div class="stack">
+      <div class="row between"><div><a href="#study" class="tiny">← all books</a><h1>${esc(displayBook(book))}</h1></div><a class="btn btn-sm" href="#read/${encodeURIComponent(book)}/1">Read ch. 1</a></div>
+      <div class="card" id="book-intro"><div class="empty">Loading…</div></div>
+      <div class="card">
+        <div class="eyebrow">Chapters</div>
+        <div class="ch-grid">${Array.from({ length: n }, (_, i) => `<a class="ch-cell ${done.has(i + 1) ? "done" : ""}" href="#read/${encodeURIComponent(book)}/${i + 1}" data-act="openStudy" data-book="${esc(book)}" data-ch="${i + 1}">${i + 1}</a>`).join("")}</div>
+        <div class="tiny" style="margin-top:6px">Tap a chapter to read it with the study panel open. Green = answers saved.</div>
+      </div>
+      <div class="card">${bookGuidesHtml(book)}</div>
+    </div>`;
+  }
+  afterRender.study = async (book) => {
+    if (!book || !bookChapters(book)) return;
+    const intro = await getBookIntro(book); const el = $("#book-intro"); if (!el) return;
+    el.innerHTML = intro?.length ? `<div class="eyebrow">About ${esc(displayBook(book))} · Matthew Henry</div>` + intro.map((c) => `<p class="sc-text">${esc(c.text)}</p>`).join("")
+      : `<div class="tiny">Book introduction appears once the “Fetch study material” workflow has run.</div>`;
+  };
+  ACT.openStudy = (el) => { studyOpen = `${el.dataset.book}/${el.dataset.ch}`; studyTab = "questions"; /* link navigates */ };
+
   function readerFooter(tr) {
     return tr === "ESV"
       ? `<div class="tiny reader-credit">Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway. Used by permission.</div>`
@@ -681,7 +834,7 @@
         </div>
       </div>
 
-      ${d.devotional ? renderReflection(d) : `<p class="muted">Choose one. It opens in a new tab and becomes today’s reading — then come back here to reflect on it with a gospel lens.</p>`}
+      ${d.devotional ? renderReflection(d) : `<p class="muted">Tap ▶ to listen here (keeps playing while you read or pray), or tap the title to open it. Either way it becomes today’s pick — then reflect on it with a gospel lens below.</p>`}
 
       ${sources.length === 0 ? `<div class="empty">Nothing to show. ${hidden.size ? "Some sources are hidden in Settings." : ""}</div>` : ""}
       ${sources.map((s) => `
@@ -694,7 +847,7 @@
             const picked = d.devotional && d.devotional.link === it.link;
             return `
             <a class="item ${picked ? "picked" : ""}" href="${esc(it.link)}" target="_blank" rel="noopener" data-act="pick" data-src="${esc(s.id)}" data-i="${i}">
-              <div class="item-kind">${s.kind === "read" ? "📖" : "🎧"}</div>
+              ${it.audio ? `<button class="item-kind item-play ${P.src === it.audio && P.playing ? "on" : ""}" data-act="play" data-src="${esc(s.id)}" data-i="${i}" title="Play here">${P.src === it.audio && P.playing ? "❚❚" : "▶"}</button>` : `<div class="item-kind">${s.kind === "read" ? "📖" : "🎧"}</div>`}
               <div class="item-body">
                 <div class="item-title">${esc(it.title)}</div>
                 <div class="item-meta">${esc(fmtDate(it.date))}${it.duration ? " · " + esc(it.duration) : ""}${picked ? " · today’s pick ✓" : ""}</div>
@@ -756,6 +909,67 @@
   function whoSelect(current, attrs = "") {
     return `<select ${attrs}><option value="">— no group —</option>${groups().map((g) => `<option value="${g.id}" ${g.id === current ? "selected" : ""}>${esc(g.name)}</option>`).join("")}</select>`;
   }
+
+  // ------------------------------------------------------------ PODCAST PLAYER (persistent mini-bar)
+  const P = { src: null, title: "", source: "", playing: false, speed: 1, seeking: false };
+  const audio = $("#audio");
+  const fmtTime = (t) => { if (!isFinite(t) || t < 0) t = 0; const m = Math.floor(t / 60), sec = Math.floor(t % 60); return `${m}:${pad(sec)}`; };
+  const posKey = (src) => "abide.pos." + src.slice(-80);
+  function playerUI() {
+    const bar = $("#player"); if (!bar) return;
+    bar.hidden = !P.src;
+    document.body.classList.toggle("has-player", !!P.src);
+    $("#player-toggle").textContent = P.playing ? "❚❚" : "▶";
+    $("#player-title").textContent = P.title ? `${P.title} — ${P.source}` : "";
+    $("#player-speed").textContent = `${P.speed}×`;
+  }
+  function playEpisode(item, source) {
+    if (!audio) return;
+    if (P.src === item.audio) { P.playing ? audio.pause() : audio.play().catch(() => {}); return; }
+    P.src = item.audio; P.title = item.title; P.source = source.name;
+    audio.src = item.audio; audio.playbackRate = P.speed;
+    try { const pos = +localStorage.getItem(posKey(P.src)); if (pos > 5) audio.currentTime = pos; } catch (e) {}
+    audio.play().catch((e) => { console.warn(e); toast("Couldn’t play this episode — opening the link instead"); window.open(item.link, "_blank"); });
+    if ("mediaSession" in navigator) {
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: item.title, artist: source.speaker || source.name, album: "Abide", artwork: [{ src: "icon-512.png", sizes: "512x512", type: "image/png" }] });
+        navigator.mediaSession.setActionHandler("play", () => audio.play());
+        navigator.mediaSession.setActionHandler("pause", () => audio.pause());
+        navigator.mediaSession.setActionHandler("seekbackward", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+        navigator.mediaSession.setActionHandler("seekforward", () => { audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 30); });
+      } catch (e) {}
+    }
+    playerUI();
+  }
+  if (audio) {
+    audio.addEventListener("play", () => { P.playing = true; playerUI(); if (location.hash.startsWith("#devotional")) render(); });
+    audio.addEventListener("pause", () => { P.playing = false; playerUI(); if (location.hash.startsWith("#devotional")) render(); });
+    audio.addEventListener("ended", () => { P.playing = false; try { localStorage.removeItem(posKey(P.src)); } catch (e) {} playerUI(); });
+    audio.addEventListener("timeupdate", () => {
+      if (P.seeking) return;
+      const d = audio.duration || 0;
+      $("#player-cur").textContent = fmtTime(audio.currentTime); $("#player-dur").textContent = fmtTime(d);
+      $("#player-seek").value = d ? Math.round((audio.currentTime / d) * 1000) : 0;
+      if (Math.floor(audio.currentTime) % 5 === 0) { try { localStorage.setItem(posKey(P.src), String(Math.floor(audio.currentTime))); } catch (e) {} }
+    });
+    audio.addEventListener("error", () => { if (P.src) toast("Audio failed to load"); });
+    $("#player-toggle").addEventListener("click", () => { P.playing ? audio.pause() : audio.play().catch(() => {}); });
+    $("#player-close").addEventListener("click", () => { audio.pause(); audio.removeAttribute("src"); audio.load(); P.src = null; P.playing = false; playerUI(); if (location.hash.startsWith("#devotional")) render(); });
+    $("#player-speed").addEventListener("click", () => { const sp = [1, 1.25, 1.5, 2]; P.speed = sp[(sp.indexOf(P.speed) + 1) % sp.length]; audio.playbackRate = P.speed; playerUI(); });
+    const seek = $("#player-seek");
+    seek.addEventListener("input", () => { P.seeking = true; $("#player-cur").textContent = fmtTime((seek.value / 1000) * (audio.duration || 0)); });
+    seek.addEventListener("change", () => { P.seeking = false; if (audio.duration) audio.currentTime = (seek.value / 1000) * audio.duration; });
+  }
+  ACT.play = (el) => {
+    const src = S.feed.sources.find((x) => x.id === el.dataset.src);
+    const it = src.items[+el.dataset.i];
+    const d = day();
+    if (!d.devotional || d.devotional.link !== it.link) {
+      d.devotional = { sourceId: src.id, sourceName: src.name, kind: src.kind, title: it.title, link: it.link, pickedAt: nowIso() };
+      saveDay(d);
+    }
+    playEpisode(it, src);
+  };
 
   // ------------------------------------------------------------ PRAY (ACTS)
   routes.pray = (step) => {
@@ -1072,6 +1286,13 @@
   let recapDraft = null;
   routes.recap = (arg) => (arg === "new" || (arg && S.data.recaps[arg]) ? recapForm(arg === "new" ? null : S.data.recaps[arg]) : recapList());
 
+  function passageLink(p) {
+    const m = String(p || "").match(/^\s*([1-3]?\s?[A-Za-z]+(?: of [A-Za-z]+)?)\s+(\d+)/);
+    if (!m) return "";
+    let b = m[1].replace(/\s+/g, " ").trim(); b = b === "Psalm" ? "Psalms" : b;
+    const hit = C.books.find(([x]) => x.toLowerCase() === b.toLowerCase());
+    return hit ? ` <a class="tiny" href="#read/${encodeURIComponent(hit[0])}/${m[2]}" data-act="openStudy" data-book="${esc(hit[0])}" data-ch="${m[2]}">open ↗</a>` : "";
+  }
   function recapList() {
     const items = list("recaps").sort((a, b) => (b.date || "").localeCompare(a.date || "") || (b.created || "").localeCompare(a.created || ""));
     return `
@@ -1087,7 +1308,7 @@
           <div class="row between">
             <div>
               <div class="tiny">${esc(fmtDate(r.date, { day: "numeric", month: "short", year: "numeric" }))} · ${esc(C.recapTypes.find((t) => t.id === r.type)?.label || r.type)}${r.speaker ? " · " + esc(r.speaker) : ""}</div>
-              <div class="recap-title">${esc(r.title || r.passage || "Untitled")}${r.title && r.passage ? ` <span class="muted small">· ${esc(r.passage)}</span>` : ""}</div>
+              <div class="recap-title">${esc(r.title || r.passage || "Untitled")}${r.title && r.passage ? ` <span class="muted small">· ${esc(r.passage)}</span>` : ""}${passageLink(r.passage)}</div>
             </div>
             <div class="row" style="gap:4px">
               <a href="#recap/${r.id}" class="btn btn-sm">edit</a>
@@ -1175,6 +1396,7 @@
             ${(d.readingsDone || []).length ? `<li>Bible: ${d.readingsDone.map((r) => { const m = r.match(/^([1-3]? ?[A-Za-z ]+?) (\d+)/); const b = m ? (m[1] === "Psalm" ? "Psalms" : m[1]) : null; return b && bookChapters(b) ? `<a href="#read/${encodeURIComponent(b)}/${m[2]}">${esc(r)}</a>` : esc(r); }).join(", ")}</li>` : ""}
             ${rLens.map(([k, v]) => `<li><span class="tiny">${esc(C.lens.find((q) => q.key === k)?.label || k)}</span><br>${esc(v)}</li>`).join("")}
             ${d.quietMin ? `<li>${d.quietMin} quiet minute${d.quietMin === 1 ? "" : "s"} in prayer</li>` : ""}
+            ${(d.studied || []).length ? `<li>Studied: ${d.studied.map(esc).join(", ")}</li>` : ""}
             ${d.devotional ? `<li>Read: <a href="${esc(d.devotional.link)}" target="_blank" rel="noopener">${esc(d.devotional.title)}</a> <span class="tiny">(${esc(d.devotional.sourceName)})</span></li>` : ""}
             ${lensBits.map(([k, v]) => `<li><span class="tiny">${esc(C.lens.find((q) => q.key === k)?.label || k)}</span><br>${esc(v)}</li>`).join("")}
             ${acts.length ? `<li>Prayed: ${acts.map((k) => `<span class="pill pill-${k}">${k}</span>`).join(" ")}</li>` : ""}
@@ -1283,13 +1505,13 @@
     try {
       const d = JSON.parse(await f.text());
       let n = 0;
-      ["prayers", "recaps", "days", "verses"].forEach((c) => Object.values(d[c] || {}).forEach((it) => { if (it && it.id) { put(c, it); n++; } }));
+      ["prayers", "recaps", "days", "verses", "study"].forEach((c) => Object.values(d[c] || {}).forEach((it) => { if (it && it.id) { put(c, it); n++; } }));
       toast(`Imported ${n} items`);
     } catch (e) { toast("Import failed: " + e.message); }
   };
   ACT.wipe = () => {
     if (!confirm("Erase all local data on this device? (Cloud data is untouched.)")) return;
-    localStorage.removeItem(LS_KEY); S.data = { prayers: {}, recaps: {}, days: {}, verses: {}, settings: { hiddenSources: [] } }; render(); toast("Erased");
+    localStorage.removeItem(LS_KEY); S.data = { prayers: {}, recaps: {}, days: {}, verses: {}, study: {}, settings: { hiddenSources: [] } }; render(); toast("Erased");
   };
 
   // ------------------------------------------------------------ boot

@@ -1,0 +1,33 @@
+name: Fetch study material (questions + commentary)
+
+# Builds data/study/<book>/<chapter>.json from openly licensed sources:
+#   unfoldingWord translationQuestions (CC BY-SA 4.0) and Matthew Henry's Concise Commentary (public domain).
+# Runs when the script is pushed, or manually from the Actions tab.
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - scripts/fetch_study.py
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download and build study files
+        run: python scripts/fetch_study.py
+      - name: Commit
+        run: |
+          git config user.name "study-bot"
+          git config user.email "study-bot@users.noreply.github.com"
+          git add data/study
+          if git diff --cached --quiet; then echo "No changes."; else
+            git commit -m "chore: add study questions (CC BY-SA) and Matthew Henry commentary (public domain)"
+            git push
+          fi

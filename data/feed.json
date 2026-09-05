@@ -7,8 +7,22 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
-        {"title": "What's New About the New Covenant", "link": "https://www.desiringgod.org/solid-joys/whats-new-about-the-new-covenant", "audio": "", "summary": "John 15:10 — a short devotional on the new covenant.", "duration": "4:00", "date": "2026-09-04T10:00:00+00:00"},
-        {"title": "The 'I Will' of God", "link": "https://www.desiringgod.org/solid-joys/the-i-will-of-god", "audio": "", "summary": "", "duration": "", "date": "2026-09-03T10:00:00+00:00"}
+        {
+          "title": "What's New About the New Covenant",
+          "link": "https://www.desiringgod.org/solid-joys/whats-new-about-the-new-covenant",
+          "audio": "",
+          "summary": "John 15:10 — a short devotional on the new covenant.",
+          "duration": "4:00",
+          "date": "2026-09-04T10:00:00+00:00"
+        },
+        {
+          "title": "The 'I Will' of God",
+          "link": "https://www.desiringgod.org/solid-joys/the-i-will-of-god",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-03T10:00:00+00:00"
+        }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null
@@ -19,8 +33,22 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
-        {"title": "Why Did Jesus Call Her a Dog?", "link": "https://www.desiringgod.org/interviews/why-did-jesus-call-her-a-dog", "audio": "", "summary": "", "duration": "", "date": "2026-09-03T10:00:00+00:00"},
-        {"title": "When Walking Away Feels Good", "link": "https://www.desiringgod.org/interviews/when-walking-away-feels-good", "audio": "", "summary": "", "duration": "", "date": "2026-08-31T10:00:00+00:00"}
+        {
+          "title": "Why Did Jesus Call Her a Dog?",
+          "link": "https://www.desiringgod.org/interviews/why-did-jesus-call-her-a-dog",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-03T10:00:00+00:00"
+        },
+        {
+          "title": "When Walking Away Feels Good",
+          "link": "https://www.desiringgod.org/interviews/when-walking-away-feels-good",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-08-31T10:00:00+00:00"
+        }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null
@@ -31,8 +59,22 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
-        {"title": "Brought Near (Part 3)", "link": "http://podcast.gospelinlife.com/e/brought-near-part-3/", "audio": "", "summary": "", "duration": "", "date": "2026-09-04T13:34:01+00:00"},
-        {"title": "Brought Near (Part 2)", "link": "http://podcast.gospelinlife.com/e/brought-near-part-2/", "audio": "", "summary": "", "duration": "", "date": "2026-09-02T10:00:00+00:00"}
+        {
+          "title": "Brought Near (Part 3)",
+          "link": "http://podcast.gospelinlife.com/e/brought-near-part-3/",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-04T13:34:01+00:00"
+        },
+        {
+          "title": "Brought Near (Part 2)",
+          "link": "http://podcast.gospelinlife.com/e/brought-near-part-2/",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-02T10:00:00+00:00"
+        }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null
@@ -43,8 +85,22 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
-        {"title": "Living in God's Grace", "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/living-in-gods-grace", "audio": "", "summary": "", "duration": "", "date": "2026-09-05T04:00:00+00:00"},
-        {"title": "When God Says Not", "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-god-says-not", "audio": "", "summary": "", "duration": "", "date": "2026-09-04T04:00:00+00:00"}
+        {
+          "title": "Living in God's Grace",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/living-in-gods-grace",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-05T04:00:00+00:00"
+        },
+        {
+          "title": "When God Says Not",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-god-says-not",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-04T04:00:00+00:00"
+        }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null
@@ -55,8 +111,22 @@
       "speaker": "Alistair Begg · Daily Program",
       "kind": "listen",
       "items": [
-        {"title": "The Coming of the Lord (Part 5 of 6)", "link": "https://www.truthforlife.org/broadcasts/2026/09/04/the-coming-of-the-lord-part-5-of-6-/", "audio": "", "summary": "", "duration": "", "date": "2026-09-04T07:00:00+00:00"},
-        {"title": "The Coming of the Lord (Part 4 of 6)", "link": "https://www.truthforlife.org/broadcasts/2026/09/03/the-coming-of-the-lord-part-4-of-6-/", "audio": "", "summary": "", "duration": "", "date": "2026-09-03T07:00:00+00:00"}
+        {
+          "title": "The Coming of the Lord (Part 5 of 6)",
+          "link": "https://www.truthforlife.org/broadcasts/2026/09/04/the-coming-of-the-lord-part-5-of-6-/",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-04T07:00:00+00:00"
+        },
+        {
+          "title": "The Coming of the Lord (Part 4 of 6)",
+          "link": "https://www.truthforlife.org/broadcasts/2026/09/03/the-coming-of-the-lord-part-4-of-6-/",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-03T07:00:00+00:00"
+        }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null
@@ -67,8 +137,22 @@
       "speaker": "Spurgeon · Truth For Life daily devotional",
       "kind": "read",
       "items": [
-        {"title": "Moral and Spiritual Balances", "link": "https://www.truthforlife.org/devotionals/spurgeon/9/4/2026/", "audio": "", "summary": "", "duration": "", "date": "2026-09-04T10:00:00+00:00"},
-        {"title": "Trials and God's Providence", "link": "https://www.truthforlife.org/devotionals/spurgeon/9/3/2026/", "audio": "", "summary": "", "duration": "", "date": "2026-09-03T10:00:00+00:00"}
+        {
+          "title": "Moral and Spiritual Balances",
+          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/4/2026/",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-04T10:00:00+00:00"
+        },
+        {
+          "title": "Trials and God's Providence",
+          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/3/2026/",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-03T10:00:00+00:00"
+        }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null

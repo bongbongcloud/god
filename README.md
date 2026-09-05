@@ -11,6 +11,8 @@ firebase-config.js  paste your Firebase config here (optional)
 data/feed.json      latest devotional links, written daily by the Action
 scripts/fetch_feeds.py         pulls the RSS feeds → data/feed.json
 scripts/fetch_bible.py         downloads the WEB Bible → data/bible/web/… (one time)
+scripts/fetch_study.py         study questions + commentary → data/study/… (one time)
+.github/workflows/study.yml    runs fetch_study.py once (or on demand)
 .github/workflows/bible.yml    runs fetch_bible.py once (or on demand)
 .github/workflows/feeds.yml    runs the script every day at 05:30 SGT
 manifest.json, sw.js, icon*.   PWA install + offline
@@ -94,7 +96,17 @@ Chapters now display inline on the Bible tab and in a free reader (`#read/<Book>
 
 **Offline:** chapters you've opened are cached automatically. **Settings → Download whole Bible for offline** fetches all 1,189 WEB chapters once so the entire Bible reads offline.
 
-## 6. Making it yours
+## 6. Study material and podcast player (v4)
+
+**Study panel.** Under any chapter, *Study this chapter* opens three tabs: **Questions** (comprehension questions with suggested answers for every chapter, from unfoldingWord® translationQuestions, CC BY-SA 4.0 — write your answer, compare, and it's saved and synced), **Commentary** (Matthew Henry's Concise Commentary, public domain), and **Book** (Matthew Henry's introduction plus your own guide links). **📚 Study** on the Bible tab lists all 66 books; each book page shows its intro, a chapter grid (green = answers saved), and your guide links. A recap whose passage is e.g. "Luke 15" gets an *open ↗* link into the reader.
+
+**One-time setup:** GitHub → **Actions** → *Fetch study material* → **Run workflow** (also runs itself when `scripts/fetch_study.py` is first pushed). It writes `data/study/<book>/<chapter>.json` (~8 MB) and commits.
+
+**Your own guides.** Copyrighted guides (TGC, Crossway, church notes, PDFs) can't be copied into the repo, so each book has a place to paste links; anything from YouTube plays inline, so paste the BibleProject overview for the book (there's a *Find the BibleProject overview* link). Links are stored in your synced settings.
+
+**Podcast player.** On the Devotional page, ▶ next to an episode plays it in a mini-bar above the tabs that keeps playing while you read, pray or write. Play/pause, seek, 1×/1.25×/1.5×/2× speed, lock-screen controls (Media Session) and resume-where-you-left-off. Playing an episode also makes it today's devotional pick. Tapping the title still opens the source page.
+
+## 7. Making it yours
 
 - **Plans, groups, prompts and verses** live in `content.js` (`plans`, `defaultGroups`, `acts`, `verses`, `lens`) — add your own ACTS prompts, change the gospel-lens questions, add verses (the app rotates one per day).
 - **Greeting name** is in `routes.home` in `app.js`.

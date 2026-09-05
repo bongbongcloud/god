@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=3.2">
+<link rel="stylesheet" href="style.css?v=4.0">
 </head>
 <body>
 
@@ -28,6 +28,21 @@
 </header>
 
 <main id="view" class="view"></main>
+
+<div id="player" class="player" hidden>
+  <button class="player-btn" id="player-toggle" aria-label="Play/pause">▶</button>
+  <div class="player-body">
+    <div class="player-title" id="player-title">—</div>
+    <div class="player-row">
+      <span class="player-time" id="player-cur">0:00</span>
+      <input type="range" id="player-seek" min="0" max="1000" value="0" aria-label="Seek">
+      <span class="player-time" id="player-dur">0:00</span>
+      <button class="player-speed" id="player-speed" title="Playback speed">1×</button>
+    </div>
+  </div>
+  <button class="player-close" id="player-close" aria-label="Close player">✕</button>
+  <audio id="audio" preload="none"></audio>
+</div>
 
 <nav class="tabbar">
   <a href="#home" data-tab="home"><span class="tab-ico">☀</span>Today</a>
@@ -44,8 +59,8 @@
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
-<script src="firebase-config.js?v=3.2"></script>
-<script src="content.js?v=3.2"></script>
-<script src="app.js?v=3.2"></script>
+<script src="firebase-config.js?v=4.0"></script>
+<script src="content.js?v=4.0"></script>
+<script src="app.js?v=4.0"></script>
 </body>
 </html>
