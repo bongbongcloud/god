@@ -1,0 +1,38 @@
+name: Refresh devotional feeds
+
+on:
+  schedule:
+    # 21:30 UTC = 05:30 Singapore — ready before you wake up.
+    - cron: "30 21 * * *"
+  workflow_dispatch: {}      # lets you run it manually from the Actions tab
+  push:
+    paths:
+      - scripts/fetch_feeds.py
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds
+        run: python scripts/fetch_feeds.py
+
+      - name: Commit feed.json if it changed
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add data/feed.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh devotional feeds $(date -u +%Y-%m-%d)"
+            git push
+          fi

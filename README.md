@@ -1,0 +1,90 @@
+# Abide — daily walk
+
+A small, installable web app (PWA) for reading with a gospel lens, praying through ACTS, keeping prayer points, and recapping sermons and Bible study. Plain HTML/CSS/JS — no build step — hosted on GitHub Pages, with devotional links refreshed every morning by a GitHub Action.
+
+```
+index.html          app shell + bottom tabs
+app.js              all app logic (routing, storage, Firebase sync)
+content.js          verses, ACTS prompts, gospel-lens questions — edit freely
+style.css           styles (light + dark)
+firebase-config.js  paste your Firebase config here (optional)
+data/feed.json      latest devotional links, written daily by the Action
+scripts/fetch_feeds.py         pulls the RSS feeds → data/feed.json
+.github/workflows/feeds.yml    runs the script every day at 05:30 SGT
+manifest.json, sw.js, icon*.   PWA install + offline
+```
+
+## 1. Put it on GitHub Pages
+
+1. Create a new repo (e.g. `abide`), then from this folder:
+   ```bash
+   git init
+   git add .
+   git commit -m "Abide: initial"
+   git branch -M main
+   git remote add origin https://github.com/<you>/abide.git
+   git push -u origin main
+   ```
+2. Repo → **Settings → Pages** → Source: *Deploy from a branch* → `main` / `/ (root)` → Save.
+3. Repo → **Settings → Actions → General → Workflow permissions** → choose **Read and write permissions** → Save. (The feed bot needs this to commit `data/feed.json`.)
+4. Repo → **Actions** → *Refresh devotional feeds* → **Run workflow** once. After that it runs itself every morning.
+5. Open `https://<you>.github.io/abide/` on your phone → Share → *Add to Home Screen*.
+
+Without Firebase, everything is stored in the browser on that device (it still works offline). Use *Settings → Export JSON* for backups.
+
+## 2. Sync across devices with Firebase (optional, ~10 min)
+
+1. [console.firebase.google.com](https://console.firebase.google.com) → Add project (Analytics off is fine).
+2. **Build → Authentication → Get started → Sign-in method → Google → Enable** (pick a support email).
+   Then **Authentication → Settings → Authorized domains → Add** `<you>.github.io`.
+3. **Build → Firestore Database → Create database** → production mode → a region near you (asia-southeast1).
+4. **Firestore → Rules** → replace with the rules below → Publish.
+5. **Project settings (gear) → Your apps → Web (</>)** → register the app → copy the `firebaseConfig` object.
+6. Paste it into `firebase-config.js` as `window.FIREBASE_CONFIG = { … }`, commit, push.
+7. On the site: **Settings → Sign in with Google**. Anything already on that device is uploaded on first sign-in.
+
+Firestore rules (each user can only read/write their own data):
+
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}
+```
+
+Data layout: `users/{uid}/prayers/{id}`, `users/{uid}/recaps/{id}`, `users/{uid}/days/{YYYY-MM-DD}`, and `users/{uid}` holds `settings`. Firestore's offline persistence is enabled, so the app keeps working on the MRT and syncs when back online.
+
+## 3. Devotional sources
+
+Edit the `SOURCES` list at the top of `scripts/fetch_feeds.py` to add or remove feeds — any RSS or Atom feed works (podcasts included). Currently:
+
+| Source | Feed |
+|---|---|
+| Solid Joys — John Piper | https://feed.desiringgod.org/solid-joys-audio.rss |
+| Ask Pastor John — John Piper | https://feed.desiringgod.org/ask-pastor-john.rss |
+| Gospel in Life — Tim Keller | https://podcast.gospelinlife.com/feed.xml |
+| In Touch Daily Devotions — Charles Stanley | Omny podcast feed (see script) |
+| Truth For Life daily program — Alistair Begg | https://feeds.feedburner.com/TruthForLife |
+| Morning & Evening — Spurgeon (Truth For Life) | https://feeds.feedburner.com/TruthForLifeDailyDevotional |
+
+To test locally: `python3 scripts/fetch_feeds.py` then `python3 -m http.server` and open http://localhost:8000. If a feed fails one morning the script keeps the previous day's items for that source and marks it with ⚠ on the Read page.
+
+The workflow time is set in `.github/workflows/feeds.yml` (`30 21 * * *` UTC = 05:30 Singapore).
+
+## 4. What's in v2
+
+- **Bible reading plan** (Bible tab). Starter plans: the four Gospels (89 days) and a Psalm a day (150), or a custom plan from any book or run of books at 1–3 chapters a day. Plans are *sequential*: today's reading is simply the next one you haven't marked read, so a missed day never becomes a backlog. Passages open on BibleGateway in your chosen translation (default ESV; change it in Settings or the plan picker). After "I've read it", the same gospel-lens questions appear and the response can become a prayer point.
+- **Prayer groups with a weekly rotation.** Supplication points can belong to a group (Family, Church & Bible study group, Friends, Work, Not yet believing, Myself — edit or add your own in Settings). Each group has focus days; on that day its points appear first in the Supplication step and on the home page. Sunday is deliberately left free. Ungrouped points still show under "Everyone else".
+- **Answered-prayer wall** (`#answered`, or tap the "answered" stat on the home page). When you mark a point answered you can write one line about how God answered; the wall shows each answered prayer with how long and how many times you prayed for it, and the journey notes.
+- **Quiet prayer timer** (button at the top of the Pray page, or the link under "Today's prayer focus"). Full-screen, 3/5/10/15 minutes (default 5), one prompt, a countdown ring, keeps the screen awake, ends with a soft three-note chime and a vibration. Finishing marks that ACTS step done and logs the minutes in your journal.
+
+## 5. Making it yours
+
+- **Plans, groups, prompts and verses** live in `content.js` (`plans`, `defaultGroups`, `acts`, `verses`, `lens`) — add your own ACTS prompts, change the gospel-lens questions, add verses (the app rotates one per day).
+- **Greeting name** is in `routes.home` in `app.js`.
+- **Colours** are CSS variables at the top of `style.css`; dark mode follows the system setting.
+- If you change `sw.js` cached files, bump `VERSION` in `sw.js` so phones pick up the new build.
