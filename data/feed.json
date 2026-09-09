@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T21:37:48.174050+00:00",
+  "generated": "2026-09-09T21:38:30.588370+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Grace Must Be Free",
+          "link": "https://feed.desiringgod.org/link/18331/17311014/grace-must-be-free",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180909-en-grace-must-be-free.mp3?ts=1776698486&year=2026",
+          "summary": "If you treated your salvation no longer as a gift, but as a purchase, God would no longer be the free benefactor.",
+          "duration": "00:02:39",
+          "date": "2026-09-09T10:00:00+00:00"
+        },
         {
           "title": "How to Repay God",
           "link": "https://feed.desiringgod.org/link/18331/17311015/how-to-repay-god",
@@ -54,17 +62,9 @@
           "summary": "If you feel vulnerable, you can say to God, “Lord, help me. I’m not even sure how to pray.” Trust that he will respond and will help you.",
           "duration": "00:04:38",
           "date": "2026-09-03T10:00:00+00:00"
-        },
-        {
-          "title": "Devastated and Delighted",
-          "link": "https://feed.desiringgod.org/link/18331/17311021/devastated-and-delighted",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180902-en-devastated-and-delighted.mp3?ts=1776697901&year=2026",
-          "summary": "This is one of the beauties of the biblical doctrines of grace: their worst devastations prepare us for their greatest delights.",
-          "duration": "00:04:14",
-          "date": "2026-09-02T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-08T21:37:44.376190+00:00",
+      "fetched": "2026-09-09T21:38:27.073282+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-08-20T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-08T21:37:46.556870+00:00",
+      "fetched": "2026-09-09T21:38:29.060598+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Church: Building Blocks",
+          "link": "http://podcast.gospelinlife.com/e/church-building-blocks/",
+          "audio": "https://mcdn.podbean.com/mf/web/22rmrwtruhxa4swi/260909_ChurchBuildingBlocks.mp3",
+          "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on April 4, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 2:19-22. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
+          "duration": "2603",
+          "date": "2026-09-09T10:00:00+00:00"
+        },
         {
           "title": "Access to the Father (Part 1)",
           "link": "http://podcast.gospelinlife.com/e/access-to-the-father-part-1/",
@@ -170,17 +178,9 @@
           "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on February 14, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 2:11-16. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
           "duration": "2893",
           "date": "2026-08-28T10:00:00+00:00"
-        },
-        {
-          "title": "He Is Our Peace (Part 1)",
-          "link": "http://podcast.gospelinlife.com/e/he-is-our-peace-part-1/",
-          "audio": "https://mcdn.podbean.com/mf/web/78uzianbk37w9vnf/260826_HeIsOurPeacePart1.mp3",
-          "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on February 7, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 2:11-16. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
-          "duration": "2792",
-          "date": "2026-08-26T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-08T21:37:47.301988+00:00",
+      "fetched": "2026-09-09T21:38:29.679726+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "What's Required for Salvation?",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/whats-required-for-salvation",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/a5734cd6-4005-4d6a-bd83-b475010d2e14/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "The entire Trinity works in our salvation, giving us the comfort of complete assurance. See omnystudio.com/listener for privacy information.",
+          "duration": "177",
+          "date": "2026-09-09T04:00:00+00:00"
+        },
         {
           "title": "God Honors Our Devotion to Him",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/god-honors-our-devotion-to-him",
@@ -236,17 +244,9 @@
           "summary": "When God closes a door, it’s an open to invitation to walk with Him down the path He has for us. See omnystudio.com/listener for privacy information.",
           "duration": "157",
           "date": "2026-09-03T04:00:00+00:00"
-        },
-        {
-          "title": "Bringing Others to Jesus",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/bringing-others-to-jesus-1",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/44e928fc-d616-4044-8c65-b46d01189603/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "When we answer the call to discipleship, we can’t help but share the good news with others. See omnystudio.com/listener for privacy information.",
-          "duration": "154",
-          "date": "2026-09-02T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-08T21:37:47.537481+00:00",
+      "fetched": "2026-09-09T21:38:29.961414+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Daily Program",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Beginning of the Gospel (Part 2 of 2)",
+          "link": "https://www.truthforlife.org/broadcasts/2026/09/09/the-beginning-of-the-gospel-part-2-of-2/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/Podcasts/Truth_For_Life_Sep-09-2026.mp3",
+          "summary": "Did you know that the apostle Mark never actually identifies himself as the author of his Gospel? So how can we be sure he really wrote it? And does this affect the authenticity of his book? Alistair Begg helps us connect the dots on Truth For Life. ----------------------------------------- • Click here and look for…",
+          "duration": "",
+          "date": "2026-09-09T07:00:00+00:00"
+        },
         {
           "title": "The Beginning of the Gospel (Part 1 of 2)",
           "link": "https://www.truthforlife.org/broadcasts/2026/09/08/the-beginning-of-the-gospel-part-1-of-2/",
@@ -294,17 +302,9 @@
           "summary": "When Jesus suddenly returns, will your response be different from your unbelieving friends? It should be! Find out why, and learn how anticipating Christ’s return should affect how you live right now. That’s the focus on Truth For Life with Alistair Begg. ----------------------------------------- • Click here and…",
           "duration": "",
           "date": "2026-09-03T07:00:00+00:00"
-        },
-        {
-          "title": "The Coming of the Lord (Part 3 of 6)",
-          "link": "https://www.truthforlife.org/broadcasts/2026/09/02/the-coming-of-the-lord-part-3-of-6-/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/Podcasts/Truth_For_Life_Sep-02-2026.mp3",
-          "summary": "Do you read Scripture like a mystery novel, seeking hidden meanings and secret answers? Throughout church history, many have similarly tried to pinpoint the exact timing of Christ’s return. On Truth For Life, Alistair Begg explains why such curiosity is futile—and what our main concern should be.…",
-          "duration": "",
-          "date": "2026-09-02T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-08T21:37:48.014804+00:00",
+      "fetched": "2026-09-09T21:38:30.186703+00:00",
       "error": null
     },
     {
@@ -313,6 +313,14 @@
       "speaker": "Spurgeon · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Near the Throne",
+          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/9/2026/",
+          "audio": "",
+          "summary": "Revelation 4:4 These representatives of the saints in heaven are said to be “around the throne.” In the passage in Solomon's Song where he sings of the King sitting at his table, some render it “a round table.” From this, some expositors—I think, without straining the text—have said, “There is an equality among the…",
+          "duration": "",
+          "date": "2026-09-09T10:00:00+00:00"
+        },
         {
           "title": "What Is This Power?",
           "link": "https://www.truthforlife.org/devotionals/spurgeon/9/8/2026/",
@@ -360,17 +368,9 @@
           "summary": "Psalm 11:5 All events are under the control of providence; consequently all the trials of our outward life are ultimately traceable to God our Father. Out of the golden gate of God's ordinance the armies of trial march in rank, clad in their iron armor and armed with weapons of war. All providences are doors to…",
           "duration": "",
           "date": "2026-09-03T10:00:00+00:00"
-        },
-        {
-          "title": "A Craving for Miracles",
-          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/2/2026/",
-          "audio": "",
-          "summary": "John 4:48 A craving for miracles was a symptom of the sickly condition of men's minds in our Lord's day; they refused solid nourishment and longed for mere wonders. The Gospel that they so greatly needed they would not have; the miracles that Jesus did not always choose to give they eagerly demanded. Even today there…",
-          "duration": "",
-          "date": "2026-09-02T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-08T21:37:48.173960+00:00",
+      "fetched": "2026-09-09T21:38:30.588307+00:00",
       "error": null
     }
   ]
