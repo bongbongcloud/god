@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T21:38:30.588370+00:00",
+  "generated": "2026-09-10T21:37:38.706206+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "How to Fight Anxiety",
+          "link": "https://feed.desiringgod.org/link/18331/17311013/how-to-fight-anxiety",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180910-en-how-to-fight-anxiety.mp3?ts=1776698343&year=2026",
+          "summary": "The way you fight the good fight for faith is by meditating on God’s assurances of future grace and by asking for the help of his Spirit.",
+          "duration": "00:03:29",
+          "date": "2026-09-10T10:00:00+00:00"
+        },
         {
           "title": "Grace Must Be Free",
           "link": "https://feed.desiringgod.org/link/18331/17311014/grace-must-be-free",
@@ -54,17 +62,9 @@
           "summary": "In the old covenant, the gracious enabling power to obey God was not poured out as fully as it is since Jesus.",
           "duration": "00:03:50",
           "date": "2026-09-04T10:00:00+00:00"
-        },
-        {
-          "title": "The “I Will” of God",
-          "link": "https://feed.desiringgod.org/link/18331/17311020/the-i-will-of-god",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180903-en-the-i-will-of-god.mp3?ts=1776698242&year=2026",
-          "summary": "If you feel vulnerable, you can say to God, “Lord, help me. I’m not even sure how to pray.” Trust that he will respond and will help you.",
-          "duration": "00:04:38",
-          "date": "2026-09-03T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-09T21:38:27.073282+00:00",
+      "fetched": "2026-09-10T21:37:35.796658+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Barrier to Doctrinal Maturity",
+          "link": "https://feed.desiringgod.org/link/10715/17444184/the-barrier-to-doctrinal-maturity",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17755/media/d64c53cd-a0cd-40f1-accb-148f5fad084b/20260910-en-the-barrier-to-doctrinal-maturity.mp3?ts=1788816104",
+          "summary": "Is the Bible accessible only to readers with a high IQ? Pastor John reframes biblical maturity as a moral issue centered on our obedience, not our intellect.",
+          "duration": "00:12:35",
+          "date": "2026-09-10T10:00:00+00:00"
+        },
         {
           "title": "Daily Vigilance for Lifelong Productivity",
           "link": "https://feed.desiringgod.org/link/10715/17441739/daily-vigilance-for-lifelong-productivity",
@@ -112,17 +120,9 @@
           "summary": "Does eternal punishment in hell bring God glory? Pastor John challenges the rejection of God’s judgment by pointing to his unmerited mercies and perfect righteousness.",
           "duration": "00:14:42",
           "date": "2026-08-24T10:00:00+00:00"
-        },
-        {
-          "title": "Can My Silence Cost Souls?",
-          "link": "https://feed.desiringgod.org/link/10715/17423747/can-my-silence-cost-souls",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17711/media/5f2272f9-69b9-48c0-b72f-216d62a5a741/20260820-en-can-my-silence-cost-souls.mp3?ts=1788816103",
-          "summary": "Why does evangelism matter when God has chosen whom he will save? Pastor John unpacks and rejoices in our role as God’s instruments.",
-          "duration": "00:13:51",
-          "date": "2026-08-20T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-09T21:38:29.060598+00:00",
+      "fetched": "2026-09-10T21:37:37.721183+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-08-28T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-09T21:38:29.679726+00:00",
+      "fetched": "2026-09-10T21:37:38.310499+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Avoiding Enslavement",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/avoiding-enslavement",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/83370516-c6a1-4c60-b394-b475010bca86/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Though sin may beckon, God has equipped us with the power to resist temptation. See omnystudio.com/listener for privacy information.",
+          "duration": "148",
+          "date": "2026-09-10T04:00:00+00:00"
+        },
         {
           "title": "What's Required for Salvation?",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/whats-required-for-salvation",
@@ -236,17 +244,9 @@
           "summary": "Waiting for God’s “yes” grows our patience and anchors our trust in Him. See omnystudio.com/listener for privacy information.",
           "duration": "230",
           "date": "2026-09-04T04:00:00+00:00"
-        },
-        {
-          "title": "Waiting for the Right Door to Open",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/waiting-for-the-right-door-to-open",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/4b15cee5-4a85-4c76-90ba-b46d0140b306/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "When God closes a door, it’s an open to invitation to walk with Him down the path He has for us. See omnystudio.com/listener for privacy information.",
-          "duration": "157",
-          "date": "2026-09-03T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-09T21:38:29.961414+00:00",
+      "fetched": "2026-09-10T21:37:38.457873+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Daily Program",
       "kind": "listen",
       "items": [
+        {
+          "title": "A Man with a Message (Part 1 of 2)",
+          "link": "https://www.truthforlife.org/broadcasts/2026/09/10/a-man-with-a-message-part-1-of-2/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/Podcasts/Truth_For_Life_Sep-10-2026.mp3",
+          "summary": "Not only does the Bible continue to outsell every book in the world—it’s unlike any book that’ll ever be written! On Truth For Life, Alistair Begg illustrates this fact as he introduces the long-expected messenger who prepared the way for the Messiah. ----------------------------------------- • Click here and look…",
+          "duration": "",
+          "date": "2026-09-10T07:00:00+00:00"
+        },
         {
           "title": "The Beginning of the Gospel (Part 2 of 2)",
           "link": "https://www.truthforlife.org/broadcasts/2026/09/09/the-beginning-of-the-gospel-part-2-of-2/",
@@ -294,17 +302,9 @@
           "summary": "Are you a Christian? How does your life give evidence of this new identity? Listen to Truth For Life as Alistair Begg teaches what it means to be a Christian, how God enables us to persevere, and why this significantly changes our view of Christ’s return. ----------------------------------------- • Click here and…",
           "duration": "",
           "date": "2026-09-04T07:00:00+00:00"
-        },
-        {
-          "title": "The Coming of the Lord (Part 4 of 6)",
-          "link": "https://www.truthforlife.org/broadcasts/2026/09/03/the-coming-of-the-lord-part-4-of-6-/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/Podcasts/Truth_For_Life_Sep-03-2026.mp3",
-          "summary": "When Jesus suddenly returns, will your response be different from your unbelieving friends? It should be! Find out why, and learn how anticipating Christ’s return should affect how you live right now. That’s the focus on Truth For Life with Alistair Begg. ----------------------------------------- • Click here and…",
-          "duration": "",
-          "date": "2026-09-03T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-09T21:38:30.186703+00:00",
+      "fetched": "2026-09-10T21:37:38.586323+00:00",
       "error": null
     },
     {
@@ -313,6 +313,14 @@
       "speaker": "Spurgeon · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Danger of the Evening Wolf",
+          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/10/2026/",
+          "audio": "",
+          "summary": "Habakkuk 1:8 While preparing the present volume, this particular expression recurred to me so frequently that in order to be rid of its constant demand I determined to give a page to it. The evening wolf, infuriated by a day of hunger, was fiercer and more ravenous than he would have been in the morning. This furious…",
+          "duration": "",
+          "date": "2026-09-10T10:00:00+00:00"
+        },
         {
           "title": "Near the Throne",
           "link": "https://www.truthforlife.org/devotionals/spurgeon/9/9/2026/",
@@ -360,17 +368,9 @@
           "summary": "Leviticus 19:36 Weights and scales and measures were all to be according to the standard of justice. Surely no Christian will need to be reminded of this in his business, for if righteousness were banished from all the world beside, it would find a shelter in believing hearts. There are, however, other balances that…",
           "duration": "",
           "date": "2026-09-04T10:00:00+00:00"
-        },
-        {
-          "title": "Trials and God's Providence",
-          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/3/2026/",
-          "audio": "",
-          "summary": "Psalm 11:5 All events are under the control of providence; consequently all the trials of our outward life are ultimately traceable to God our Father. Out of the golden gate of God's ordinance the armies of trial march in rank, clad in their iron armor and armed with weapons of war. All providences are doors to…",
-          "duration": "",
-          "date": "2026-09-03T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-09T21:38:30.588307+00:00",
+      "fetched": "2026-09-10T21:37:38.706130+00:00",
       "error": null
     }
   ]
