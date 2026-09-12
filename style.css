@@ -1,32 +1,32 @@
 :root {
-  --bg: #f6f2ea;
-  --bg-2: #efe9dd;
-  --card: #fffdf8;
-  --ink: #23302a;
-  --ink-2: #5b6a62;
-  --ink-3: #8a968f;
-  --line: #e2dbcd;
-  --accent: #2f4a3f;
-  --accent-2: #3f6b57;
-  --accent-soft: #dfe9e2;
+  --bg: #f3f5f8;
+  --bg-2: #e8edf3;
+  --card: #fbfcfe;
+  --ink: #1e2a3a;
+  --ink-2: #536379;
+  --ink-3: #8593a6;
+  --line: #d9e0e9;
+  --accent: #1f3a5f;
+  --accent-2: #2f5a8a;
+  --accent-soft: #dde7f2;
   --gold: #b8892d;
   --gold-soft: #f3e7c9;
   --rose: #a6584f;
   --rose-soft: #f4e0dc;
-  --blue: #3e5f8a;
-  --blue-soft: #dde6f2;
+  --blue: #2a7f8c;
+  --blue-soft: #d9eef0;
   --radius: 16px;
-  --shadow: 0 1px 2px rgba(35,48,42,.06), 0 6px 20px rgba(35,48,42,.06);
+  --shadow: 0 1px 2px rgba(30,42,58,.06), 0 6px 20px rgba(30,42,58,.07);
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #171c19; --bg-2: #1e2521; --card: #222a25;
-    --ink: #e9e5dc; --ink-2: #b3b8b1; --ink-3: #7f8781; --line: #303a34;
-    --accent: #9ec4ae; --accent-2: #7fb093; --accent-soft: #263630;
+    --bg: #0f1722; --bg-2: #16202e; --card: #1a2534;
+    --ink: #e6ebf2; --ink-2: #aeb9c8; --ink-3: #7d8a9c; --line: #263344;
+    --accent: #a9c6e8; --accent-2: #86aedb; --accent-soft: #223449;
     --gold: #d6a84a; --gold-soft: #3a3120; --rose: #d4867c; --rose-soft: #3a2826;
-    --blue: #8fb0dc; --blue-soft: #232d3a;
+    --blue: #7fc6d0; --blue-soft: #1e3a40;
     --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
   }
 }
@@ -88,7 +88,7 @@ p { margin: 0 0 .75em; }
   padding: 18px; box-shadow: var(--shadow);
 }
 .card.flat { box-shadow: none; }
-.card.accent { background: var(--accent); color: #f3efe6; border-color: transparent; }
+.card.accent { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #eef3fa; border-color: transparent; }
 .card.accent .muted, .card.accent .tiny { color: rgba(243,239,230,.7); }
 .card.accent h2, .card.accent h3 { color: #fff; }
 
@@ -328,3 +328,7 @@ body.quiet-mode .player { display: none; }
 .ch-cell { display: grid; place-items: center; height: 40px; border-radius: 10px; background: var(--bg-2); color: var(--ink); font-weight: 500; }
 .ch-cell.done { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .ch-cell:hover { background: var(--accent-2); color: #fff; }
+
+/* v4.1: read-aloud highlight + welcome card */
+.verse.speaking { background: var(--accent-soft); box-shadow: 0 0 0 2px var(--accent-soft); }
+.card.welcome { border-color: var(--accent-2); }

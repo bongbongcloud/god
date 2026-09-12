@@ -106,52 +106,78 @@
       "error": null
     },
     {
-      "id": "truth-for-life",
-      "name": "Truth For Life",
-      "speaker": "Alistair Begg · Daily Program",
-      "kind": "listen",
+      "id": "alistair-begg-devotional",
+      "name": "Alistair Begg Devotional",
+      "speaker": "Alistair Begg · Truth For Life daily devotional",
+      "kind": "read",
       "items": [
         {
-          "title": "The Coming of the Lord (Part 5 of 6)",
-          "link": "https://www.truthforlife.org/broadcasts/2026/09/04/the-coming-of-the-lord-part-5-of-6-/",
+          "title": "Stories of God's Provision",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/11/2026/",
           "audio": "",
           "summary": "",
           "duration": "",
-          "date": "2026-09-04T07:00:00+00:00"
+          "date": "2026-09-11T07:00:00+00:00"
         },
         {
-          "title": "The Coming of the Lord (Part 4 of 6)",
-          "link": "https://www.truthforlife.org/broadcasts/2026/09/03/the-coming-of-the-lord-part-4-of-6-/",
+          "title": "The Priest We Need",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/10/2026/",
           "audio": "",
           "summary": "",
           "duration": "",
-          "date": "2026-09-03T07:00:00+00:00"
+          "date": "2026-09-10T07:00:00+00:00"
         }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",
       "error": null
     },
     {
-      "id": "truth-for-life-devotional",
-      "name": "Morning & Evening",
-      "speaker": "Spurgeon · Truth For Life daily devotional",
-      "kind": "read",
+      "id": "pray-the-word",
+      "name": "Pray the Word",
+      "speaker": "David Platt · Radical",
+      "kind": "listen",
       "items": [
         {
-          "title": "Moral and Spiritual Balances",
-          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/4/2026/",
+          "title": "Wiping Out Idolatry (2 Kings 10:27)",
+          "link": "https://radical.net/podcasts/pray-the-word/",
           "audio": "",
           "summary": "",
           "duration": "",
-          "date": "2026-09-04T10:00:00+00:00"
+          "date": "2026-09-11T07:00:00+00:00"
         },
         {
-          "title": "Trials and God's Providence",
-          "link": "https://www.truthforlife.org/devotionals/spurgeon/9/3/2026/",
+          "title": "Trusting God's Sovereignty (2 Kings 9:3)",
+          "link": "https://radical.net/podcasts/pray-the-word/",
           "audio": "",
           "summary": "",
           "duration": "",
-          "date": "2026-09-03T10:00:00+00:00"
+          "date": "2026-09-10T07:00:00+00:00"
+        }
+      ],
+      "fetched": "2026-09-05T02:00:00+00:00",
+      "error": null
+    },
+    {
+      "id": "for-the-gospel",
+      "name": "For the Gospel",
+      "speaker": "Costi Hinn",
+      "kind": "listen",
+      "items": [
+        {
+          "title": "God Is Stronger Than Your Circumstances",
+          "link": "https://www.forthegospel.org/for-the-gospel-podcast",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-09-07T12:00:00+00:00"
+        },
+        {
+          "title": "The God Who Sees You",
+          "link": "https://www.forthegospel.org/for-the-gospel-podcast",
+          "audio": "",
+          "summary": "",
+          "duration": "",
+          "date": "2026-08-31T12:00:00+00:00"
         }
       ],
       "fetched": "2026-09-05T02:00:00+00:00",

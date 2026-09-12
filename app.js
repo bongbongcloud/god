@@ -1,7 +1,7 @@
 /* Abide — daily walk. Plain JS, no build step. */
 (() => {
   "use strict";
-  const APP_VERSION = "4.0";
+  const APP_VERSION = "4.1";
 
   // ------------------------------------------------------------ utilities
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -31,7 +31,7 @@
   };
   const greeting = () => {
     const h = new Date().getHours();
-    return h < 5 ? "Still up?" : h < 12 ? "Good morning" : h < 17 ? "Good afternoon" : h < 21 ? "Good evening" : "Good night";
+    return h < 5 ? "Still awake" : h < 12 ? "Good morning" : h < 17 ? "Good afternoon" : h < 21 ? "Good evening" : "Good night";
   };
   const seededPick = (arr, seed) => arr[Math.abs([...seed].reduce((a, c) => (a * 31 + c.charCodeAt(0)) | 0, 7)) % arr.length];
 
@@ -94,6 +94,7 @@
   const settings = () => S.data.settings;
   const groups = () => settings().groups || C.defaultGroups;
   const translation = () => settings().translation || "ESV";
+  const userName = () => (settings().name || "").trim() || ((S.user?.displayName || "").split(" ")[0]) || "";
 
   // ------------------------------------------------------------ reading plans
   function planReadings(plan) {
@@ -250,10 +251,18 @@
     <div class="stack">
       <div>
         <div class="eyebrow">${esc(dateStr)}</div>
-        <h1>${greeting()}, Bryan.</h1>
+        <h1>${greeting()}${userName() ? ", " + esc(userName()) : ""}.</h1>
         <p class="muted">What would you like to do with God today?</p>
       </div>
 
+      ${!settings().name && !S.user ? `
+      <div class="card welcome">
+        <div class="eyebrow">Welcome</div>
+        <h2>What should I call you?</h2>
+        <p class="small muted">Just a first name — it stays on this device (or follows your Google sign-in if you use sync).</p>
+        <div class="row"><input type="text" id="name-input" placeholder="Your name" autocomplete="given-name" style="flex:1"><button class="btn-primary" data-act="saveName">Save</button></div>
+        <div class="tiny" style="margin-top:6px">Sharing this phone? Each person can also <a href="#settings">sign in with Google</a> to keep separate prayer lists.</div>
+      </div>` : ""}
       <div class="card accent">
         <div class="verse">“${esc(v.text)}”</div>
         <div class="verse-ref">— ${esc(v.ref)} (WEB)</div>
@@ -277,7 +286,7 @@
           <div class="choice-ico read">🎧</div>
           <div class="choice-body">
             <div class="choice-title">Devotional or podcast</div>
-            <div class="choice-sub">${d.devotional ? "Today: " + esc(d.devotional.title) : "Piper, Keller, Stanley, Begg — pick one by title"}</div>
+            <div class="choice-sub">${d.devotional ? "Today: " + esc(d.devotional.title) : "Piper, Keller, Platt, Begg, Stanley, Hinn — pick one by title"}</div>
           </div>
           ${d.devotional ? '<div class="choice-done">✓</div>' : ""}
         </a>
@@ -387,6 +396,7 @@
     return `<div class="reader-tools">
       <button class="btn-sm" data-act="fontSize" data-v="-1" title="Smaller text">A−</button>
       <button class="btn-sm" data-act="fontSize" data-v="1" title="Larger text">A+</button>
+      <button class="btn-sm ${TTS.active ? "btn-primary" : ""}" data-act="listen" title="Read aloud">🔊</button>
       <a class="btn btn-sm" href="#verses" title="Saved verses">♥ ${n}</a>
     </div>`;
   }
@@ -428,7 +438,8 @@
       <p class="verses">${c.verses.map((v) => {
         const ref = `${displayBook(c.book)} ${c.chapter}:${v.v}`;
         const sel = selVerse && selVerse.ref === ref;
-        return `<span class="verse ${sel ? "sel" : ""}" data-act="tapVerse" data-ref="${esc(ref)}" data-tr="${esc(c.translation)}"><sup>${v.v}</sup>${esc(v.t).replace(/\n/g, "<br>")}</span>${sel ? verseBar(ref) : ""} `;
+        const speaking = TTS.active && TTS.verses[TTS.idx]?.ref === ref;
+        return `<span class="verse ${sel ? "sel" : ""} ${speaking ? "speaking" : ""}" data-act="tapVerse" data-ref="${esc(ref)}" data-tr="${esc(c.translation)}"><sup>${v.v}</sup>${esc(v.t).replace(/\n/g, "<br>")}</span>${sel ? verseBar(ref) : ""} `;
       }).join("")}</p>
     </div>`;
   }
@@ -437,8 +448,10 @@
     return `<span class="verse-bar"><button class="btn-sm ${saved ? "" : "btn-primary"}" data-act="saveVerse" ${saved ? "disabled" : ""}>${saved ? "♥ saved" : "♥ Save verse"}</button><button class="btn-sm" data-act="verseToPrayer">🙏 Pray this</button><button class="btn-sm" data-act="copyVerse">copy</button><button class="btn-sm btn-ghost" data-act="tapVerse" data-ref="${esc(ref)}">✕</button></span>`;
   }
 
+  let lastChunk = null;
   async function mountReader(chunk) {
     const el = $("#reader"); if (!el || !chunk?.length) return;
+    lastChunk = chunk;
     try {
       const chapters = await Promise.all(chunk.map((c) => getChapter(c.book, c.ch)));
       if (!$("#reader")) return;
@@ -910,6 +923,78 @@
     return `<select ${attrs}><option value="">— no group —</option>${groups().map((g) => `<option value="${g.id}" ${g.id === current ? "selected" : ""}>${esc(g.name)}</option>`).join("")}</select>`;
   }
 
+  // ------------------------------------------------------------ READ ALOUD (speech synthesis → same mini-bar)
+  const TTS = { active: false, paused: false, verses: [], idx: 0, rate: 1, title: "", voice: null };
+  const ttsOk = () => "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+  function pickVoice() {
+    try {
+      const vs = speechSynthesis.getVoices().filter((v) => /^en[-_]/i.test(v.lang));
+      const pref = ["Samantha", "Daniel", "Karen", "Moira", "Google UK English Male", "Google US English", "Microsoft Aria", "Microsoft Guy"];
+      for (const n of pref) { const hit = vs.find((v) => v.name.includes(n)); if (hit) return hit; }
+      return vs.find((v) => v.default) || vs[0] || null;
+    } catch (e) { return null; }
+  }
+  if (ttsOk()) { speechSynthesis.onvoiceschanged = () => { TTS.voice = pickVoice(); }; TTS.voice = pickVoice(); }
+  function ttsUI() {
+    const bar = $("#player"); if (!bar) return;
+    bar.hidden = !TTS.active && !P.src;
+    document.body.classList.toggle("has-player", TTS.active || !!P.src);
+    if (!TTS.active) return;
+    $("#player-toggle").textContent = TTS.paused ? "▶" : "❚❚";
+    $("#player-title").textContent = `🔊 ${TTS.title}`;
+    $("#player-speed").textContent = `${TTS.rate}×`;
+    $("#player-cur").textContent = `v${TTS.verses[TTS.idx]?.v ?? ""}`;
+    $("#player-dur").textContent = `${TTS.verses.length}`;
+    const seek = $("#player-seek"); seek.max = Math.max(1, TTS.verses.length - 1); seek.value = TTS.idx;
+    $$(".verse.speaking").forEach((el) => el.classList.remove("speaking"));
+    const cur = TTS.verses[TTS.idx]; const el = cur && document.querySelector(`.verse[data-ref="${CSS.escape(cur.ref)}"]`);
+    if (el) { el.classList.add("speaking"); if (el.getBoundingClientRect().bottom > window.innerHeight - 160) el.scrollIntoView({ behavior: "smooth", block: "center" }); }
+  }
+  function speakFrom(i) {
+    TTS.idx = i;
+    speechSynthesis.cancel();
+    const v = TTS.verses[i];
+    if (!v) { TTS.active = false; ttsUI(); playerUI(); toast("End of passage"); return; }
+    const u = new SpeechSynthesisUtterance(v.text);
+    u.rate = TTS.rate; u.lang = "en"; if (TTS.voice) u.voice = TTS.voice;
+    const myGen = ++TTS.gen;
+    u.onend = () => { if (TTS.active && TTS.gen === myGen && !TTS.paused) speakFrom(TTS.idx + 1); };
+    u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") { console.warn("tts", e.error); toast("Read-aloud stopped"); TTS.active = false; ttsUI(); playerUI(); } };
+    TTS.utter = u; // keep a reference (Chrome garbage-collects otherwise)
+    speechSynthesis.speak(u);
+    ttsUI();
+  }
+  function startTTS(chapters) {
+    if (!ttsOk()) return toast("Read-aloud isn’t supported in this browser");
+    if (P.src) { audio.pause(); }
+    TTS.verses = [];
+    chapters.forEach((c) => {
+      TTS.verses.push({ ref: `${displayBook(c.book)} ${c.chapter}:0`, v: "", text: `${displayBook(c.book)}, chapter ${c.chapter}.` });
+      c.verses.forEach((x) => TTS.verses.push({ ref: `${displayBook(c.book)} ${c.chapter}:${x.v}`, v: x.v, text: x.t.replace(/\n/g, ", ") }));
+    });
+    TTS.title = chapters.map((c) => `${displayBook(c.book)} ${c.chapter}`).join(", ") + ` (${chapters[0].translation})`;
+    TTS.active = true; TTS.paused = false; TTS.gen = TTS.gen || 0;
+    try { navigator.wakeLock?.request("screen").then((l) => (TTS.lock = l)).catch(() => {}); } catch (e) {}
+    speakFrom(0);
+    render(); ttsUI();
+  }
+  function stopTTS(silent) {
+    if (!TTS.active) return;
+    TTS.active = false; TTS.paused = false; TTS.gen = (TTS.gen || 0) + 1;
+    try { speechSynthesis.cancel(); } catch (e) {}
+    TTS.lock?.release?.().catch(() => {}); TTS.lock = null;
+    $$(".verse.speaking").forEach((el) => el.classList.remove("speaking"));
+    ttsUI(); if (!silent) playerUI();
+  }
+  ACT.listen = async () => {
+    if (TTS.active) return stopTTS();
+    const chunk = lastChunk; if (!chunk) return toast("Open a chapter first");
+    try { const chapters = await Promise.all(chunk.map((c) => getChapter(c.book, c.ch))); startTTS(chapters); }
+    catch (e) { console.error("read-aloud failed", e); toast("Read-aloud failed: " + (e.message || e)); }
+  };
+  // Keep iOS Safari from stalling long sessions: nudge the synthesizer periodically.
+  setInterval(() => { if (TTS.active && !TTS.paused && speechSynthesis.paused) speechSynthesis.resume(); }, 5000);
+
   // ------------------------------------------------------------ PODCAST PLAYER (persistent mini-bar)
   const P = { src: null, title: "", source: "", playing: false, speed: 1, seeking: false };
   const audio = $("#audio");
@@ -917,14 +1002,17 @@
   const posKey = (src) => "abide.pos." + src.slice(-80);
   function playerUI() {
     const bar = $("#player"); if (!bar) return;
+    if (TTS.active) { ttsUI(); return; }
     bar.hidden = !P.src;
     document.body.classList.toggle("has-player", !!P.src);
     $("#player-toggle").textContent = P.playing ? "❚❚" : "▶";
     $("#player-title").textContent = P.title ? `${P.title} — ${P.source}` : "";
     $("#player-speed").textContent = `${P.speed}×`;
+    $("#player-seek").max = 1000;
   }
   function playEpisode(item, source) {
     if (!audio) return;
+    stopTTS(true);
     if (P.src === item.audio) { P.playing ? audio.pause() : audio.play().catch(() => {}); return; }
     P.src = item.audio; P.title = item.title; P.source = source.name;
     audio.src = item.audio; audio.playbackRate = P.speed;
@@ -953,12 +1041,24 @@
       if (Math.floor(audio.currentTime) % 5 === 0) { try { localStorage.setItem(posKey(P.src), String(Math.floor(audio.currentTime))); } catch (e) {} }
     });
     audio.addEventListener("error", () => { if (P.src) toast("Audio failed to load"); });
-    $("#player-toggle").addEventListener("click", () => { P.playing ? audio.pause() : audio.play().catch(() => {}); });
-    $("#player-close").addEventListener("click", () => { audio.pause(); audio.removeAttribute("src"); audio.load(); P.src = null; P.playing = false; playerUI(); if (location.hash.startsWith("#devotional")) render(); });
-    $("#player-speed").addEventListener("click", () => { const sp = [1, 1.25, 1.5, 2]; P.speed = sp[(sp.indexOf(P.speed) + 1) % sp.length]; audio.playbackRate = P.speed; playerUI(); });
+    $("#player-toggle").addEventListener("click", () => {
+      if (TTS.active) {
+        if (TTS.paused) { TTS.paused = false; speakFrom(TTS.idx); } else { TTS.paused = true; speechSynthesis.cancel(); ttsUI(); }
+        return;
+      }
+      P.playing ? audio.pause() : audio.play().catch(() => {});
+    });
+    $("#player-close").addEventListener("click", () => {
+      if (TTS.active) { stopTTS(); return; }
+      audio.pause(); audio.removeAttribute("src"); audio.load(); P.src = null; P.playing = false; playerUI(); if (location.hash.startsWith("#devotional")) render();
+    });
+    $("#player-speed").addEventListener("click", () => {
+      if (TTS.active) { const rs = [0.9, 1, 1.1, 1.25, 1.5]; TTS.rate = rs[(rs.indexOf(TTS.rate) + 1) % rs.length]; if (!TTS.paused) speakFrom(TTS.idx); else ttsUI(); return; }
+      const sp = [1, 1.25, 1.5, 2]; P.speed = sp[(sp.indexOf(P.speed) + 1) % sp.length]; audio.playbackRate = P.speed; playerUI();
+    });
     const seek = $("#player-seek");
-    seek.addEventListener("input", () => { P.seeking = true; $("#player-cur").textContent = fmtTime((seek.value / 1000) * (audio.duration || 0)); });
-    seek.addEventListener("change", () => { P.seeking = false; if (audio.duration) audio.currentTime = (seek.value / 1000) * audio.duration; });
+    seek.addEventListener("input", () => { if (TTS.active) { $("#player-cur").textContent = `v${TTS.verses[+seek.value]?.v ?? ""}`; return; } P.seeking = true; $("#player-cur").textContent = fmtTime((seek.value / 1000) * (audio.duration || 0)); });
+    seek.addEventListener("change", () => { if (TTS.active) { TTS.paused = false; speakFrom(+seek.value); return; } P.seeking = false; if (audio.duration) audio.currentTime = (seek.value / 1000) * audio.duration; });
   }
   ACT.play = (el) => {
     const src = S.feed.sources.find((x) => x.id === el.dataset.src);
@@ -1318,6 +1418,7 @@
           <details><summary>Show notes</summary>
             <dl class="recap-body">
               ${C.recapQuestions.filter((q) => r.answers?.[q.key]).map((q) => `<dt>${esc(q.label)}</dt><dd>${esc(r.answers[q.key])}</dd>`).join("")}
+              ${Object.entries(r.answers || {}).filter(([k, v]) => v && !C.recapQuestions.some((q) => q.key === k)).map(([k, v]) => `<dt>${esc({ gospel: "How it pointed to Jesus", struck: "What struck me", apply: "One thing I will do" }[k] || k)}</dt><dd>${esc(v)}</dd>`).join("")}
             </dl>
           </details>
         </div>`).join("")}
@@ -1337,10 +1438,9 @@
           </label>
           <label class="field"><span>Date</span><input type="date" id="r-date" value="${esc(r.date)}"></label>
         </div>
-        <label class="field"><span>Title / topic</span><input type="text" id="r-title" value="${esc(r.title)}" placeholder="e.g. The prodigal son"></label>
         <div class="grid-2">
+          <label class="field"><span>Title</span><input type="text" id="r-title" value="${esc(r.title)}" placeholder="e.g. The prodigal son"></label>
           <label class="field"><span>Passage</span><input type="text" id="r-passage" value="${esc(r.passage)}" placeholder="Luke 15:11–32"></label>
-          <label class="field"><span>Speaker / leader</span><input type="text" id="r-speaker" value="${esc(r.speaker)}" placeholder="optional"></label>
         </div>
         ${C.recapQuestions.map((q) => `
           <label class="field">
@@ -1349,7 +1449,7 @@
           </label>`).join("")}
         <div class="row">
           <button class="btn-primary" data-act="saveRecap">Save recap</button>
-          <span class="tiny">If you filled in “something to pray about”, it becomes a prayer point too.</span>
+          <span class="tiny">The prayer line becomes a prayer point too.</span>
         </div>
       </div>
     </div>`;
@@ -1357,10 +1457,11 @@
 
   ACT.saveRecap = () => {
     const f = $("#recap-form");
+    const existing0 = S.data.recaps[f.dataset.id];
     const r = {
       id: f.dataset.id, created: f.dataset.created || nowIso(),
       type: $("#r-type").value, date: $("#r-date").value || today(),
-      title: $("#r-title").value.trim(), passage: $("#r-passage").value.trim(), speaker: $("#r-speaker").value.trim(),
+      title: $("#r-title").value.trim(), passage: $("#r-passage").value.trim(), speaker: ($("#r-speaker")?.value || existing0?.speaker || "").trim(),
       answers: {},
     };
     $$("[data-q]").forEach((t) => (r.answers[t.dataset.q] = t.value.trim()));
@@ -1423,6 +1524,11 @@
           : `<p>Sign in with Google to sync across devices. Data already on this device will be uploaded on first sign-in.</p><button class="btn-primary" data-act="signIn">Sign in with Google</button>`}
       </div>
       <div class="card">
+        <div class="eyebrow">Your name</div>
+        <div class="row"><input type="text" id="name-input" value="${esc(settings().name || "")}" placeholder="${esc(userName() || "Your name")}" style="flex:1"><button class="btn-sm" data-act="saveName">Save</button></div>
+        <div class="tiny" style="margin-top:6px">Used for the greeting. ${S.user ? "Saved with your Google account." : "Saved on this device."}</div>
+      </div>
+      <div class="card">
         <div class="eyebrow">Prayer groups &amp; weekly rotation</div>
         <p class="small muted">Each group gets a focus day in Supplication. Sunday is left free on purpose — pray for whoever is on your heart.</p>
         ${groups().map((g, i) => `
@@ -1476,6 +1582,12 @@
   };
   ACT.signIn = signIn;
   ACT.signOut = signOut;
+  ACT.saveName = () => {
+    const n = ($("#name-input")?.value || "").trim();
+    if (!n) return toast("Type a name first");
+    settings().name = n; saveSettings(); toast(`Welcome, ${n}`); render();
+  };
+  document.addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.id === "name-input") { e.preventDefault(); ACT.saveName(); } });
   ACT.saveEsvKey = () => { const k = ($("#esv-key")?.value || "").trim(); settings().esvKey = k || null; Object.keys(readerCache).forEach((x) => delete readerCache[x]); saveSettings(); toast(k ? "ESV key saved" : "Key cleared"); };
   ACT.clearEsvKey = () => { settings().esvKey = null; Object.keys(readerCache).forEach((x) => delete readerCache[x]); saveSettings(); toast("Key removed — showing WEB"); };
   function ensureGroups() { if (!settings().groups) settings().groups = JSON.parse(JSON.stringify(C.defaultGroups)); return settings().groups; }

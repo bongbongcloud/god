@@ -130,10 +130,8 @@ window.CONTENT = {
   ],
 
   recapQuestions: [
-    { key: "main", label: "Main point in one sentence", hint: "If someone asked what it was about, what would you say?" },
-    { key: "gospel", label: "How did it point to Jesus?", hint: "Where was the gospel — not just the moral?" },
-    { key: "struck", label: "What struck me / what I want to remember", hint: "A phrase, a verse, a picture, a question." },
-    { key: "apply", label: "One thing I will do or believe differently", hint: "Small and specific." },
-    { key: "pray", label: "Something to pray about from this", hint: "Turn it into a prayer point (optional)." },
+    { key: "main", label: "Main point", hint: "What was it about, in a sentence or two?" },
+    { key: "purpose", label: "Purpose", hint: "Why it matters — what it calls me to believe or do." },
+    { key: "pray", label: "Prayer (optional)", hint: "Turn it into a prayer point." },
   ],
 };

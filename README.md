@@ -72,8 +72,9 @@ Edit the `SOURCES` list at the top of `scripts/fetch_feeds.py` to add or remove 
 | Ask Pastor John — John Piper | https://feed.desiringgod.org/ask-pastor-john.rss |
 | Gospel in Life — Tim Keller | https://podcast.gospelinlife.com/feed.xml |
 | In Touch Daily Devotions — Charles Stanley | Omny podcast feed (see script) |
-| Truth For Life daily program — Alistair Begg | https://feeds.feedburner.com/TruthForLife |
-| Morning & Evening — Spurgeon (Truth For Life) | https://feeds.feedburner.com/TruthForLifeDailyDevotional |
+| Alistair Begg Devotional — Truth For Life | https://feeds.feedburner.com/truthforlife/alistairbeggdevotionalpodcast |
+| Pray the Word — David Platt | https://rss.buzzsprout.com/112848.rss |
+| For the Gospel — Costi Hinn | https://rss.buzzsprout.com/1447756.rss |
 
 To test locally: `python3 scripts/fetch_feeds.py` then `python3 -m http.server` and open http://localhost:8000. If a feed fails one morning the script keeps the previous day's items for that source and marks it with ⚠ on the Read page.
 
@@ -106,7 +107,14 @@ Chapters now display inline on the Bible tab and in a free reader (`#read/<Book>
 
 **Podcast player.** On the Devotional page, ▶ next to an episode plays it in a mini-bar above the tabs that keeps playing while you read, pray or write. Play/pause, seek, 1×/1.25×/1.5×/2× speed, lock-screen controls (Media Session) and resume-where-you-left-off. Playing an episode also makes it today's devotional pick. Tapping the title still opens the source page.
 
-## 7. Making it yours
+## 7. v4.1
+
+- **Name prompt.** First open asks for a first name (saved on the device, or with the Google account when signed in); Settings → Your name to change it. Two people sharing one phone should each sign in with Google so prayer lists stay separate.
+- **Read aloud.** 🔊 in the reader speaks the chapter using the phone's built-in voice (Web Speech API — no download, works offline), in the same mini-bar: pause/resume, speed, and the seek bar jumps by verse; the verse being read is highlighted. On iPhone the screen is kept awake while reading; iOS pauses speech if you lock the screen, so on the road keep the phone unlocked in a mount or use CarPlay-friendly podcasts instead.
+- **Simpler recap:** type, date, title, passage, main point, purpose, optional prayer. Old recaps with the previous questions still display.
+- **Blue palette** (light and dark), new icon colour.
+
+## 8. Making it yours
 
 - **Plans, groups, prompts and verses** live in `content.js` (`plans`, `defaultGroups`, `acts`, `verses`, `lens`) — add your own ACTS prompts, change the gospel-lens questions, add verses (the app rotates one per day).
 - **Greeting name** is in `routes.home` in `app.js`.

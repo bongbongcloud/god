@@ -2,7 +2,7 @@
 //  - App shell (html/js/css): NETWORK FIRST, cache fallback → an online phone always runs the latest build.
 //  - Bible chapters: CACHE FIRST (they never change) → offline reading.
 //  - feed.json: network first, cache fallback.
-const VERSION = "abide-v4.0";
+const VERSION = "abide-v4.1";
 const SHELL = ["./", "./index.html", "./style.css", "./app.js", "./content.js", "./firebase-config.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", (e) => {
