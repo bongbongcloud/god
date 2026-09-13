@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T23:08:29.484077+00:00",
+  "generated": "2026-09-13T23:18:20.383080+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "7 Reasons Not to Worry, Part 3",
+          "link": "https://feed.desiringgod.org/link/18331/17311010/7-reasons-not-to-worry-part-3",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180913-en-7-reasons-not-to-worry-part-3.mp3?ts=1776698761&year=2026",
+          "summary": "God will see to it that you are not tested in any given day more than you can bear.",
+          "duration": "00:05:18",
+          "date": "2026-09-13T10:00:00+00:00"
+        },
         {
           "title": "7 Reasons Not to Worry, Part 2",
           "link": "https://feed.desiringgod.org/link/18331/17311011/7-reasons-not-to-worry-part-2",
@@ -54,17 +62,9 @@
           "summary": "Fear not. Your adversaries can do no more than God grants. And he will grant you the faith you need. Those are gospel promises.",
           "duration": "00:03:41",
           "date": "2026-09-07T10:00:00+00:00"
-        },
-        {
-          "title": "Present and Powerful Love",
-          "link": "https://feed.desiringgod.org/link/18331/17311017/present-and-powerful-love",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180906-en-present-and-powerful-love.mp3?ts=1776698378&year=2026",
-          "summary": "Nothing will separate us from the love of Christ because Christ is alive and is still loving us right now.",
-          "duration": "00:04:31",
-          "date": "2026-09-06T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:26.327855+00:00",
+      "fetched": "2026-09-13T23:18:16.917342+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-08-24T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:28.204100+00:00",
+      "fetched": "2026-09-13T23:18:18.492906+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-08-31T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:28.863013+00:00",
+      "fetched": "2026-09-13T23:18:19.056146+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Failure in Faith",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/failure-in-faith",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/08a5e194-ffd1-4ab5-898e-b475010d3402/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Failure can be the turning point where we set aside our pride and follow God wholeheartedly. See omnystudio.com/listener for privacy information.",
+          "duration": "217",
+          "date": "2026-09-13T04:00:00+00:00"
+        },
         {
           "title": "Confidence in Prayer",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/confidence-in-prayer",
@@ -236,17 +244,9 @@
           "summary": "Following God often takes us through unfamiliar territory, but He is faithful to lead us into His good plans. See omnystudio.com/listener for privacy information.",
           "duration": "116",
           "date": "2026-09-07T04:00:00+00:00"
-        },
-        {
-          "title": "A Call to Commitment",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/a-call-to-commitment",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/4ebe87cb-63c3-4017-977d-b46d01188f91/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "The Lord will equip you with everything needed for carrying out His will. See omnystudio.com/listener for privacy information.",
-          "duration": "291",
-          "date": "2026-09-06T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:28.923503+00:00",
+      "fetched": "2026-09-13T23:18:19.407533+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "How Long? Why?",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/13/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0913_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-09-13T07:00:00+00:00"
+        },
         {
           "title": "He Brought Us Forth",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/12/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-07T07:00:00+00:00"
-        },
-        {
-          "title": "The Consequences of Jealousy",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/6/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0906_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-06T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:29.383763+00:00",
+      "fetched": "2026-09-13T23:18:20.002160+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Called to Faith and Obedience (2 Kings 13:18–19)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19755564-called-to-faith-and-obedience-2-kings-13-18-19.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19755564-called-to-faith-and-obedience-2-kings-13-18-19.mp3",
+          "summary": "In this episode of Pray the Word on 2 Kings 13:18–19, David Platt urges us to trust God completely and follow his commands without holding back. Explore more content from Radical.",
+          "duration": "316",
+          "date": "2026-09-13T07:00:00+00:00"
+        },
         {
           "title": "Faith Across Generations (2 Kings 11:1)",
           "link": "https://www.buzzsprout.com/112848/episodes/19751029-faith-across-generations-2-kings-11-1.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Kings 6:17, David Platt asks God to help us understand the spiritual world around us. Explore more content from Radical.",
           "duration": "418",
           "date": "2026-09-07T07:00:00+00:00"
-        },
-        {
-          "title": "Wholehearted Love for God (2 Kings 5:15)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19738674-wholehearted-love-for-god-2-kings-5-15.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19738674-wholehearted-love-for-god-2-kings-5-15.mp3",
-          "summary": "In this episode of Pray the Word on 2 Kings 5:15, David Platt reflects on loving God above all else and worshiping him alone. Explore more content from Radical.",
-          "duration": "266",
-          "date": "2026-09-06T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:29.443014+00:00",
+      "fetched": "2026-09-13T23:18:20.244122+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-10T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-12T23:08:29.483996+00:00",
+      "fetched": "2026-09-13T23:18:20.382981+00:00",
       "error": null
     }
   ]
