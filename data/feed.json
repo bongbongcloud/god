@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T23:56:36.585953+00:00",
+  "generated": "2026-09-15T23:35:09.589689+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Only Enduring Happiness",
+          "link": "https://feed.desiringgod.org/link/18331/17311008/the-only-enduring-happiness",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180915-en-the-only-enduring-happiness.mp3?ts=1776698859&year=2026",
+          "summary": "Two things have to be true if your joy is never to be taken from you. One is that the source of your joy lasts forever and the other is that you last forever.",
+          "duration": "00:02:59",
+          "date": "2026-09-15T10:00:00+00:00"
+        },
         {
           "title": "God Will Supply All Your Needs",
           "link": "https://feed.desiringgod.org/link/18331/17311009/god-will-supply-all-your-needs",
@@ -54,17 +62,9 @@
           "summary": "If you treated your salvation no longer as a gift, but as a purchase, God would no longer be the free benefactor.",
           "duration": "00:02:39",
           "date": "2026-09-09T10:00:00+00:00"
-        },
-        {
-          "title": "How to Repay God",
-          "link": "https://feed.desiringgod.org/link/18331/17311015/how-to-repay-god",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180908-en-how-to-repay-god.mp3?ts=1776698457&year=2026",
-          "summary": "You can’t give anything to God or do anything for God that he hasn’t first given to you and done for you.",
-          "duration": "00:04:32",
-          "date": "2026-09-08T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:32.961126+00:00",
+      "fetched": "2026-09-15T23:35:06.114628+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-08-27T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:34.733478+00:00",
+      "fetched": "2026-09-15T23:35:07.809815+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-02T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:35.242201+00:00",
+      "fetched": "2026-09-15T23:35:08.412916+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Do Not Be Afraid",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/do-not-be-afraid",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/860bdc96-d6f6-4975-ab8f-b47800d22002/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "When you fall to the ground, Jesus is there to pull you back to your feet. See omnystudio.com/listener for privacy information.",
+          "duration": "158",
+          "date": "2026-09-15T04:00:00+00:00"
+        },
         {
           "title": "Abiding in the Lord",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/abiding-in-the-lord",
@@ -236,17 +244,9 @@
           "summary": "The entire Trinity works in our salvation, giving us the comfort of complete assurance. See omnystudio.com/listener for privacy information.",
           "duration": "177",
           "date": "2026-09-09T04:00:00+00:00"
-        },
-        {
-          "title": "God Honors Our Devotion to Him",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/god-honors-our-devotion-to-him",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/18c0d27d-bb91-47d5-91ad-b475010e5c7d/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Being faithful to the Lord may put us at odds with the world, but the reward of His delight is always worth it. See omnystudio.com/listener for privacy information.",
-          "duration": "246",
-          "date": "2026-09-08T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:35.556824+00:00",
+      "fetched": "2026-09-15T23:35:08.747102+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Advantage of Weakness",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/15/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0915_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-09-15T07:00:00+00:00"
+        },
         {
           "title": "Sharing in Service",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/14/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-09T07:00:00+00:00"
-        },
-        {
-          "title": "Rejoicing Always",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/8/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0908_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-08T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:36.162066+00:00",
+      "fetched": "2026-09-15T23:35:09.129438+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Complete Obedience to God (2 Kings 15:3–4)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19767509-complete-obedience-to-god-2-kings-15-3-4.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19767509-complete-obedience-to-god-2-kings-15-3-4.mp3",
+          "summary": "In this episode of Pray the Word on 2 Kings 15:3–4, David Platt challenges Christians to fully obey God’s call without holding back. Explore more content from Radical.",
+          "duration": "291",
+          "date": "2026-09-15T07:00:00+00:00"
+        },
         {
           "title": "Salvation from Sin (2 Kings 14:27)",
           "link": "https://www.buzzsprout.com/112848/episodes/19756972-salvation-from-sin-2-kings-14-27.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Kings 8:19, David Platt praises God for his faithfulness despite our unfaithfulness. Explore more content from Radical.",
           "duration": "287",
           "date": "2026-09-09T07:00:00+00:00"
-        },
-        {
-          "title": "Feasting on God's Word (2 Kings 7:9)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19747224-feasting-on-god-s-word-2-kings-7-9.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19747224-feasting-on-god-s-word-2-kings-7-9.mp3",
-          "summary": "In this episode of Pray the Word on 2 Kings 7:9, David Platt urges Christians to rejoice in God’s grace and to share the gospel. Explore more content from Radical.",
-          "duration": "299",
-          "date": "2026-09-08T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:36.461881+00:00",
+      "fetched": "2026-09-15T23:35:09.410275+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-17T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-14T23:56:36.585863+00:00",
+      "fetched": "2026-09-15T23:35:09.589590+00:00",
       "error": null
     }
   ]
