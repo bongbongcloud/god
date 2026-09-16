@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15T23:35:09.589689+00:00",
+  "generated": "2026-09-16T23:43:24.889378+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Soul’s Final Feast",
+          "link": "https://feed.desiringgod.org/link/18331/17311007/the-souls-final-feast",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180916-en-the-soul-s-final-feast.mp3?ts=1776698924&year=2026",
+          "summary": "To see God, and know him, and be in his presence is the soul’s final feast.",
+          "duration": "00:03:10",
+          "date": "2026-09-16T10:00:00+00:00"
+        },
         {
           "title": "The Only Enduring Happiness",
           "link": "https://feed.desiringgod.org/link/18331/17311008/the-only-enduring-happiness",
@@ -54,17 +62,9 @@
           "summary": "The way you fight the good fight for faith is by meditating on God’s assurances of future grace and by asking for the help of his Spirit.",
           "duration": "00:03:29",
           "date": "2026-09-10T10:00:00+00:00"
-        },
-        {
-          "title": "Grace Must Be Free",
-          "link": "https://feed.desiringgod.org/link/18331/17311014/grace-must-be-free",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180909-en-grace-must-be-free.mp3?ts=1776698486&year=2026",
-          "summary": "If you treated your salvation no longer as a gift, but as a purchase, God would no longer be the free benefactor.",
-          "duration": "00:02:39",
-          "date": "2026-09-09T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:06.114628+00:00",
+      "fetched": "2026-09-16T23:43:21.396012+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-08-27T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:07.809815+00:00",
+      "fetched": "2026-09-16T23:43:23.347969+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "House of God (Part 3)",
+          "link": "http://podcast.gospelinlife.com/e/house-of-god-part-3/",
+          "audio": "https://mcdn.podbean.com/mf/web/faypfzp2naxrp523/260916_HouseOfGodPart3.mp3",
+          "summary": "In the Book of Ephesians, the apostle Paul calls Christians stones of a holy temple “built on the foundation of the apostles and prophets…” But what does it really mean that these figures of the early church are our foundation, and why is it important? By studying the apostles and prophets’ teachings in the Word of…",
+          "duration": "2513",
+          "date": "2026-09-16T10:00:00+00:00"
+        },
         {
           "title": "House of God (Part 2)",
           "link": "http://podcast.gospelinlife.com/e/house-of-god-part-2/",
@@ -170,17 +178,9 @@
           "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on March 7, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 2:11-18. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
           "duration": "2523",
           "date": "2026-09-04T13:34:01+00:00"
-        },
-        {
-          "title": "Brought Near (Part 2)",
-          "link": "http://podcast.gospelinlife.com/e/brought-near-part-2/",
-          "audio": "https://mcdn.podbean.com/mf/web/uur3intyje5k5yiw/260902_BroughtNearPart2.mp3",
-          "summary": "When we consider what it means to be “close to God,” it’s likely we think of the religious as near to him and non-churchgoers as far away. But Paul tells us that no matter how close we seem, we are all equally estranged from God until we call Christ our Savior. As the Book of Ephesians points out, the real question…",
-          "duration": "2034",
-          "date": "2026-09-02T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:08.412916+00:00",
+      "fetched": "2026-09-16T23:43:24.033635+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "The God Who Pursues",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-god-who-pursues",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/87ee32e8-7ba0-4c06-82ef-b47800d233bc/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Drifting from God’s calling doesn’t hinder His sovereignty; rather, it reveals His persistence in pursuing us. See omnystudio.com/listener for privacy information.",
+          "duration": "272",
+          "date": "2026-09-16T04:00:00+00:00"
+        },
         {
           "title": "Do Not Be Afraid",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/do-not-be-afraid",
@@ -236,17 +244,9 @@
           "summary": "Though sin may beckon, God has equipped us with the power to resist temptation. See omnystudio.com/listener for privacy information.",
           "duration": "148",
           "date": "2026-09-10T04:00:00+00:00"
-        },
-        {
-          "title": "What's Required for Salvation?",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/whats-required-for-salvation",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/a5734cd6-4005-4d6a-bd83-b475010d2e14/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "The entire Trinity works in our salvation, giving us the comfort of complete assurance. See omnystudio.com/listener for privacy information.",
-          "duration": "177",
-          "date": "2026-09-09T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:08.747102+00:00",
+      "fetched": "2026-09-16T23:43:24.165004+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Eternal Dividends",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/16/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0916_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-09-16T07:00:00+00:00"
+        },
         {
           "title": "The Advantage of Weakness",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/15/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-10T07:00:00+00:00"
-        },
-        {
-          "title": "The Humble Servant",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/9/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0909_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-09T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:09.129438+00:00",
+      "fetched": "2026-09-16T23:43:24.595887+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Confronting Abortion (2 Kings 16:2–3)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19767701-confronting-abortion-2-kings-16-2-3.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19767701-confronting-abortion-2-kings-16-2-3.mp3",
+          "summary": "In this episode of Pray the Word on 2 Kings 16:2–3, David Platt urges believers to pray and act with compassion for vulnerable children. Explore more content from Radical.",
+          "duration": "226",
+          "date": "2026-09-16T07:00:00+00:00"
+        },
         {
           "title": "Complete Obedience to God (2 Kings 15:3–4)",
           "link": "https://www.buzzsprout.com/112848/episodes/19767509-complete-obedience-to-god-2-kings-15-3-4.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Kings 9:3, David Platt reflects on God’s sovereign control over history and the fulfillment of his promises. Explore more content from Radical.",
           "duration": "285",
           "date": "2026-09-10T07:00:00+00:00"
-        },
-        {
-          "title": "Unfailing Grace (2 Kings 8:19)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19747374-unfailing-grace-2-kings-8-19.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19747374-unfailing-grace-2-kings-8-19.mp3",
-          "summary": "In this episode of Pray the Word on 2 Kings 8:19, David Platt praises God for his faithfulness despite our unfaithfulness. Explore more content from Radical.",
-          "duration": "287",
-          "date": "2026-09-09T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:09.410275+00:00",
+      "fetched": "2026-09-16T23:43:24.788909+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-17T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-15T23:35:09.589590+00:00",
+      "fetched": "2026-09-16T23:43:24.889288+00:00",
       "error": null
     }
   ]
