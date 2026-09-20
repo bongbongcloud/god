@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T23:19:02.877229+00:00",
+  "generated": "2026-09-20T23:21:12.684085+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Not Nearly Hedonistic Enough",
+          "link": "https://feed.desiringgod.org/link/18331/17311003/not-nearly-hedonistic-enough",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180920-en-not-nearly-hedonistic-enough.mp3?ts=1776699165&year=2026",
+          "summary": "The Lord has spoken: It is more blessed to love than to live in luxury! More blessed now, and forever.",
+          "duration": "00:02:34",
+          "date": "2026-09-20T10:00:00+00:00"
+        },
         {
           "title": "Our Unspeakable Privilege",
           "link": "https://feed.desiringgod.org/link/18331/17311004/our-unspeakable-privilege",
@@ -54,17 +62,9 @@
           "summary": "If we live by faith in God’s promise of future grace, it will be very hard for anxiety to survive.",
           "duration": "00:02:40",
           "date": "2026-09-14T10:00:00+00:00"
-        },
-        {
-          "title": "7 Reasons Not to Worry, Part 3",
-          "link": "https://feed.desiringgod.org/link/18331/17311010/7-reasons-not-to-worry-part-3",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180913-en-7-reasons-not-to-worry-part-3.mp3?ts=1776698761&year=2026",
-          "summary": "God will see to it that you are not tested in any given day more than you can bear.",
-          "duration": "00:05:18",
-          "date": "2026-09-13T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:18:59.856496+00:00",
+      "fetched": "2026-09-20T23:21:10.545228+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-08-31T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:19:01.425446+00:00",
+      "fetched": "2026-09-20T23:21:11.729888+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-09T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:19:01.796881+00:00",
+      "fetched": "2026-09-20T23:21:11.975120+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "When Light Meets Darkness",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-light-meets-darkness",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/212da31f-d33e-45a7-89fa-b47800d10fe9/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Facing persecution allows us the opportunity to be a witness in a powerful way. See omnystudio.com/listener for privacy information.",
+          "duration": "159",
+          "date": "2026-09-20T04:00:00+00:00"
+        },
         {
           "title": "An Invaluable Gift",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/an-invaluable-gift",
@@ -236,17 +244,9 @@
           "summary": "The abiding life isn’t about impressing God—it’s about surrendering all to Him. See omnystudio.com/listener for privacy information.",
           "duration": "150",
           "date": "2026-09-14T04:00:00+00:00"
-        },
-        {
-          "title": "Failure in Faith",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/failure-in-faith",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/08a5e194-ffd1-4ab5-898e-b475010d3402/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Failure can be the turning point where we set aside our pride and follow God wholeheartedly. See omnystudio.com/listener for privacy information.",
-          "duration": "217",
-          "date": "2026-09-13T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:19:02.030835+00:00",
+      "fetched": "2026-09-20T23:21:12.289602+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Admitting We Are Poor",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/20/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0920_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-09-20T07:00:00+00:00"
+        },
         {
           "title": "A Sacrifice from the Heart",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/19/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-14T07:00:00+00:00"
-        },
-        {
-          "title": "How Long? Why?",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/13/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0913_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-13T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:19:02.584897+00:00",
+      "fetched": "2026-09-20T23:21:12.508967+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Selfless Love (2 Kings 20:19)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19768786-selfless-love-2-kings-20-19.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19768786-selfless-love-2-kings-20-19.mp3",
+          "summary": "In this episode of Pray the Word on 2 Kings 20:19, David Platt calls us to genuinely care for the needs of others. Explore more content from Radical.",
+          "duration": "293",
+          "date": "2026-09-20T07:00:00+00:00"
+        },
         {
           "title": "Saved by God (2 Kings 19:19)",
           "link": "https://www.buzzsprout.com/112848/episodes/19768588-saved-by-god-2-kings-19-19.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Kings 14:27, David Platt shows how Jesus’ death for our sins brings forgiveness and reconciliation with God. Explore more content from Radical.",
           "duration": "220",
           "date": "2026-09-14T07:00:00+00:00"
-        },
-        {
-          "title": "Called to Faith and Obedience (2 Kings 13:18–19)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19755564-called-to-faith-and-obedience-2-kings-13-18-19.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19755564-called-to-faith-and-obedience-2-kings-13-18-19.mp3",
-          "summary": "In this episode of Pray the Word on 2 Kings 13:18–19, David Platt urges us to trust God completely and follow his commands without holding back. Explore more content from Radical.",
-          "duration": "316",
-          "date": "2026-09-13T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:19:02.761345+00:00",
+      "fetched": "2026-09-20T23:21:12.641932+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-17T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-19T23:19:02.877132+00:00",
+      "fetched": "2026-09-20T23:21:12.684024+00:00",
       "error": null
     }
   ]
