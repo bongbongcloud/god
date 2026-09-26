@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T23:59:57.332162+00:00",
+  "generated": "2026-09-26T23:44:21.379551+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Live Confident in God’s Sovereign Power",
+          "link": "https://feed.desiringgod.org/link/18331/17310997/live-confident-in-gods-sovereign-power",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180926-en-live-confident-in-god-s-sovereign-power.mp3?ts=1776699407&year=2026",
+          "summary": "Confidence in God’s absolute control is the source and power of radical obedience to the call of God.",
+          "duration": "00:02:24",
+          "date": "2026-09-26T10:00:00+00:00"
+        },
         {
           "title": "Life Hangs on the Word of God",
           "link": "https://feed.desiringgod.org/link/18331/17310998/life-hangs-on-the-word-of-god",
@@ -54,17 +62,9 @@
           "summary": "The Lord has spoken: It is more blessed to love than to live in luxury! More blessed now, and forever.",
           "duration": "00:02:34",
           "date": "2026-09-20T10:00:00+00:00"
-        },
-        {
-          "title": "Our Unspeakable Privilege",
-          "link": "https://feed.desiringgod.org/link/18331/17311004/our-unspeakable-privilege",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180919-en-our-unspeakable-privilege.mp3?ts=1776698827&year=2026",
-          "summary": "In Jesus Christ we who are born of God have the unspeakable privilege of knowing Yahweh as our Father.",
-          "duration": "00:02:55",
-          "date": "2026-09-19T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:55.156070+00:00",
+      "fetched": "2026-09-26T23:44:19.486392+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-09-07T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:56.326327+00:00",
+      "fetched": "2026-09-26T23:44:20.674167+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-16T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:56.541756+00:00",
+      "fetched": "2026-09-26T23:44:20.766774+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Source of Guilt",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-source-of-guilt",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/0859aaa3-a7a1-4913-a7bb-b47b01773dd9/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "There are two forms of guilt: One leads us into hiding, whereas the other leads us to repentance,.",
+          "duration": "136",
+          "date": "2026-09-26T04:00:00+00:00"
+        },
         {
           "title": "What Is Guilt?",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/what-is-guilt",
@@ -236,17 +244,9 @@
           "summary": "Facing persecution allows us the opportunity to be a witness in a powerful way. See omnystudio.com/listener for privacy information.",
           "duration": "159",
           "date": "2026-09-20T04:00:00+00:00"
-        },
-        {
-          "title": "An Invaluable Gift",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/an-invaluable-gift",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/4a2bfd95-34eb-4753-9032-b47800d2339c/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Scripture is a life-changing treasure. How can we make it a priority in our daily life? See omnystudio.com/listener for privacy information.",
-          "duration": "126",
-          "date": "2026-09-19T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:56.751700+00:00",
+      "fetched": "2026-09-26T23:44:21.010425+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Speck and the Log",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/26/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0926_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-09-26T07:00:00+00:00"
+        },
         {
           "title": "The Immensity of Forgiveness",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/25/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-20T07:00:00+00:00"
-        },
-        {
-          "title": "A Sacrifice from the Heart",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/19/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0919_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-19T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:57.159055+00:00",
+      "fetched": "2026-09-26T23:44:21.245612+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Faithfulness & Restoration in Marriage (1 Chronicles 3:9)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19794586-faithfulness-restoration-in-marriage-1-chronicles-3-9.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19794586-faithfulness-restoration-in-marriage-1-chronicles-3-9.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 3:9, David Platt reflects on the global need for reconciliation and faithfulness in marriage. Explore more content from Radical.",
+          "duration": "352",
+          "date": "2026-09-26T07:00:00+00:00"
+        },
         {
           "title": "No One Like Jesus (1 Chronicles 1:1–4)",
           "link": "https://www.buzzsprout.com/112848/episodes/19794410-no-one-like-jesus-1-chronicles-1-1-4.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Kings 20:19, David Platt calls us to genuinely care for the needs of others. Explore more content from Radical.",
           "duration": "293",
           "date": "2026-09-20T07:00:00+00:00"
-        },
-        {
-          "title": "Saved by God (2 Kings 19:19)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19768588-saved-by-god-2-kings-19-19.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19768588-saved-by-god-2-kings-19-19.mp3",
-          "summary": "In this episode of Pray the Word on 2 Kings 19:19, David Platt reminds us that God saves us for his glory and our good. Explore more content from Radical.",
-          "duration": "328",
-          "date": "2026-09-19T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:57.259245+00:00",
+      "fetched": "2026-09-26T23:44:21.338275+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-24T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-09-25T23:59:57.332085+00:00",
+      "fetched": "2026-09-26T23:44:21.379448+00:00",
       "error": null
     }
   ]
