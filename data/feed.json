@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T00:40:12.456548+00:00",
+  "generated": "2026-10-02T00:59:13.302182+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The All-Satisfying Object",
+          "link": "https://feed.desiringgod.org/link/18331/17310992/the-all-satisfying-object",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181001-en-the-all-satisfying-object.mp3?ts=1776702652&year=2026",
+          "summary": "The quest for joy is not optional, but commanded.",
+          "duration": "00:02:58",
+          "date": "2026-10-01T10:00:00+00:00"
+        },
         {
           "title": "The Most Liberating Discovery",
           "link": "https://feed.desiringgod.org/link/18331/17310993/the-most-liberating-discovery",
@@ -54,17 +62,9 @@
           "summary": "The Bible is no empty word. It is your very life — the foundation and kindling of your joy!",
           "duration": "00:03:15",
           "date": "2026-09-25T10:00:00+00:00"
-        },
-        {
-          "title": "Jesus’s Pursuit of Joy",
-          "link": "https://feed.desiringgod.org/link/18331/17310999/jesuss-pursuit-of-joy",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180924-en-jesus-s-pursuit-of-joy.mp3?ts=1776699312&year=2026",
-          "summary": "What sustained Christ in the dark hours of Gethsemane was the hope of joy beyond the cross.",
-          "duration": "00:03:01",
-          "date": "2026-09-24T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:09.503699+00:00",
+      "fetched": "2026-10-02T00:59:10.012483+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Gospel Before Jesus Died",
+          "link": "https://feed.desiringgod.org/link/10715/17483030/the-gospel-before-jesus-died",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17849/media/86f2d0a8-21b4-4de0-a398-90fef54f0f99/20261001-en-the-gospel-before-jesus-died.mp3?ts=1789487147",
+          "summary": "Did Jesus preach the gospel before his death and resurrection? Pastor John calls us to a deeper understanding of God as Creator and King, and Jesus as Lord and Savior.",
+          "duration": "00:14:04",
+          "date": "2026-10-01T10:00:00+00:00"
+        },
         {
           "title": "The Perils of a Quick Fix",
           "link": "https://feed.desiringgod.org/link/10715/17476114/the-perils-of-a-quick-fix",
@@ -112,17 +120,9 @@
           "summary": "Jesus endured unspeakable agony at the cross. Pastor John marvels at the force of his love sustained by expectant joy.",
           "duration": "00:13:01",
           "date": "2026-09-14T10:00:00+00:00"
-        },
-        {
-          "title": "The Barrier to Doctrinal Maturity",
-          "link": "https://feed.desiringgod.org/link/10715/17444184/the-barrier-to-doctrinal-maturity",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17755/media/d64c53cd-a0cd-40f1-accb-148f5fad084b/20260910-en-the-barrier-to-doctrinal-maturity.mp3?ts=1788816104",
-          "summary": "Is the Bible accessible only to readers with a high IQ? Pastor John reframes biblical maturity as a moral issue centered on our obedience, not our intellect.",
-          "duration": "00:12:35",
-          "date": "2026-09-10T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:10.911881+00:00",
+      "fetched": "2026-10-02T00:59:11.900342+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-19T22:50:25+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:11.338140+00:00",
+      "fetched": "2026-10-02T00:59:12.566004+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "When Compromise Creeps In",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-compromise-creeps-in",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/8e7fcaca-348f-4f9a-9d69-b49c01202416/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Sin has a way of pulling us farther than we planned, but no believer is beyond the reach of God's grace.",
+          "duration": "241",
+          "date": "2026-10-01T04:00:00+00:00"
+        },
         {
           "title": "Faithful With What He's Given",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/faithful-with-what-hes-given",
@@ -236,17 +244,9 @@
           "summary": "Your sins have been paid for. So go and live freely in the joy of salvation.",
           "duration": "150",
           "date": "2026-09-25T04:00:00+00:00"
-        },
-        {
-          "title": "No Condemnation in Christ",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/no-condemnation-in-christ",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/9a985e66-f4c9-408e-9c68-b47b01785087/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "When God looks at those who have put their faith in Him, He sees the righteousness of Christ.",
-          "duration": "136",
-          "date": "2026-09-24T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:11.666946+00:00",
+      "fetched": "2026-10-02T00:59:12.691668+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Body and Soul",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/1/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1001_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-01T07:00:00+00:00"
+        },
         {
           "title": "One Mind, One Purpose, One Spirit",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/30/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-25T07:00:00+00:00"
-        },
-        {
-          "title": "Speak Life, Not Condemnation",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/24/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0924_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-24T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:12.183594+00:00",
+      "fetched": "2026-10-02T00:59:12.989152+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Trust and Obey (1 Chronicles 10:13–14)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19822484-trust-and-obey-1-chronicles-10-13-14.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19822484-trust-and-obey-1-chronicles-10-13-14.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 10:13–14, David Platt encourages us to be faithful to God's commands. Explore more content from Radical.",
+          "duration": "276",
+          "date": "2026-10-01T07:00:00+00:00"
+        },
         {
           "title": "Christ's Surpassing Worth (1 Chronicles 8:40)",
           "link": "https://www.buzzsprout.com/112848/episodes/19818772-christ-s-surpassing-worth-1-chronicles-8-40.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 1:1–4, David Platt points us to Christ’s unique role in God’s redemptive story. Explore more content from Radical.",
           "duration": "431",
           "date": "2026-09-25T07:00:00+00:00"
-        },
-        {
-          "title": "God's Loving Discipline (2 Kings 25:21)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19784842-god-s-loving-discipline-2-kings-25-21.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19784842-god-s-loving-discipline-2-kings-25-21.mp3",
-          "summary": "In this episode of Pray the Word on 2 Kings 25:21, David Platt calls us to respond to God's discipline with humble repentance. Explore more content from Radical.",
-          "duration": "335",
-          "date": "2026-09-24T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:12.361656+00:00",
+      "fetched": "2026-10-02T00:59:13.198262+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-31T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-01T00:40:12.456489+00:00",
+      "fetched": "2026-10-02T00:59:13.302092+00:00",
       "error": null
     }
   ]
