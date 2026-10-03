@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T00:59:13.302182+00:00",
+  "generated": "2026-10-03T00:36:23.646999+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "God Isn’t Gloomy",
+          "link": "https://feed.desiringgod.org/link/18331/17310991/god-isnt-gloomy",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181002-en-god-isn-t-gloomy.mp3?ts=1776702695&year=2026",
+          "summary": "If none of God’s purposes can be frustrated, then he must be the happiest of all beings.",
+          "duration": "00:03:48",
+          "date": "2026-10-02T10:00:00+00:00"
+        },
         {
           "title": "The All-Satisfying Object",
           "link": "https://feed.desiringgod.org/link/18331/17310992/the-all-satisfying-object",
@@ -54,17 +62,9 @@
           "summary": "Confidence in God’s absolute control is the source and power of radical obedience to the call of God.",
           "duration": "00:02:24",
           "date": "2026-09-26T10:00:00+00:00"
-        },
-        {
-          "title": "Life Hangs on the Word of God",
-          "link": "https://feed.desiringgod.org/link/18331/17310998/life-hangs-on-the-word-of-god",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180925-en-life-hangs-on-the-word-of-god.mp3?ts=1776699351&year=2026",
-          "summary": "The Bible is no empty word. It is your very life — the foundation and kindling of your joy!",
-          "duration": "00:03:15",
-          "date": "2026-09-25T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:10.012483+00:00",
+      "fetched": "2026-10-03T00:36:21.394928+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-09-14T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:11.900342+00:00",
+      "fetched": "2026-10-03T00:36:22.551916+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Love and the Practical Graces",
+          "link": "http://podcast.gospelinlife.com/e/love-and-the-practical-graces-1790887015/",
+          "audio": "https://mcdn.podbean.com/mf/web/8pzkjwkqjucsqdnb/261002_LoveAndThePracticalGraces.mp3",
+          "summary": "The city of Corinth was a place of commerce. Nobody went there except to be successful. It was built from scratch just a few decades before Paul’s letter was written. There were not old families and traditions. This was a place that attracted an unusually resourceful, talented, ambitious, intense kind of person. And…",
+          "duration": "2934",
+          "date": "2026-10-02T10:00:00+00:00"
+        },
         {
           "title": "Secret of Our Discontent (Open Forum)",
           "link": "http://podcast.gospelinlife.com/e/secret-of-our-discontent-open-forum/",
@@ -170,17 +178,9 @@
           "summary": "We sometimes think becoming a Christian is something that has to take a lot of time and effort. As we consider what we believe, it can be easy to feel as if we’re somewhere between “not a believer” and “someone saved by Christ.” But the Bible gives us a different interpretation: we are either strangers to this world…",
           "duration": "2114",
           "date": "2026-09-21T10:00:00+00:00"
-        },
-        {
-          "title": "The Stories We Live By",
-          "link": "http://podcast.gospelinlife.com/e/the-stories-we-live-by/",
-          "audio": "https://mcdn.podbean.com/mf/web/iajwmz3bivtrmdht/260919_TheStoriesWeLiveBy_v27pbsd.mp3",
-          "summary": "Get the new book The Stories We Live By this month as our thanks for your gift at gospelinlife.com/give.This video is an excerpt from session 1 of a group study that has also been created to complement the new book. The Stories We Live By Bible Study Guide releases Nov 3rd, but can be pre-ordered today from…",
-          "duration": "823",
-          "date": "2026-09-19T22:50:25+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:12.566004+00:00",
+      "fetched": "2026-10-03T00:36:22.820534+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Avoiding Compromise",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/avoiding-compromise",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/9f166793-c489-4c68-b7e1-b49c012012b4/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "God's Word is our safeguard against the temptation to compromise, leading us on the path of His will.",
+          "duration": "153",
+          "date": "2026-10-02T04:00:00+00:00"
+        },
         {
           "title": "When Compromise Creeps In",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-compromise-creeps-in",
@@ -236,17 +244,9 @@
           "summary": "There are two forms of guilt: One leads us into hiding, whereas the other leads us to repentance,.",
           "duration": "136",
           "date": "2026-09-26T04:00:00+00:00"
-        },
-        {
-          "title": "What Is Guilt?",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/what-is-guilt",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/0fb37784-350e-4f05-8671-b47b0177befe/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Your sins have been paid for. So go and live freely in the joy of salvation.",
-          "duration": "150",
-          "date": "2026-09-25T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:12.691668+00:00",
+      "fetched": "2026-10-03T00:36:23.127389+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Promise of Restoration",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/2/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1002_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-02T07:00:00+00:00"
+        },
         {
           "title": "Body and Soul",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/1/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-26T07:00:00+00:00"
-        },
-        {
-          "title": "The Immensity of Forgiveness",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/25/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0925_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-25T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:12.989152+00:00",
+      "fetched": "2026-10-03T00:36:23.395672+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Jesus Is Our Shepherd-King (1 Chronicles 11:2)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19865420-jesus-is-our-shepherd-king-1-chronicles-11-2.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19865420-jesus-is-our-shepherd-king-1-chronicles-11-2.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 11:2, David Platt teaches that Jesus leads, protects, and cares for his people. Explore more content from Radical.",
+          "duration": "348",
+          "date": "2026-10-02T07:00:00+00:00"
+        },
         {
           "title": "Trust and Obey (1 Chronicles 10:13–14)",
           "link": "https://www.buzzsprout.com/112848/episodes/19822484-trust-and-obey-1-chronicles-10-13-14.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 3:9, David Platt reflects on the global need for reconciliation and faithfulness in marriage. Explore more content from Radical.",
           "duration": "352",
           "date": "2026-09-26T07:00:00+00:00"
-        },
-        {
-          "title": "No One Like Jesus (1 Chronicles 1:1–4)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19794410-no-one-like-jesus-1-chronicles-1-1-4.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19794410-no-one-like-jesus-1-chronicles-1-1-4.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 1:1–4, David Platt points us to Christ’s unique role in God’s redemptive story. Explore more content from Radical.",
-          "duration": "431",
-          "date": "2026-09-25T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:13.198262+00:00",
+      "fetched": "2026-10-03T00:36:23.574144+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-31T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-02T00:59:13.302092+00:00",
+      "fetched": "2026-10-03T00:36:23.646905+00:00",
       "error": null
     }
   ]
