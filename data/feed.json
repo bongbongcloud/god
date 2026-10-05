@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T23:58:48.456917+00:00",
+  "generated": "2026-10-05T00:03:18.856558+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Joy Unbound",
+          "link": "https://feed.desiringgod.org/link/18331/17310989/joy-unbound",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181004-en-joy-unbound.mp3?ts=1776702781&year=2026",
+          "summary": "Imagine being able to enjoy what is most enjoyable with unbounded energy and passion forever. One day, God’s delight in his Son will be in us.",
+          "duration": "00:03:15",
+          "date": "2026-10-04T10:00:00+00:00"
+        },
         {
           "title": "Absolute, Sovereign, Almighty Love",
           "link": "https://feed.desiringgod.org/link/18331/17310990/absolute-sovereign-almighty-love",
@@ -54,17 +62,9 @@
           "summary": "God’s greatest interest is to glorify the wealth of his grace by making sinners happy in him.",
           "duration": "00:04:16",
           "date": "2026-09-28T10:00:00+00:00"
-        },
-        {
-          "title": "The Power of a Superior Promise",
-          "link": "https://feed.desiringgod.org/link/18331/17310996/the-power-of-a-superior-promise",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180927-en-the-power-of-a-superior-promise.mp3?ts=1776699441&year=2026",
-          "summary": "The truth of Christ frees us from the slavery of sin, for the freedom of holiness.",
-          "duration": "00:03:29",
-          "date": "2026-09-27T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:45.375217+00:00",
+      "fetched": "2026-10-05T00:03:15.667318+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-09-14T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:47.267132+00:00",
+      "fetched": "2026-10-05T00:03:17.343766+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-21T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:47.873743+00:00",
+      "fetched": "2026-10-05T00:03:17.815286+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "An Ever-Present Helper",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/an-ever-present-helper",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/8aad29d0-dc07-4bef-9cc0-b49c01202c60/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Whatever today holds, God has given every believer direct access to His help through the Holy Spirit.",
+          "duration": "124",
+          "date": "2026-10-04T04:00:00+00:00"
+        },
         {
           "title": "Spiritual Maturity",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/spiritual-maturity",
@@ -236,17 +244,9 @@
           "summary": "As believers, we're called to be sensitive to and considerate of those who are new to faith.",
           "duration": "137",
           "date": "2026-09-28T04:00:00+00:00"
-        },
-        {
-          "title": "Uniting Belief and Behavior",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/uniting-belief-and-behavior",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/3243c8ac-b518-45c4-a5ac-b47b0177c752/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "When genuine faith is the foundation of our belief and behavior, it becomes noticeable to those around us.",
-          "duration": "135",
-          "date": "2026-09-27T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:47.922087+00:00",
+      "fetched": "2026-10-05T00:03:18.122913+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Shaky Rock",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/4/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1004_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-04T07:00:00+00:00"
+        },
         {
           "title": "Devoted to the Word of God",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/3/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-28T07:00:00+00:00"
-        },
-        {
-          "title": "Known by Their Fruit",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/27/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0927_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-27T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:48.326851+00:00",
+      "fetched": "2026-10-05T00:03:18.592309+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Living by the Word (1 Chronicles 15:13–15)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19906239-living-by-the-word-1-chronicles-15-13-15.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19906239-living-by-the-word-1-chronicles-15-13-15.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 15:13–15, David Platt challenges Christians to consider if they are honoring God with their lives. Explore more content from Radical.",
+          "duration": "349",
+          "date": "2026-10-04T07:00:00+00:00"
+        },
         {
           "title": "The Seriousness of Sin (1 Chronicles 13:10)",
           "link": "https://www.buzzsprout.com/112848/episodes/19901897-the-seriousness-of-sin-1-chronicles-13-10.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 6:31–32, David Platt explains the spiritual significance of singing as a form of worship. Explore more content from Radical.",
           "duration": "313",
           "date": "2026-09-28T07:00:00+00:00"
-        },
-        {
-          "title": "Ask Boldly (1 Chronicles 4:10)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19810356-ask-boldly-1-chronicles-4-10.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19810356-ask-boldly-1-chronicles-4-10.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 4:10, David Platt encourages Christians to ask God boldly and humbly for his blessing. Explore more content from Radical.",
-          "duration": "371",
-          "date": "2026-09-27T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:48.406169+00:00",
+      "fetched": "2026-10-05T00:03:18.769187+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-08-31T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-03T23:58:48.456843+00:00",
+      "fetched": "2026-10-05T00:03:18.856486+00:00",
       "error": null
     }
   ]
