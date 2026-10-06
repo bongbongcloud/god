@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T00:03:18.856558+00:00",
+  "generated": "2026-10-06T01:49:25.435305+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Justice Will Be Done",
+          "link": "https://feed.desiringgod.org/link/18331/17310988/justice-will-be-done",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181005-en-justice-will-be-done.mp3?ts=1776702814&year=2026",
+          "summary": "When you lay down the burden of vengeance, God will pick it up.",
+          "duration": "00:04:04",
+          "date": "2026-10-05T10:00:00+00:00"
+        },
         {
           "title": "Joy Unbound",
           "link": "https://feed.desiringgod.org/link/18331/17310989/joy-unbound",
@@ -54,17 +62,9 @@
           "summary": "Take up the Bible, ask the Holy Spirit for help, lay the promises up in your heart, and fight the good fight — to live by faith in future grace.",
           "duration": "00:03:17",
           "date": "2026-09-29T10:00:00+00:00"
-        },
-        {
-          "title": "Our Good Is His Glory",
-          "link": "https://feed.desiringgod.org/link/18331/17310995/our-good-is-his-glory",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180928-en-our-good-is-his-glory.mp3?ts=1776699193&year=2026",
-          "summary": "God’s greatest interest is to glorify the wealth of his grace by making sinners happy in him.",
-          "duration": "00:04:16",
-          "date": "2026-09-28T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:15.667318+00:00",
+      "fetched": "2026-10-06T01:49:21.974272+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "When You’re Not Sorry",
+          "link": "https://feed.desiringgod.org/link/10715/17489411/when-youre-not-sorry",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17858/media/c7a7e5ac-8f1f-4cd1-b2cf-6ee0534ed4f3/20261005-en-when-you-re-not-sorry.mp3?ts=1789487388",
+          "summary": "When someone confronts you wrongly, should you apologize? Pastor John encourages humility and reconciliation without giving in to emotional manipulation.",
+          "duration": "00:12:25",
+          "date": "2026-10-05T10:00:00+00:00"
+        },
         {
           "title": "The Gospel Before Jesus Died",
           "link": "https://feed.desiringgod.org/link/10715/17483030/the-gospel-before-jesus-died",
@@ -112,17 +120,9 @@
           "summary": "Gathering with other Christians is a crucial way to encourage and be encouraged in Christ. But do we really need to gather every week?",
           "duration": "00:12:55",
           "date": "2026-09-17T10:00:00+00:00"
-        },
-        {
-          "title": "The Joy That Sustained Jesus",
-          "link": "https://feed.desiringgod.org/link/10715/17461425/the-joy-that-sustained-jesus",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17761/media/ad1a9f74-403e-4fb6-94a6-af912719ad61/20260914-en-the-joy-that-sustained-jesus.mp3?ts=1788816104",
-          "summary": "Jesus endured unspeakable agony at the cross. Pastor John marvels at the force of his love sustained by expectant joy.",
-          "duration": "00:13:01",
-          "date": "2026-09-14T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:17.343766+00:00",
+      "fetched": "2026-10-06T01:49:23.931738+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Forgiving Grace",
+          "link": "http://podcast.gospelinlife.com/e/forgiving-grace-1790972093/",
+          "audio": "https://mcdn.podbean.com/mf/web/edyxmhvrmtq86tp5/261005_ForgivingGrace.mp3",
+          "summary": "Morally virtuous behavior can arise out of a heart that hasn’t actually been supernaturally changed. For example, in traditional moral training, we teach people to be honest by using a motive of fear and insecurity. But only for a heart that feels absolutely loved is lying unnecessary and unnatural. It’s only an…",
+          "duration": "2775",
+          "date": "2026-10-05T10:00:00+00:00"
+        },
         {
           "title": "Love and the Practical Graces",
           "link": "http://podcast.gospelinlife.com/e/love-and-the-practical-graces-1790887015/",
@@ -170,17 +178,9 @@
           "summary": "As we find ourselves discouraged with our circumstances in life, we usually react in one of three ways. We might harden ourselves by saying life is unfair and we should get used to it, we might be overcome by despair, or we might simply believe everything will get better for us soon. The apostle Paul shows us there’s…",
           "duration": "2519",
           "date": "2026-09-23T10:00:00+00:00"
-        },
-        {
-          "title": "Politics of the Kingdom",
-          "link": "http://podcast.gospelinlife.com/e/politics-of-the-kingdom/",
-          "audio": "https://mcdn.podbean.com/mf/web/97k93qkhtsqqmr2c/260921_PoliticsOfTheKingdom.mp3",
-          "summary": "We sometimes think becoming a Christian is something that has to take a lot of time and effort. As we consider what we believe, it can be easy to feel as if we’re somewhere between “not a believer” and “someone saved by Christ.” But the Bible gives us a different interpretation: we are either strangers to this world…",
-          "duration": "2114",
-          "date": "2026-09-21T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:17.815286+00:00",
+      "fetched": "2026-10-06T01:49:24.373349+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Our Helper in Prayer",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/our-helper-in-prayer-1",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/222aaf43-4fec-4461-80f6-b49c011ffae8/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Sometimes praying feels hard. But we can pray with confidence, knowing the Spirit intercedes for us.",
+          "duration": "123",
+          "date": "2026-10-05T04:00:00+00:00"
+        },
         {
           "title": "An Ever-Present Helper",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/an-ever-present-helper",
@@ -236,17 +244,9 @@
           "summary": "What are the qualities we should look for in an accountability partner?",
           "duration": "176",
           "date": "2026-09-29T04:00:00+00:00"
-        },
-        {
-          "title": "Freedom That Considers Others",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/freedom-that-considers-others",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/f3cb1baa-241b-4268-b8ed-b4960118dcc4/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "As believers, we're called to be sensitive to and considerate of those who are new to faith.",
-          "duration": "137",
-          "date": "2026-09-28T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:18.122913+00:00",
+      "fetched": "2026-10-06T01:49:24.672660+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Spirit-Filled Boldness",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/5/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1005_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-05T07:00:00+00:00"
+        },
         {
           "title": "The Shaky Rock",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/4/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-09-29T07:00:00+00:00"
-        },
-        {
-          "title": "Evidence of Genuine Faith",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/28/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0928_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-28T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:18.592309+00:00",
+      "fetched": "2026-10-06T01:49:25.162527+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Seek the Lord (1 Chronicles 16:10–11)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19909925-seek-the-lord-1-chronicles-16-10-11.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19909925-seek-the-lord-1-chronicles-16-10-11.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 16:10–11, David Platt illustrates what it means to seek God truly. Explore more content from Radical.",
+          "duration": "258",
+          "date": "2026-10-05T07:00:00+00:00"
+        },
         {
           "title": "Living by the Word (1 Chronicles 15:13–15)",
           "link": "https://www.buzzsprout.com/112848/episodes/19906239-living-by-the-word-1-chronicles-15-13-15.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 7:27, David Platt encourages us to surrender our lives to God’s purposes. Explore more content from Radical.",
           "duration": "394",
           "date": "2026-09-29T07:00:00+00:00"
-        },
-        {
-          "title": "The Power of Worship (1 Chronicles 6:31–32)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19810507-the-power-of-worship-1-chronicles-6-31-32.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19810507-the-power-of-worship-1-chronicles-6-31-32.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 6:31–32, David Platt explains the spiritual significance of singing as a form of worship. Explore more content from Radical.",
-          "duration": "313",
-          "date": "2026-09-28T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:18.769187+00:00",
+      "fetched": "2026-10-06T01:49:25.319217+00:00",
       "error": null
     },
     {
@@ -387,6 +387,14 @@
       "speaker": "Costi Hinn",
       "kind": "listen",
       "items": [
+        {
+          "title": "You Can Know God But Never Master Him",
+          "link": "https://www.buzzsprout.com/1447756/episodes/19902214-you-can-know-god-but-never-master-him.mp3",
+          "audio": "https://www.buzzsprout.com/1447756/episodes/19902214-you-can-know-god-but-never-master-him.mp3",
+          "summary": "In this episode, Costi Hinn explains what it means for God to be incomprehensible. God is infinitely greater than our minds can comprehend, yet He has made Himself truly knowable through His Word and ultimately through Jesus Christ.",
+          "duration": "1098",
+          "date": "2026-10-05T09:00:00+00:00"
+        },
         {
           "title": "Your View of God Shapes Everything",
           "link": "https://www.buzzsprout.com/1447756/episodes/19865418-your-view-of-god-shapes-everything.mp3",
@@ -418,17 +426,9 @@
           "summary": "In this episode, Costi Hinn explores El Gibbor, the Mighty God, and what this name reveals about the strength, sovereignty, and victory of God. When life feels bigger than you, remember: you don’t have to be strong enough. Your God is.",
           "duration": "1046",
           "date": "2026-09-07T09:00:00+00:00"
-        },
-        {
-          "title": "The God Who Sees You",
-          "link": "https://www.buzzsprout.com/1447756/episodes/19708796-the-god-who-sees-you.mp3",
-          "audio": "https://www.buzzsprout.com/1447756/episodes/19708796-the-god-who-sees-you.mp3",
-          "summary": "In this episode, Costi Hinn explores the name El Roi—the God who sees me. Through the story of Hagar, we’re reminded that God sees us in our pain, our struggles, and the moments when everyone else overlooks us. But His seeing also means He sees our sin, our motives, and our private lives. El Roi brings both comfort…",
-          "duration": "802",
-          "date": "2026-08-31T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-05T00:03:18.856486+00:00",
+      "fetched": "2026-10-06T01:49:25.435222+00:00",
       "error": null
     }
   ]
