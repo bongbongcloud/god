@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T00:53:47.252754+00:00",
+  "generated": "2026-10-08T01:10:46.989362+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "We Wait, He Works",
+          "link": "https://feed.desiringgod.org/link/18331/17310986/we-wait-he-works",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181007-en-we-wait-he-works.mp3?ts=1776702938&year=2026",
+          "summary": "Be freed from the burden of bearing your own load. Let God do that work. God loves to show his God-ness by working for us.",
+          "duration": "00:03:53",
+          "date": "2026-10-07T10:00:00+00:00"
+        },
         {
           "title": "The Happy God",
           "link": "https://feed.desiringgod.org/link/18331/17310987/the-happy-god",
@@ -54,17 +62,9 @@
           "summary": "The quest for joy is not optional, but commanded.",
           "duration": "00:02:58",
           "date": "2026-10-01T10:00:00+00:00"
-        },
-        {
-          "title": "The Most Liberating Discovery",
-          "link": "https://feed.desiringgod.org/link/18331/17310993/the-most-liberating-discovery",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20180930-en-the-most-liberating-discovery.mp3?ts=1776699571&year=2026",
-          "summary": "Joy is not a mere option alongside worship. It is an essential component of worship.",
-          "duration": "00:03:42",
-          "date": "2026-09-30T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:45.020813+00:00",
+      "fetched": "2026-10-08T01:10:37.525748+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-09-17T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:46.292996+00:00",
+      "fetched": "2026-10-08T01:10:44.526707+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Befriending Grace",
+          "link": "http://podcast.gospelinlife.com/e/befriending-grace-1791217099/",
+          "audio": "https://mcdn.podbean.com/mf/web/d9eee6tq5nufpi5q/261007_BefriendingGrace.mp3",
+          "summary": "Every religion in the world gives you a list of virtuous behaviors. But the New Testament gives you something different. It does give you a list, but it’s of aspects of how a supernaturally, grace-changed heart shows itself. The apostle Paul says it’s possible to do all the morally virtuous behavior without any love…",
+          "duration": "2829",
+          "date": "2026-10-07T10:00:00+00:00"
+        },
         {
           "title": "Forgiving Grace",
           "link": "http://podcast.gospelinlife.com/e/forgiving-grace-1790972093/",
@@ -170,17 +178,9 @@
           "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on August 22, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 3:14-21. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
           "duration": "2920",
           "date": "2026-09-25T10:00:00+00:00"
-        },
-        {
-          "title": "Paul’s Detour",
-          "link": "http://podcast.gospelinlife.com/e/paul-s-detour/",
-          "audio": "https://mcdn.podbean.com/mf/web/66dcth2artwdj7j9/260923_PaulsDetour.mp3",
-          "summary": "As we find ourselves discouraged with our circumstances in life, we usually react in one of three ways. We might harden ourselves by saying life is unfair and we should get used to it, we might be overcome by despair, or we might simply believe everything will get better for us soon. The apostle Paul shows us there’s…",
-          "duration": "2519",
-          "date": "2026-09-23T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:46.369934+00:00",
+      "fetched": "2026-10-08T01:10:45.122967+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Why Isn’t God Speaking?",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/why-isn-t-god-speaking",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/18992b60-f086-4d95-aa68-b49e00e0731f/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "There is a purpose in God's silence—He wants to teach us and bring our focus back to Him.",
+          "duration": "121",
+          "date": "2026-10-07T04:00:00+00:00"
+        },
         {
           "title": "When God Is Silent",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-god-is-silent",
@@ -236,17 +244,9 @@
           "summary": "Sin has a way of pulling us farther than we planned, but no believer is beyond the reach of God's grace.",
           "duration": "241",
           "date": "2026-10-01T04:00:00+00:00"
-        },
-        {
-          "title": "Faithful With What He's Given",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/faithful-with-what-hes-given",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/88c84892-fc9b-4b7a-848a-b49b00f39e1e/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Being a good steward means taking what God has given you and investing it in His kingdom.",
-          "duration": "256",
-          "date": "2026-09-30T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:46.645044+00:00",
+      "fetched": "2026-10-08T01:10:45.471169+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "A Distinguished Life",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/7/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1007_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-07T07:00:00+00:00"
+        },
         {
           "title": "The Doctrine of Scripture",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/6/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-01T07:00:00+00:00"
-        },
-        {
-          "title": "One Mind, One Purpose, One Spirit",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/9/30/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/0930_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-09-30T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:47.054553+00:00",
+      "fetched": "2026-10-08T01:10:45.917517+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Strength to Serve (1 Chronicles 19:13)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19922371-strength-to-serve-1-chronicles-19-13.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19922371-strength-to-serve-1-chronicles-19-13.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 19:13, David Platt urges us to seek the good of others through God’s strength in us. Explore more content from Radical.",
+          "duration": "247",
+          "date": "2026-10-07T07:00:00+00:00"
+        },
         {
           "title": "Undeserved Grace (1 Chronicles 17:16)",
           "link": "https://www.buzzsprout.com/112848/episodes/19915047-undeserved-grace-1-chronicles-17-16.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 10:13–14, David Platt encourages us to be faithful to God's commands. Explore more content from Radical.",
           "duration": "276",
           "date": "2026-10-01T07:00:00+00:00"
-        },
-        {
-          "title": "Christ's Surpassing Worth (1 Chronicles 8:40)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19818772-christ-s-surpassing-worth-1-chronicles-8-40.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19818772-christ-s-surpassing-worth-1-chronicles-8-40.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 8:40, David Platt emphasizes the incomparable worth of knowing Jesus Christ over any worldly achievement. Explore more content from Radical.",
-          "duration": "337",
-          "date": "2026-09-30T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:47.202116+00:00",
+      "fetched": "2026-10-08T01:10:46.531601+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-07T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-07T00:53:47.252668+00:00",
+      "fetched": "2026-10-08T01:10:46.989287+00:00",
       "error": null
     }
   ]
