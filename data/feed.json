@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T01:10:46.989362+00:00",
+  "generated": "2026-10-09T01:19:06.216490+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Our Good Is God’s Delight",
+          "link": "https://feed.desiringgod.org/link/18331/17310985/our-good-is-gods-delight",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181008-en-our-good-is-god-s-delight.mp3?ts=1776703138&year=2026",
+          "summary": "All the omnipotent energy that drives the heart of God to pursue his own glory also drives him to satisfy the hearts of those who seek their joy in him.",
+          "duration": "00:02:43",
+          "date": "2026-10-08T10:00:00+00:00"
+        },
         {
           "title": "We Wait, He Works",
           "link": "https://feed.desiringgod.org/link/18331/17310986/we-wait-he-works",
@@ -54,17 +62,9 @@
           "summary": "If none of God’s purposes can be frustrated, then he must be the happiest of all beings.",
           "duration": "00:03:48",
           "date": "2026-10-02T10:00:00+00:00"
-        },
-        {
-          "title": "The All-Satisfying Object",
-          "link": "https://feed.desiringgod.org/link/18331/17310992/the-all-satisfying-object",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181001-en-the-all-satisfying-object.mp3?ts=1776702652&year=2026",
-          "summary": "The quest for joy is not optional, but commanded.",
-          "duration": "00:02:58",
-          "date": "2026-10-01T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:37.525748+00:00",
+      "fetched": "2026-10-09T01:19:03.016739+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Marriage Miracle That Takes Time",
+          "link": "https://feed.desiringgod.org/link/10715/17492022/the-marriage-miracle-that-takes-time",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17879/media/f77a6ad8-eb37-4156-8ba0-ebb2f320d476/20261008-en-the-marriage-miracle-that-takes-time.mp3?ts=1789487737",
+          "summary": "Loving our spouses for better or worse includes loving them through their spiritual apathy. Pastor John gives ten encouragements for the weary.",
+          "duration": "00:12:48",
+          "date": "2026-10-08T10:00:00+00:00"
+        },
         {
           "title": "When You’re Not Sorry",
           "link": "https://feed.desiringgod.org/link/10715/17489411/when-youre-not-sorry",
@@ -112,17 +120,9 @@
           "summary": "Rigorous exposition isn’t at odds with engaging preaching. Pastor John encourages pastors to work for creativity when technical, abstract sermons feel easier.",
           "duration": "00:13:28",
           "date": "2026-09-21T10:00:00+00:00"
-        },
-        {
-          "title": "Do We Need to Go to Church Every Week?",
-          "link": "https://feed.desiringgod.org/link/10715/17464404/do-we-need-to-go-to-church-every-week",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17811/media/fe91c4d7-73a1-44bc-b331-010bd6cc7a5d/20260917-en-do-we-need-to-go-to-church-every-week.mp3?ts=1788946069",
-          "summary": "Gathering with other Christians is a crucial way to encourage and be encouraged in Christ. But do we really need to gather every week?",
-          "duration": "00:12:55",
-          "date": "2026-09-17T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:44.526707+00:00",
+      "fetched": "2026-10-09T01:19:04.535838+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-25T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:45.122967+00:00",
+      "fetched": "2026-10-09T01:19:05.017152+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Praying Through the Silence",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/praying-through-the-silence",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/8d3da531-3d26-4fa8-8873-b49c01201e7b/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "In the moments when God seems silent, keep praying and let His presence bring you peace.",
+          "duration": "115",
+          "date": "2026-10-08T04:00:00+00:00"
+        },
         {
           "title": "Why Isn’t God Speaking?",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/why-isn-t-god-speaking",
@@ -236,17 +244,9 @@
           "summary": "God's Word is our safeguard against the temptation to compromise, leading us on the path of His will.",
           "duration": "153",
           "date": "2026-10-02T04:00:00+00:00"
-        },
-        {
-          "title": "When Compromise Creeps In",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-compromise-creeps-in",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/8e7fcaca-348f-4f9a-9d69-b49c01202416/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Sin has a way of pulling us farther than we planned, but no believer is beyond the reach of God's grace.",
-          "duration": "241",
-          "date": "2026-10-01T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:45.471169+00:00",
+      "fetched": "2026-10-09T01:19:05.333290+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Overcoming Friction",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/8/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1008_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-08T07:00:00+00:00"
+        },
         {
           "title": "A Distinguished Life",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/7/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-02T07:00:00+00:00"
-        },
-        {
-          "title": "Body and Soul",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/1/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1001_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-01T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:45.917517+00:00",
+      "fetched": "2026-10-09T01:19:05.827473+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Humble Leadership (1 Chronicles 21:14)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19927841-humble-leadership-1-chronicles-21-14.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19927841-humble-leadership-1-chronicles-21-14.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 21:14, David Platt calls us to humble leadership, reminding us that our sin affects those we lead. Explore more content from Radical.",
+          "duration": "327",
+          "date": "2026-10-08T07:00:00+00:00"
+        },
         {
           "title": "Strength to Serve (1 Chronicles 19:13)",
           "link": "https://www.buzzsprout.com/112848/episodes/19922371-strength-to-serve-1-chronicles-19-13.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 11:2, David Platt teaches that Jesus leads, protects, and cares for his people. Explore more content from Radical.",
           "duration": "348",
           "date": "2026-10-02T07:00:00+00:00"
-        },
-        {
-          "title": "Trust and Obey (1 Chronicles 10:13–14)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19822484-trust-and-obey-1-chronicles-10-13-14.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19822484-trust-and-obey-1-chronicles-10-13-14.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 10:13–14, David Platt encourages us to be faithful to God's commands. Explore more content from Radical.",
-          "duration": "276",
-          "date": "2026-10-01T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:46.531601+00:00",
+      "fetched": "2026-10-09T01:19:06.105460+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-07T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-08T01:10:46.989287+00:00",
+      "fetched": "2026-10-09T01:19:06.216424+00:00",
       "error": null
     }
   ]
