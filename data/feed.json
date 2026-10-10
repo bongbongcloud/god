@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T01:19:06.216490+00:00",
+  "generated": "2026-10-10T01:04:56.922146+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "God’s Wise Mercy",
+          "link": "https://feed.desiringgod.org/link/18331/17310984/gods-wise-mercy",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181009-en-god-s-wise-mercy.mp3?ts=1776703175&year=2026",
+          "summary": "The good news is that God himself has decreed a way to satisfy the demands of his justice without condemning the whole human race.",
+          "duration": "00:02:53",
+          "date": "2026-10-09T10:00:00+00:00"
+        },
         {
           "title": "Our Good Is God’s Delight",
           "link": "https://feed.desiringgod.org/link/18331/17310985/our-good-is-gods-delight",
@@ -54,17 +62,9 @@
           "summary": "God does not need us. Instead, his infinite self-sufficiency spills over in love to us who need him.",
           "duration": "00:03:08",
           "date": "2026-10-03T10:00:00+00:00"
-        },
-        {
-          "title": "God Isn’t Gloomy",
-          "link": "https://feed.desiringgod.org/link/18331/17310991/god-isnt-gloomy",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181002-en-god-isn-t-gloomy.mp3?ts=1776702695&year=2026",
-          "summary": "If none of God’s purposes can be frustrated, then he must be the happiest of all beings.",
-          "duration": "00:03:48",
-          "date": "2026-10-02T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:03.016739+00:00",
+      "fetched": "2026-10-10T01:04:53.459100+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-09-21T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:04.535838+00:00",
+      "fetched": "2026-10-10T01:04:55.188329+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Resting Grace",
+          "link": "http://podcast.gospelinlife.com/e/resting-grace-1791564381/",
+          "audio": "https://mcdn.podbean.com/mf/web/a6wy9map7d6x7m5h/261009_RestingGrace.mp3",
+          "summary": "One trait or quality of a supernaturally changed heart is peace. There’s a difference between a supernaturally changed heart and a morally restrained heart. The marks of a supernaturally changed heart are sometimes called the fruit of the Spirit. They’re listed a number of places in the New Testament. And peace is…",
+          "duration": "2928",
+          "date": "2026-10-09T16:46:21+00:00"
+        },
         {
           "title": "Befriending Grace",
           "link": "http://podcast.gospelinlife.com/e/befriending-grace-1791217099/",
@@ -170,17 +178,9 @@
           "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on August 29, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 3:14-21. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
           "duration": "2700",
           "date": "2026-09-28T10:00:00+00:00"
-        },
-        {
-          "title": "Paul’s Prayer (Part 1)",
-          "link": "http://podcast.gospelinlife.com/e/paul-s-prayer-part-1/",
-          "audio": "https://mcdn.podbean.com/mf/web/vzu87gczshxwn9t3/260925_PaulsPrayerPart1.mp3",
-          "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on August 22, 1993. Series: Salvation From the Outside In. Scripture: Ephesians 3:14-21. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
-          "duration": "2920",
-          "date": "2026-09-25T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:05.017152+00:00",
+      "fetched": "2026-10-10T01:04:55.737238+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Life-Changing Prayer",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/life-changing-prayer",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/fe085387-7502-49f2-ac6c-b49c011fe8e2/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "As you bring your requests to God, don't just seek a change in circumstances, ask Him to transform your heart.",
+          "duration": "125",
+          "date": "2026-10-09T04:00:00+00:00"
+        },
         {
           "title": "Praying Through the Silence",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/praying-through-the-silence",
@@ -236,17 +244,9 @@
           "summary": "Facing hardship allows us to deepen our reliance on God.",
           "duration": "119",
           "date": "2026-10-03T04:00:00+00:00"
-        },
-        {
-          "title": "Avoiding Compromise",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/avoiding-compromise",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/9f166793-c489-4c68-b7e1-b49c012012b4/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "God's Word is our safeguard against the temptation to compromise, leading us on the path of His will.",
-          "duration": "153",
-          "date": "2026-10-02T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:05.333290+00:00",
+      "fetched": "2026-10-10T01:04:56.058862+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Guaranteed with an Oath",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/9/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1009_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-09T07:00:00+00:00"
+        },
         {
           "title": "Overcoming Friction",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/8/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-03T07:00:00+00:00"
-        },
-        {
-          "title": "The Promise of Restoration",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/2/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1002_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-02T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:05.827473+00:00",
+      "fetched": "2026-10-10T01:04:56.491945+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Praise Without Ceasing (1 Chronicles 23:30)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19934100-praise-without-ceasing-1-chronicles-23-30.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19934100-praise-without-ceasing-1-chronicles-23-30.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 23:30, David Platt teaches us to praise God in every circumstance. Explore more content from Radical.",
+          "duration": "249",
+          "date": "2026-10-09T07:00:00+00:00"
+        },
         {
           "title": "Humble Leadership (1 Chronicles 21:14)",
           "link": "https://www.buzzsprout.com/112848/episodes/19927841-humble-leadership-1-chronicles-21-14.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 13:10, David Platt urges us to respond to sin with sober-mindedness. Explore more content from Radical.",
           "duration": "326",
           "date": "2026-10-03T07:00:00+00:00"
-        },
-        {
-          "title": "Jesus Is Our Shepherd-King (1 Chronicles 11:2)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19865420-jesus-is-our-shepherd-king-1-chronicles-11-2.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19865420-jesus-is-our-shepherd-king-1-chronicles-11-2.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 11:2, David Platt teaches that Jesus leads, protects, and cares for his people. Explore more content from Radical.",
-          "duration": "348",
-          "date": "2026-10-02T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:06.105460+00:00",
+      "fetched": "2026-10-10T01:04:56.758203+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-07T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-09T01:19:06.216424+00:00",
+      "fetched": "2026-10-10T01:04:56.922051+00:00",
       "error": null
     }
   ]
