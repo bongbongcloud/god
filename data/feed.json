@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T01:04:56.922146+00:00",
+  "generated": "2026-10-11T00:19:48.248104+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Best Passage Ever",
+          "link": "https://feed.desiringgod.org/link/18331/17310983/best-passage-ever",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181010-en-best-passage-ever.mp3?ts=1776703229&year=2026",
+          "summary": "The greatest news is that the cross upholds the worth of God’s glory, the honor of his Son, and the eternal salvation of his elect.",
+          "duration": "00:03:42",
+          "date": "2026-10-10T10:00:00+00:00"
+        },
         {
           "title": "God’s Wise Mercy",
           "link": "https://feed.desiringgod.org/link/18331/17310984/gods-wise-mercy",
@@ -54,17 +62,9 @@
           "summary": "Imagine being able to enjoy what is most enjoyable with unbounded energy and passion forever. One day, God’s delight in his Son will be in us.",
           "duration": "00:03:15",
           "date": "2026-10-04T10:00:00+00:00"
-        },
-        {
-          "title": "Absolute, Sovereign, Almighty Love",
-          "link": "https://feed.desiringgod.org/link/18331/17310990/absolute-sovereign-almighty-love",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181003-en-absolute-sovereign-almighty-love.mp3?ts=1776702435&year=2026",
-          "summary": "God does not need us. Instead, his infinite self-sufficiency spills over in love to us who need him.",
-          "duration": "00:03:08",
-          "date": "2026-10-03T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:53.459100+00:00",
+      "fetched": "2026-10-11T00:19:45.881381+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-09-21T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:55.188329+00:00",
+      "fetched": "2026-10-11T00:19:47.087546+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-09-28T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:55.737238+00:00",
+      "fetched": "2026-10-11T00:19:47.322242+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Effective Prayer for Others",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/effective-prayer-for-others",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/661549cd-e64e-4bbd-bf8f-b49c012000e8/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Scripture provides a beautiful framework for how to faithfully pray for others.",
+          "duration": "121",
+          "date": "2026-10-10T04:00:00+00:00"
+        },
         {
           "title": "Life-Changing Prayer",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/life-changing-prayer",
@@ -236,17 +244,9 @@
           "summary": "Whatever today holds, God has given every believer direct access to His help through the Holy Spirit.",
           "duration": "124",
           "date": "2026-10-04T04:00:00+00:00"
-        },
-        {
-          "title": "Spiritual Maturity",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/spiritual-maturity",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/6f8a685e-942e-414e-ba88-b49e013022e8/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Facing hardship allows us to deepen our reliance on God.",
-          "duration": "119",
-          "date": "2026-10-03T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:56.058862+00:00",
+      "fetched": "2026-10-11T00:19:47.444499+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Upheld by Prayer",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/10/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1010_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-10T07:00:00+00:00"
+        },
         {
           "title": "Guaranteed with an Oath",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/9/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-04T07:00:00+00:00"
-        },
-        {
-          "title": "Devoted to the Word of God",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/3/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1003_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-03T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:56.491945+00:00",
+      "fetched": "2026-10-11T00:19:48.110144+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Intergenerational Faithfulness (1 Chronicles 24:1–2)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19936301-intergenerational-faithfulness-1-chronicles-24-1-2.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19936301-intergenerational-faithfulness-1-chronicles-24-1-2.mp3",
+          "summary": "In this episode of Pray the Word on 1 Chronicles 24:1–2, David Platt emphasizes how families and churches can model worship that sustains a gospel legacy. Explore more content from Radical.",
+          "duration": "328",
+          "date": "2026-10-10T07:00:00+00:00"
+        },
         {
           "title": "Praise Without Ceasing (1 Chronicles 23:30)",
           "link": "https://www.buzzsprout.com/112848/episodes/19934100-praise-without-ceasing-1-chronicles-23-30.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 15:13–15, David Platt challenges Christians to consider if they are honoring God with their lives. Explore more content from Radical.",
           "duration": "349",
           "date": "2026-10-04T07:00:00+00:00"
-        },
-        {
-          "title": "The Seriousness of Sin (1 Chronicles 13:10)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19901897-the-seriousness-of-sin-1-chronicles-13-10.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19901897-the-seriousness-of-sin-1-chronicles-13-10.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 13:10, David Platt urges us to respond to sin with sober-mindedness. Explore more content from Radical.",
-          "duration": "326",
-          "date": "2026-10-03T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:56.758203+00:00",
+      "fetched": "2026-10-11T00:19:48.181268+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-07T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-10T01:04:56.922051+00:00",
+      "fetched": "2026-10-11T00:19:48.248026+00:00",
       "error": null
     }
   ]
