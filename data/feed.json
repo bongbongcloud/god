@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T23:27:49.351981+00:00",
+  "generated": "2026-10-20T00:30:18.226516+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Love’s Greatest Happiness",
+          "link": "https://feed.desiringgod.org/link/18331/17310974/loves-greatest-happiness",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181019-en-love-s-greatest-happiness.mp3?ts=1776703645&year=2026",
+          "summary": "The union between Christ and his bride is so close that any good done to her is a good done to himself.",
+          "duration": "00:03:20",
+          "date": "2026-10-19T10:00:00+00:00"
+        },
         {
           "title": "Jesus’s Joy in Marriage",
           "link": "https://feed.desiringgod.org/link/18331/17310975/jesuss-joy-in-marriage",
@@ -54,17 +62,9 @@
           "summary": "The very heart of God’s glory is the fullness of grace that overflows in kindness to needy people.",
           "duration": "00:03:49",
           "date": "2026-10-13T10:00:00+00:00"
-        },
-        {
-          "title": "Beware of Serving God",
-          "link": "https://feed.desiringgod.org/link/18331/17310981/beware-of-serving-god",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181012-en-beware-of-serving-god.mp3?ts=1776703307&year=2026",
-          "summary": "God aims to be our servant, because he aims to get the glory as the Giver.",
-          "duration": "00:03:44",
-          "date": "2026-10-12T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:47.036590+00:00",
+      "fetched": "2026-10-20T00:30:13.058959+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "Can My Pain Kill My Sins?",
+          "link": "https://feed.desiringgod.org/link/10715/17500609/can-my-pain-kill-my-sins",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17893/media/442ccc5f-15bc-4793-8196-007b4a320dfe/20261019-en-can-my-pain-kill-my-sins.mp3?ts=1791296538",
+          "summary": "Does suffering kill the sin within us? Pastor John argues from 1 Peter 4:1 that believers die to sin with Christ so we can live to his righteousness.",
+          "duration": "00:10:50",
+          "date": "2026-10-19T10:00:00+00:00"
+        },
         {
           "title": "Trapped in a Meaningless Life",
           "link": "https://feed.desiringgod.org/link/10715/17498100/trapped-in-a-meaningless-life",
@@ -112,17 +120,9 @@
           "summary": "Did Jesus preach the gospel before his death and resurrection? Pastor John calls us to a deeper understanding of God as Creator and King, and Jesus as Lord and Savior.",
           "duration": "00:14:04",
           "date": "2026-10-01T10:00:00+00:00"
-        },
-        {
-          "title": "The Perils of a Quick Fix",
-          "link": "https://feed.desiringgod.org/link/10715/17476114/the-perils-of-a-quick-fix",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17819/media/5f96fd4e-d5cd-42da-a271-d7e9577adfb1/20360928-en-the-perils-of-a-quick-fix.mp3?ts=1789486785",
-          "summary": "How can we witness to those who just want a quick fix? Pastor John presses home the shocking reality of eternity and the astounding love of Jesus.",
-          "duration": "00:11:52",
-          "date": "2026-09-28T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:48.391837+00:00",
+      "fetched": "2026-10-20T00:30:16.570959+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Enduring Grace",
+          "link": "http://podcast.gospelinlife.com/e/enduring-grace-1792094290/",
+          "audio": "https://mcdn.podbean.com/mf/web/83qvmcrijdfa8k5k/261019_EnduringGrace.mp3",
+          "summary": "In the last 40 years or so, we’ve had an explosion of 12-step groups helping people with a range of addictions. And even if you don’t have those addictions, think of how much misery there is in our lives because we can’t control our tongue or our time or our thoughts. Just about everybody has a problem with…",
+          "duration": "2780",
+          "date": "2026-10-19T10:00:00+00:00"
+        },
         {
           "title": "Passionate Grace",
           "link": "http://podcast.gospelinlife.com/e/passionate-grace/",
@@ -170,17 +178,9 @@
           "summary": "Every religion in the world gives you a list of virtuous behaviors. But the New Testament gives you something different. It does give you a list, but it’s of aspects of how a supernaturally, grace-changed heart shows itself. The apostle Paul says it’s possible to do all the morally virtuous behavior without any love…",
           "duration": "2829",
           "date": "2026-10-07T10:00:00+00:00"
-        },
-        {
-          "title": "Forgiving Grace",
-          "link": "http://podcast.gospelinlife.com/e/forgiving-grace-1790972093/",
-          "audio": "https://mcdn.podbean.com/mf/web/edyxmhvrmtq86tp5/261005_ForgivingGrace.mp3",
-          "summary": "Morally virtuous behavior can arise out of a heart that hasn’t actually been supernaturally changed. For example, in traditional moral training, we teach people to be honest by using a motive of fear and insecurity. But only for a heart that feels absolutely loved is lying unnecessary and unnatural. It’s only an…",
-          "duration": "2775",
-          "date": "2026-10-05T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:48.488290+00:00",
+      "fetched": "2026-10-20T00:30:16.896368+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Reward of the Believer",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-reward-of-the-believer",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/0cc63b0c-b56c-4069-87da-b49c011f4c96/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Our prize isn't something we earn through performance—it's the joy of living a life rooted in Christ.",
+          "duration": "212",
+          "date": "2026-10-19T04:00:00+00:00"
+        },
         {
           "title": "The Work of the Believer",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-work-of-the-believer",
@@ -236,17 +244,9 @@
           "summary": "Experience true, complete freedom by accepting the gift of salvation.",
           "duration": "151",
           "date": "2026-10-13T04:00:00+00:00"
-        },
-        {
-          "title": "The Power of Gratitude",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-power-of-gratitude",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/eb5778c1-d108-4052-9732-b49c011fd745/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Thanking God not only glorifies Him—it shifts our perspective and draws us closer to Him.",
-          "duration": "131",
-          "date": "2026-10-12T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:48.740945+00:00",
+      "fetched": "2026-10-20T00:30:17.302591+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Silence and Suffering",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/19/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1019_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-19T07:00:00+00:00"
+        },
         {
           "title": "Preparing for Action",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/18/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-13T07:00:00+00:00"
-        },
-        {
-          "title": "Made for Good Works",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/12/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1012_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-12T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:49.222641+00:00",
+      "fetched": "2026-10-20T00:30:17.826908+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Blessed for God's Own Glory (2 Chronicles 9:8)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19982582-blessed-for-god-s-own-glory-2-chronicles-9-8.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19982582-blessed-for-god-s-own-glory-2-chronicles-9-8.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 9:8, David Platt reminds us that God blesses his people for his own glory among the nations. Explore more content from Radical.",
+          "duration": "340",
+          "date": "2026-10-19T07:00:00+00:00"
+        },
         {
           "title": "Trust Christ’s Sacrifice (2 Chronicles 8:12–13)",
           "link": "https://www.buzzsprout.com/112848/episodes/19978178-trust-christ-s-sacrifice-2-chronicles-8-12-13.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 1 Chronicles 29:9, David Platt explains the joy of giving for the glory of Christ. Explore more content from Radical.",
           "duration": "219",
           "date": "2026-10-13T07:00:00+00:00"
-        },
-        {
-          "title": "Serving God Wholeheartedly (1 Chronicles 28:9)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19946584-serving-god-wholeheartedly-1-chronicles-28-9.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19946584-serving-god-wholeheartedly-1-chronicles-28-9.mp3",
-          "summary": "In this episode of Pray the Word on 1 Chronicles 28:9, David Platt prays that we would serve God with willing minds and seek him with all our hearts. Explore more content from Radical.",
-          "duration": "296",
-          "date": "2026-10-12T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:49.295461+00:00",
+      "fetched": "2026-10-20T00:30:17.931483+00:00",
       "error": null
     },
     {
@@ -387,6 +387,14 @@
       "speaker": "Costi Hinn",
       "kind": "listen",
       "items": [
+        {
+          "title": "God’s Love Begins With Him, Not You",
+          "link": "https://www.buzzsprout.com/1447756/episodes/19973416-god-s-love-begins-with-him-not-you.mp3",
+          "audio": "https://www.buzzsprout.com/1447756/episodes/19973416-god-s-love-begins-with-him-not-you.mp3",
+          "summary": "God’s love is not something we earn through our obedience, nor is it an excuse to continue in sin. In this episode, Costi Hinn explains how God’s love flows from His character, is revealed through Jesus Christ, and transforms how we love others. Resources: In Jesus' Name I Pray: TJ the Squirrel Learns the True Heart…",
+          "duration": "1473",
+          "date": "2026-10-19T09:00:00+00:00"
+        },
         {
           "title": "When God’s Glory Exposes Your Sin",
           "link": "https://www.buzzsprout.com/1447756/episodes/19937099-when-god-s-glory-exposes-your-sin.mp3",
@@ -418,17 +426,9 @@
           "summary": "The name El Elyon means “God Most High,” declaring God’s absolute supremacy over everyone and everything. In this final episode of the Names of God series, Costi Hinn explains what it means to live with the perspective that God is sovereign, owns everything, and answers to no one.",
           "duration": "1247",
           "date": "2026-09-21T09:00:00+00:00"
-        },
-        {
-          "title": "Why Is God Jealous?",
-          "link": "https://www.buzzsprout.com/1447756/episodes/19791258-why-is-god-jealous.mp3",
-          "audio": "https://www.buzzsprout.com/1447756/episodes/19791258-why-is-god-jealous.mp3",
-          "summary": "God’s jealousy is not sinful, insecure, or possessive. It is His holy zeal for His glory and His covenant relationship with His people. In this episode, Costi Hinn explains what it means for God to be El Qanna, the jealous God, and why He refuses to share the worship that belongs exclusively to Him.",
-          "duration": "942",
-          "date": "2026-09-14T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-18T23:27:49.351904+00:00",
+      "fetched": "2026-10-20T00:30:18.226443+00:00",
       "error": null
     }
   ]
