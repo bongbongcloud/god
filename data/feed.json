@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T00:00:29.875043+00:00",
+  "generated": "2026-10-22T00:05:58.707399+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Mystery of Marriage",
+          "link": "https://feed.desiringgod.org/link/18331/17310972/the-mystery-of-marriage",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181021-en-the-mystery-of-marriage.mp3?ts=1776703724&year=2026",
+          "summary": "Husbands and wives should seek to live after the distinctive model of God’s pure and glad design for Christ and the church.",
+          "duration": "00:03:50",
+          "date": "2026-10-21T10:00:00+00:00"
+        },
         {
           "title": "Prayer’s First Priority",
           "link": "https://feed.desiringgod.org/link/18331/17310973/prayers-first-priority",
@@ -54,17 +62,9 @@
           "summary": "One of the main reasons we so often fail to have consistent habits of happy, fruitful prayer is simply that we don’t plan to.",
           "duration": "00:03:26",
           "date": "2026-10-15T10:00:00+00:00"
-        },
-        {
-          "title": "God Heals by Humbling",
-          "link": "https://feed.desiringgod.org/link/18331/17310979/god-heals-by-humbling",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181014-en-god-heals-by-humbling.mp3?ts=1776703402&year=2026",
-          "summary": "God takes out our old proud hearts and gives new soft ones, which are easily humbled and crushed by the sin that remains.",
-          "duration": "00:04:21",
-          "date": "2026-10-14T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:23.944661+00:00",
+      "fetched": "2026-10-22T00:05:52.476761+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-10-01T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:28.887364+00:00",
+      "fetched": "2026-10-22T00:05:57.438642+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Living Grace",
+          "link": "http://podcast.gospelinlife.com/e/living-grace/",
+          "audio": "https://mcdn.podbean.com/mf/web/uytnbpwre9vkm4dq/261021_LivingGrace.mp3",
+          "summary": "Long before Marx, Nietzsche, and Foucault rightly noticed that normally people follow moral virtue out of fear, pride, and a desire for power, the apostle Paul said it’s extremely possible to live a completely ethical life without any love at the root of it. We’re looking at the traits that show not just moral…",
+          "duration": "2824",
+          "date": "2026-10-21T10:00:00+00:00"
+        },
         {
           "title": "Enduring Grace",
           "link": "http://podcast.gospelinlife.com/e/enduring-grace-1792094290/",
@@ -170,17 +178,9 @@
           "summary": "One trait or quality of a supernaturally changed heart is peace. There’s a difference between a supernaturally changed heart and a morally restrained heart. The marks of a supernaturally changed heart are sometimes called the fruit of the Spirit. They’re listed a number of places in the New Testament. And peace is…",
           "duration": "2928",
           "date": "2026-10-09T16:46:21+00:00"
-        },
-        {
-          "title": "Befriending Grace",
-          "link": "http://podcast.gospelinlife.com/e/befriending-grace-1791217099/",
-          "audio": "https://mcdn.podbean.com/mf/web/d9eee6tq5nufpi5q/261007_BefriendingGrace.mp3",
-          "summary": "Every religion in the world gives you a list of virtuous behaviors. But the New Testament gives you something different. It does give you a list, but it’s of aspects of how a supernaturally, grace-changed heart shows itself. The apostle Paul says it’s possible to do all the morally virtuous behavior without any love…",
-          "duration": "2829",
-          "date": "2026-10-07T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:28.987002+00:00",
+      "fetched": "2026-10-22T00:05:58.022861+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Strength of Companions",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-strength-of-companions",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/0eb88229-b978-4d93-82ff-b49c011f8fd7/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Walking with like-minded believers provides us with counsel and support to do great things for the Lord.",
+          "duration": "162",
+          "date": "2026-10-21T04:00:00+00:00"
+        },
         {
           "title": "A Beloved Brother",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/a-beloved-brother",
@@ -236,17 +244,9 @@
           "summary": "Living a truly honorable life is only possible when we build our foundation on the Lord.",
           "duration": "155",
           "date": "2026-10-15T04:00:00+00:00"
-        },
-        {
-          "title": "What We Could Never Earn",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/what-we-could-never-earn",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/b6147e93-68ae-4428-a352-b49c011fc52e/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Salvation isn't earned—it's freely given through Christ, who conquered sin to set us free.",
-          "duration": "198",
-          "date": "2026-10-14T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:29.251984+00:00",
+      "fetched": "2026-10-22T00:05:58.178438+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Approved by God",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/21/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1021_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-21T07:00:00+00:00"
+        },
         {
           "title": "Supernatural Patience",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/20/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-15T07:00:00+00:00"
-        },
-        {
-          "title": "Unjust Suffering",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/14/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1014_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-14T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:29.702668+00:00",
+      "fetched": "2026-10-22T00:05:58.427607+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Relying on God Through Prayer (2 Chronicles 14:11)",
+          "link": "https://www.buzzsprout.com/112848/episodes/19987600-relying-on-god-through-prayer-2-chronicles-14-11.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/19987600-relying-on-god-through-prayer-2-chronicles-14-11.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 14:11, David Platt reminds us that God is the ultimate source of strength for believers. Explore more content from Radical.",
+          "duration": "292",
+          "date": "2026-10-21T07:00:00+00:00"
+        },
         {
           "title": "Guard Your Heart (2 Chronicles 12:14)",
           "link": "https://www.buzzsprout.com/112848/episodes/19983077-guard-your-heart-2-chronicles-12-14.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Chronicles 3:8, David Platt explains the Christian hope of perfect, eternal communion with God. Explore more content from Radical.",
           "duration": "323",
           "date": "2026-10-15T07:00:00+00:00"
-        },
-        {
-          "title": "The Biblical Call for Wisdom (2 Chronicles 1:10–12)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19960396-the-biblical-call-for-wisdom-2-chronicles-1-10-12.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19960396-the-biblical-call-for-wisdom-2-chronicles-1-10-12.mp3",
-          "summary": "In this episode of Pray the Word on 2 Chronicles 1:10–12, David Platt emphasizes the importance of prioritizing wisdom over worldly desires. Explore more content from Radical.",
-          "duration": "273",
-          "date": "2026-10-14T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:29.817600+00:00",
+      "fetched": "2026-10-22T00:05:58.608096+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-21T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-21T00:00:29.874984+00:00",
+      "fetched": "2026-10-22T00:05:58.707314+00:00",
       "error": null
     }
   ]
