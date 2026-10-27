@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T23:25:42.372519+00:00",
+  "generated": "2026-10-27T00:40:37.180722+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Medicine for the Missionary",
+          "link": "https://feed.desiringgod.org/link/18331/17310967/medicine-for-the-missionary",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181026-en-medicine-for-the-missionary.mp3?ts=1776712329&year=2026",
+          "summary": "“All things are possible with God!” — in front the words give hope, and behind they give humility. They are the antidote to both despair and pride.",
+          "duration": "00:02:34",
+          "date": "2026-10-26T10:00:00+00:00"
+        },
         {
           "title": "The Great Missionary Hope",
           "link": "https://feed.desiringgod.org/link/18331/17310968/the-great-missionary-hope",
@@ -54,17 +62,9 @@
           "summary": "The first priority in praying is to ask our heavenly Father to cause his name to be hallowed. In us. In the church. In the world. Everywhere.",
           "duration": "00:03:14",
           "date": "2026-10-20T10:00:00+00:00"
-        },
-        {
-          "title": "Love’s Greatest Happiness",
-          "link": "https://feed.desiringgod.org/link/18331/17310974/loves-greatest-happiness",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181019-en-love-s-greatest-happiness.mp3?ts=1776703645&year=2026",
-          "summary": "The union between Christ and his bride is so close that any good done to her is a good done to himself.",
-          "duration": "00:03:20",
-          "date": "2026-10-19T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:39.111055+00:00",
+      "fetched": "2026-10-27T00:40:34.175461+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "Happiness Myths to Avoid",
+          "link": "https://feed.desiringgod.org/link/10715/17506798/happiness-myths-to-avoid",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17900/media/05f194b6-1581-48a9-a5fe-bf66b61ab518/20261026-en-happiness-myths-to-avoid.mp3?ts=1791982730",
+          "summary": "Modern psychology defines happiness as “self-fulfillment.” But without God, our souls will always long for greater satisfaction and joy.",
+          "duration": "00:14:03",
+          "date": "2026-10-26T10:00:00+00:00"
+        },
         {
           "title": "When God Is Against Me",
           "link": "https://feed.desiringgod.org/link/10715/17502615/when-god-is-against-me",
@@ -112,17 +120,9 @@
           "summary": "Loving our spouses for better or worse includes loving them through their spiritual apathy. Pastor John gives ten encouragements for the weary.",
           "duration": "00:12:48",
           "date": "2026-10-08T10:00:00+00:00"
-        },
-        {
-          "title": "When You’re Not Sorry",
-          "link": "https://feed.desiringgod.org/link/10715/17489411/when-youre-not-sorry",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17858/media/c7a7e5ac-8f1f-4cd1-b2cf-6ee0534ed4f3/20261005-en-when-you-re-not-sorry.mp3?ts=1789487388",
-          "summary": "When someone confronts you wrongly, should you apologize? Pastor John encourages humility and reconciliation without giving in to emotional manipulation.",
-          "duration": "00:12:25",
-          "date": "2026-10-05T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:40.972312+00:00",
+      "fetched": "2026-10-27T00:40:35.699848+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Dream of the Kingdom",
+          "link": "http://podcast.gospelinlife.com/e/the-dream-of-the-kingdom-1792780441/",
+          "audio": "https://mcdn.podbean.com/mf/web/i2dh3zax3f7756k8/261026_TheDreamOfTheKingdom.mp3",
+          "summary": "After we become a Christian, there is a question that we inevitably ask ourselves: how do we live as a believer in an unbelieving world? Is it really possible to hold onto faith and integrity in a society that doesn’t operate on those values? Oftentimes we’re tempted to assimilate into our culture by leaving the…",
+          "duration": "2937",
+          "date": "2026-10-26T10:00:00+00:00"
+        },
         {
           "title": "Love and the Future of God",
           "link": "http://podcast.gospelinlife.com/e/love-and-the-future-of-god-1792698836/",
@@ -170,17 +178,9 @@
           "summary": "A lot of people think that to say Christians have a changed relationship to the truth means that Christians become honest. It’s not less than that. Technical, ethical honesty is one thing. But we’re talking about something more and deeper. In Ephesians 4:15, Paul says, “speaking the truth in love.” But what Paul…",
           "duration": "2535",
           "date": "2026-10-16T10:00:00+00:00"
-        },
-        {
-          "title": "Blessed Self-Forgetfulness",
-          "link": "http://podcast.gospelinlife.com/e/blessed-self-forgetfulness/",
-          "audio": "https://mcdn.podbean.com/mf/web/t6yimytgmmatabs8/261014_BlessedSelfForgetfulness.mp3",
-          "summary": "To talk about humility means we’re getting into a very culturally interesting subject, which is self-esteem. Traditional cultures have believed that having too high a view of yourself is the real root cause for most of the evil in the world. But in modern Western culture, particularly in the United States, we have an…",
-          "duration": "2597",
-          "date": "2026-10-14T19:25:29+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:41.652043+00:00",
+      "fetched": "2026-10-27T00:40:36.101834+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Your Life, Your Witness",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/your-life-your-witness",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/73efd9c8-c7e3-4eae-83aa-b49c011f6c5c/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Jesus gave us a clear mission: Go and make disciples.",
+          "duration": "132",
+          "date": "2026-10-26T04:00:00+00:00"
+        },
         {
           "title": "Near the Brokenhearted",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/near-the-brokenhearted",
@@ -236,17 +244,9 @@
           "summary": "Because of Christ's sacrifice, we are no longer slaves to sin but are welcomed into the family of God.",
           "duration": "259",
           "date": "2026-10-20T04:00:00+00:00"
-        },
-        {
-          "title": "The Reward of the Believer",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-reward-of-the-believer",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/0cc63b0c-b56c-4069-87da-b49c011f4c96/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Our prize isn't something we earn through performance—it's the joy of living a life rooted in Christ.",
-          "duration": "212",
-          "date": "2026-10-19T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:41.814892+00:00",
+      "fetched": "2026-10-27T00:40:36.416047+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Theology That Sustains",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/26/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1026_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-26T07:00:00+00:00"
+        },
         {
           "title": "A Thorn in the Flesh",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/25/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-20T07:00:00+00:00"
-        },
-        {
-          "title": "Silence and Suffering",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/19/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1019_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-19T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:42.123729+00:00",
+      "fetched": "2026-10-27T00:40:36.968102+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Wise Counsel (2 Chronicles 22:4)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20019731-wise-counsel-2-chronicles-22-4.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20019731-wise-counsel-2-chronicles-22-4.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 22:4, David Platt highlights our need for wise counsel in life. Explore more content from Radical.",
+          "duration": "291",
+          "date": "2026-10-26T07:00:00+00:00"
+        },
         {
           "title": "Trust Amid Uncertainty (2 Chronicles 20:12)",
           "link": "https://www.buzzsprout.com/112848/episodes/20015161-trust-amid-uncertainty-2-chronicles-20-12.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Chronicles 12:14, David Platt reminds us to avoid evil by seeking God. Explore more content from Radical.",
           "duration": "255",
           "date": "2026-10-20T07:00:00+00:00"
-        },
-        {
-          "title": "Blessed for God's Own Glory (2 Chronicles 9:8)",
-          "link": "https://www.buzzsprout.com/112848/episodes/19982582-blessed-for-god-s-own-glory-2-chronicles-9-8.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/19982582-blessed-for-god-s-own-glory-2-chronicles-9-8.mp3",
-          "summary": "In this episode of Pray the Word on 2 Chronicles 9:8, David Platt reminds us that God blesses his people for his own glory among the nations. Explore more content from Radical.",
-          "duration": "340",
-          "date": "2026-10-19T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:42.267260+00:00",
+      "fetched": "2026-10-27T00:40:37.103526+00:00",
       "error": null
     },
     {
@@ -387,6 +387,14 @@
       "speaker": "Costi Hinn",
       "kind": "listen",
       "items": [
+        {
+          "title": "Nothing Happens Outside the Rule of God",
+          "link": "https://www.buzzsprout.com/1447756/episodes/20011482-nothing-happens-outside-the-rule-of-god.mp3",
+          "audio": "https://www.buzzsprout.com/1447756/episodes/20011482-nothing-happens-outside-the-rule-of-god.mp3",
+          "summary": "We often live as though everything depends on us, carrying the weight of circumstances we cannot control. In this episode, Costi Hinn explains how understanding the sovereignty of God changes the way we approach uncertainty, suffering, and our daily lives. Resources: Earth's Epic Start: A Bible Study About God’s…",
+          "duration": "1857",
+          "date": "2026-10-26T09:00:00+00:00"
+        },
         {
           "title": "God’s Love Begins With Him, Not You",
           "link": "https://www.buzzsprout.com/1447756/episodes/19973416-god-s-love-begins-with-him-not-you.mp3",
@@ -418,17 +426,9 @@
           "summary": "You may not deny God, but do you diminish Him? In this episode, Costi Hinn examines how a small or distorted view of God can shape the way we live, exposing the gap between what we confess about God and how we actually function day to day.",
           "duration": "1169",
           "date": "2026-09-28T09:00:00+00:00"
-        },
-        {
-          "title": "No One Is Above God",
-          "link": "https://www.buzzsprout.com/1447756/episodes/19830066-no-one-is-above-god.mp3",
-          "audio": "https://www.buzzsprout.com/1447756/episodes/19830066-no-one-is-above-god.mp3",
-          "summary": "The name El Elyon means “God Most High,” declaring God’s absolute supremacy over everyone and everything. In this final episode of the Names of God series, Costi Hinn explains what it means to live with the perspective that God is sovereign, owns everything, and answers to no one.",
-          "duration": "1247",
-          "date": "2026-09-21T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-25T23:25:42.372433+00:00",
+      "fetched": "2026-10-27T00:40:37.180608+00:00",
       "error": null
     }
   ]
