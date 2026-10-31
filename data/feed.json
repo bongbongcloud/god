@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T01:13:17.913814+00:00",
+  "generated": "2026-10-31T00:56:27.559577+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Danger of Drifting",
+          "link": "https://feed.desiringgod.org/link/18331/17310963/the-danger-of-drifting",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181030-en-the-danger-of-drifting.mp3?ts=1776712504&year=2026",
+          "summary": "Be satisfied in Jesus so that you do not get lured downstream by deceitful desires.",
+          "duration": "00:03:13",
+          "date": "2026-10-30T10:00:00+00:00"
+        },
         {
           "title": "Sin, Satan, Sickness, or Sabotage",
           "link": "https://feed.desiringgod.org/link/18331/17310964/sin-satan-sickness-or-sabotage",
@@ -54,17 +62,9 @@
           "summary": "We see the sun by means of seeing the rays of the sun. So also we see God the Father by seeing Jesus.",
           "duration": "00:03:07",
           "date": "2026-10-24T10:00:00+00:00"
-        },
-        {
-          "title": "God’s Final, Decisive Word",
-          "link": "https://feed.desiringgod.org/link/18331/17310970/gods-final-decisive-word",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181023-en-god-s-final-decisive-word.mp3?ts=1776704578&year=2026",
-          "summary": "The Word that God spoke by his Son is the decisive Word. It will not be followed in this age by any greater word or replacement word.",
-          "duration": "00:03:16",
-          "date": "2026-10-23T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:15.043285+00:00",
+      "fetched": "2026-10-31T00:56:25.203389+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-10-12T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:16.463810+00:00",
+      "fetched": "2026-10-31T00:56:26.489698+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Finger on the Wall",
+          "link": "http://podcast.gospelinlife.com/e/the-finger-on-the-wall-1792780786/",
+          "audio": "https://mcdn.podbean.com/mf/web/j7hcaahb6hwvig2n/261030_TheFingerOnTheWall.mp3",
+          "summary": "We all have a deep desire for our lives to have real significance. But when we try to find that fulfillment in romance, creativity, careers, or even religious obedience, we miss the only real solution there is: hope in Jesus Christ. Daniel shows us that when we trust in God’s Word, lay down our pride, and learn the…",
+          "duration": "2821",
+          "date": "2026-10-30T10:00:00+00:00"
+        },
         {
           "title": "The Man in the Furnace",
           "link": "http://podcast.gospelinlife.com/e/the-man-in-the-furnace/",
@@ -170,17 +178,9 @@
           "summary": "Long before Marx, Nietzsche, and Foucault rightly noticed that normally people follow moral virtue out of fear, pride, and a desire for power, the apostle Paul said it’s extremely possible to live a completely ethical life without any love at the root of it. We’re looking at the traits that show not just moral…",
           "duration": "2824",
           "date": "2026-10-21T10:00:00+00:00"
-        },
-        {
-          "title": "Enduring Grace",
-          "link": "http://podcast.gospelinlife.com/e/enduring-grace-1792094290/",
-          "audio": "https://mcdn.podbean.com/mf/web/83qvmcrijdfa8k5k/261019_EnduringGrace.mp3",
-          "summary": "In the last 40 years or so, we’ve had an explosion of 12-step groups helping people with a range of addictions. And even if you don’t have those addictions, think of how much misery there is in our lives because we can’t control our tongue or our time or our thoughts. Just about everybody has a problem with…",
-          "duration": "2780",
-          "date": "2026-10-19T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:16.832137+00:00",
+      "fetched": "2026-10-31T00:56:26.822818+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "New Every Morning",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/new-every-morning",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/4a770dc4-2201-4a12-a703-b49c011f64a9/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "The Lord's faithfulness, mercy, and love are available—today, tomorrow, and forever.",
+          "duration": "120",
+          "date": "2026-10-30T04:00:00+00:00"
+        },
         {
           "title": "Our Infinite God",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/our-infinite-god",
@@ -236,17 +244,9 @@
           "summary": "Our own strength isn't sufficient to save us. Through Christ alone, we find hope and a settled peace.",
           "duration": "204",
           "date": "2026-10-24T04:00:00+00:00"
-        },
-        {
-          "title": "They Had Been With Jesus",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/they-had-been-with-jesus",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/e56cf46b-c4ef-4b75-bf96-b49e00e3edbe/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Spending time with Jesus transforms you, His presence becoming visible to those around you.",
-          "duration": "196",
-          "date": "2026-10-23T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:17.080248+00:00",
+      "fetched": "2026-10-31T00:56:27.032376+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Comfort of God’s Providence",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/30/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1030_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-30T07:00:00+00:00"
+        },
         {
           "title": "Extending God’s Kindness",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/29/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-24T07:00:00+00:00"
-        },
-        {
-          "title": "The New and Better Adam",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/23/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1023_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-23T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:17.579799+00:00",
+      "fetched": "2026-10-31T00:56:27.365684+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Faithfulness in Times of Distress (2 Chronicles 28:22)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20045918-faithfulness-in-times-of-distress-2-chronicles-28-22.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20045918-faithfulness-in-times-of-distress-2-chronicles-28-22.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 28:22, David Platt encourages believers to deepen their trust in God amid difficulties. Explore more content from Radical.",
+          "duration": "258",
+          "date": "2026-10-30T07:00:00+00:00"
+        },
         {
           "title": "Living in Humility (2 Chronicles 26:16)",
           "link": "https://www.buzzsprout.com/112848/episodes/20039409-living-in-humility-2-chronicles-26-16.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Chronicles 19:4, David Platt invites us into God’s restorative work through love, prayer, and witness. Explore more content from Radical.",
           "duration": "247",
           "date": "2026-10-24T07:00:00+00:00"
-        },
-        {
-          "title": "Faithfulness to Speak God's Word (2 Chronicles 18:13)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20007780-faithfulness-to-speak-god-s-word-2-chronicles-18-13.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20007780-faithfulness-to-speak-god-s-word-2-chronicles-18-13.mp3",
-          "summary": "In this episode of Pray the Word on 2 Chronicles 18:13, David Platt prays for each follower of Jesus to faithfully speak God’s Word, regardless of the cost. Explore more content from Radical.",
-          "duration": "289",
-          "date": "2026-10-23T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:17.790654+00:00",
+      "fetched": "2026-10-31T00:56:27.518466+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-28T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-30T01:13:17.913727+00:00",
+      "fetched": "2026-10-31T00:56:27.559507+00:00",
       "error": null
     }
   ]
