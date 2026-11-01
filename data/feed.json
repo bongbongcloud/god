@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T00:56:27.559577+00:00",
+  "generated": "2026-11-01T00:17:12.239083+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Seminary of Suffering",
+          "link": "https://feed.desiringgod.org/link/18331/17310962/the-seminary-of-suffering",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181031-en-the-seminary-of-suffering.mp3?ts=1776712542&year=2026",
+          "summary": "God designs suffering not only as a way to wean Christians off of self and onto grace, but also as a way to spotlight that grace and make it shine.",
+          "duration": "00:03:21",
+          "date": "2026-10-31T10:00:00+00:00"
+        },
         {
           "title": "The Danger of Drifting",
           "link": "https://feed.desiringgod.org/link/18331/17310963/the-danger-of-drifting",
@@ -54,17 +62,9 @@
           "summary": "God’s call is irresistible in the sense that it can overcome all resistance. It is infallibly effective according to God’s purpose.",
           "duration": "00:03:56",
           "date": "2026-10-25T10:00:00+00:00"
-        },
-        {
-          "title": "Christ Is Like Sunlight",
-          "link": "https://feed.desiringgod.org/link/18331/17310969/christ-is-like-sunlight",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181024-en-christ-is-like-sunlight.mp3?ts=1776704616&year=2026",
-          "summary": "We see the sun by means of seeing the rays of the sun. So also we see God the Father by seeing Jesus.",
-          "duration": "00:03:07",
-          "date": "2026-10-24T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:25.203389+00:00",
+      "fetched": "2026-11-01T00:17:09.534979+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-10-12T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:26.489698+00:00",
+      "fetched": "2026-11-01T00:17:10.722704+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-10-21T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:26.822818+00:00",
+      "fetched": "2026-11-01T00:17:11.105030+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Open Door",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-open-door",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/a50a0754-a0fd-4877-bfa2-b49c011f7608/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Through hospitality, we turn our home and table into a ministry, reflecting the love of Christ.",
+          "duration": "155",
+          "date": "2026-10-31T04:00:00+00:00"
+        },
         {
           "title": "New Every Morning",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/new-every-morning",
@@ -236,17 +244,9 @@
           "summary": "The good life is not the absence of hardship. It is the nearness of the Lord in the middle of it.",
           "duration": "204",
           "date": "2026-10-25T04:00:00+00:00"
-        },
-        {
-          "title": "Saved by Grace",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/saved-by-grace",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/4b2f771e-4d9a-4eb9-8191-b49c011f7d97/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Our own strength isn't sufficient to save us. Through Christ alone, we find hope and a settled peace.",
-          "duration": "204",
-          "date": "2026-10-24T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:27.032376+00:00",
+      "fetched": "2026-11-01T00:17:11.398076+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Out of the Waiting Room",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/31/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1031_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-10-31T07:00:00+00:00"
+        },
         {
           "title": "The Comfort of God’s Providence",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/30/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-25T07:00:00+00:00"
-        },
-        {
-          "title": "Songs of Deliverance",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/24/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1024_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-24T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:27.365684+00:00",
+      "fetched": "2026-11-01T00:17:11.880918+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Returning to God (2 Chronicles 29:2)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20048145-returning-to-god-2-chronicles-29-2.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20048145-returning-to-god-2-chronicles-29-2.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 29:2, David Platt reminds Christians that a life honoring to God is filled with repentance. Explore more content from Radical.",
+          "duration": "265",
+          "date": "2026-10-31T07:00:00+00:00"
+        },
         {
           "title": "Faithfulness in Times of Distress (2 Chronicles 28:22)",
           "link": "https://www.buzzsprout.com/112848/episodes/20045918-faithfulness-in-times-of-distress-2-chronicles-28-22.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Chronicles 20:12, David Platt calls us to trust God when we don’t know what to do. Explore more content from Radical.",
           "duration": "292",
           "date": "2026-10-25T07:00:00+00:00"
-        },
-        {
-          "title": "Leading People Back to God (2 Chronicles 19:4)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20012155-leading-people-back-to-god-2-chronicles-19-4.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20012155-leading-people-back-to-god-2-chronicles-19-4.mp3",
-          "summary": "In this episode of Pray the Word on 2 Chronicles 19:4, David Platt invites us into God’s restorative work through love, prayer, and witness. Explore more content from Radical.",
-          "duration": "247",
-          "date": "2026-10-24T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:27.518466+00:00",
+      "fetched": "2026-11-01T00:17:12.108774+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-28T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-10-31T00:56:27.559507+00:00",
+      "fetched": "2026-11-01T00:17:12.239023+00:00",
       "error": null
     }
   ]
