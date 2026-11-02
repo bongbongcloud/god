@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T00:17:12.239083+00:00",
+  "generated": "2026-11-02T00:57:30.557104+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Christ’s Sufferings in Us",
+          "link": "https://feed.desiringgod.org/link/18331/17310961/christs-sufferings-in-us",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181101-en-christ-s-sufferings-in-us.mp3?ts=1776712591&year=2026",
+          "summary": "We exhibit the sufferings of Christ when we ourselves suffer for those we are trying to win.",
+          "duration": "00:02:59",
+          "date": "2026-11-01T10:00:00+00:00"
+        },
         {
           "title": "The Seminary of Suffering",
           "link": "https://feed.desiringgod.org/link/18331/17310962/the-seminary-of-suffering",
@@ -54,17 +62,9 @@
           "summary": "“All things are possible with God!” — in front the words give hope, and behind they give humility. They are the antidote to both despair and pride.",
           "duration": "00:02:34",
           "date": "2026-10-26T10:00:00+00:00"
-        },
-        {
-          "title": "The Great Missionary Hope",
-          "link": "https://feed.desiringgod.org/link/18331/17310968/the-great-missionary-hope",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181025-en-the-great-missionary-hope.mp3?ts=1776712286&year=2026",
-          "summary": "God’s call is irresistible in the sense that it can overcome all resistance. It is infallibly effective according to God’s purpose.",
-          "duration": "00:03:56",
-          "date": "2026-10-25T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:09.534979+00:00",
+      "fetched": "2026-11-02T00:57:28.586399+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-10-12T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:10.722704+00:00",
+      "fetched": "2026-11-02T00:57:29.526521+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-10-21T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:11.105030+00:00",
+      "fetched": "2026-11-02T00:57:29.678288+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Passion to Obey",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-passion-to-obey",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/b5897531-9a04-432c-9c70-b4b200c1476f/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "As we grow in faith and dive deeper into His Word, our devotion to Him becomes stronger.",
+          "duration": "131",
+          "date": "2026-11-01T04:00:00+00:00"
+        },
         {
           "title": "The Open Door",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-open-door",
@@ -236,17 +244,9 @@
           "summary": "Jesus gave us a clear mission: Go and make disciples.",
           "duration": "132",
           "date": "2026-10-26T04:00:00+00:00"
-        },
-        {
-          "title": "Near the Brokenhearted",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/near-the-brokenhearted",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/2100bfa9-1afa-4697-a627-b49c011f4179/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "The good life is not the absence of hardship. It is the nearness of the Lord in the middle of it.",
-          "duration": "204",
-          "date": "2026-10-25T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:11.398076+00:00",
+      "fetched": "2026-11-02T00:57:29.963620+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Kinsman-Redeemer",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/1/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1101_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-11-01T08:00:00+00:00"
+        },
         {
           "title": "Out of the Waiting Room",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/31/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-26T07:00:00+00:00"
-        },
-        {
-          "title": "A Thorn in the Flesh",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/25/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1025_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-25T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:11.880918+00:00",
+      "fetched": "2026-11-02T00:57:30.389942+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Living in Joy and Worship (2 Chronicles 30:23–27)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20053598-living-in-joy-and-worship-2-chronicles-30-23-27.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20053598-living-in-joy-and-worship-2-chronicles-30-23-27.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 30:23–27, David Platt emphasizes the believers’ identity as temples of the Holy Spirit today. Explore more content from Radical.",
+          "duration": "316",
+          "date": "2026-11-01T08:00:00+00:00"
+        },
         {
           "title": "Returning to God (2 Chronicles 29:2)",
           "link": "https://www.buzzsprout.com/112848/episodes/20048145-returning-to-god-2-chronicles-29-2.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Chronicles 22:4, David Platt highlights our need for wise counsel in life. Explore more content from Radical.",
           "duration": "291",
           "date": "2026-10-26T07:00:00+00:00"
-        },
-        {
-          "title": "Trust Amid Uncertainty (2 Chronicles 20:12)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20015161-trust-amid-uncertainty-2-chronicles-20-12.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20015161-trust-amid-uncertainty-2-chronicles-20-12.mp3",
-          "summary": "In this episode of Pray the Word on 2 Chronicles 20:12, David Platt calls us to trust God when we don’t know what to do. Explore more content from Radical.",
-          "duration": "292",
-          "date": "2026-10-25T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:12.108774+00:00",
+      "fetched": "2026-11-02T00:57:30.502643+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-09-28T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-01T00:17:12.239023+00:00",
+      "fetched": "2026-11-02T00:57:30.557044+00:00",
       "error": null
     }
   ]
