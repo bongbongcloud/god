@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T01:36:47.923667+00:00",
+  "generated": "2026-11-06T01:42:14.359307+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "Do You Neglect Your Salvation?",
+          "link": "https://feed.desiringgod.org/link/18331/17310957/do-you-neglect-your-salvation",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181105-en-do-you-neglect-your-salvation.mp3?ts=1776712909&year=2026",
+          "summary": "Being a Christian is a very serious business, though not a sour business. We are simply blood-earnest about being happy in our great salvation.",
+          "duration": "00:03:32",
+          "date": "2026-11-05T10:00:00+00:00"
+        },
         {
           "title": "The Real Problem with Anxiety",
           "link": "https://feed.desiringgod.org/link/18331/17310958/the-real-problem-with-anxiety",
@@ -54,17 +62,9 @@
           "summary": "Be satisfied in Jesus so that you do not get lured downstream by deceitful desires.",
           "duration": "00:03:13",
           "date": "2026-10-30T10:00:00+00:00"
-        },
-        {
-          "title": "Sin, Satan, Sickness, or Sabotage",
-          "link": "https://feed.desiringgod.org/link/18331/17310964/sin-satan-sickness-or-sabotage",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181029-en-sin-satan-sickness-or-sabotage.mp3?ts=1776712452&year=2026",
-          "summary": "Suffering proves our allegiance to Christ’s goodness and reveals his worth as an all-sufficient prize.",
-          "duration": "00:04:37",
-          "date": "2026-10-29T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:44.706095+00:00",
+      "fetched": "2026-11-06T01:42:12.003578+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "How Evil Works",
+          "link": "https://feed.desiringgod.org/link/10715/17515869/how-evil-works",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17899/media/7064d569-91b6-456f-9865-a49c3c0f4d4f/20261105-en-how-evil-works.mp3?ts=1791984430",
+          "summary": "How does Satan influence the world, and where do we see his work most clearly? Pastor John describes Satan’s power and limits under Christ’s victorious work.",
+          "duration": "00:14:26",
+          "date": "2026-11-05T11:00:00+00:00"
+        },
         {
           "title": "Peace for Second-Guessers",
           "link": "https://feed.desiringgod.org/link/10715/17513705/peace-for-second-guessers",
@@ -112,17 +120,9 @@
           "summary": "Does suffering kill the sin within us? Pastor John argues from 1 Peter 4:1 that believers die to sin with Christ so we can live to his righteousness.",
           "duration": "00:10:50",
           "date": "2026-10-19T10:00:00+00:00"
-        },
-        {
-          "title": "Trapped in a Meaningless Life",
-          "link": "https://feed.desiringgod.org/link/10715/17498100/trapped-in-a-meaningless-life",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17888/media/a3a98c35-aed4-44bb-83ff-cd270c4151f0/20261015-en-trapped-in-a-meaningless-life.mp3?ts=1790690150",
-          "summary": "Loss can lead to despair over God’s plan for our lives. When we can’t perceive meaning in life, Pastor John counsels us to find comfort in God’s glorious purpose in Christ.",
-          "duration": "00:16:00",
-          "date": "2026-10-15T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:46.094602+00:00",
+      "fetched": "2026-11-06T01:42:13.161738+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-10-23T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:46.736167+00:00",
+      "fetched": "2026-11-06T01:42:13.456323+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "Wholehearted Worship",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/wholehearted-worship",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/412e081f-a03d-4c28-a02d-b4b200cc543f/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "The Lord calls us to worship Him wholeheartedly every day of the week.",
+          "duration": "241",
+          "date": "2026-11-05T05:00:00+00:00"
+        },
         {
           "title": "Grace to Keep Going",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/grace-to-keep-going",
@@ -236,17 +244,9 @@
           "summary": "The Lord's faithfulness, mercy, and love are available—today, tomorrow, and forever.",
           "duration": "120",
           "date": "2026-10-30T04:00:00+00:00"
-        },
-        {
-          "title": "Our Infinite God",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/our-infinite-god",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/138b90f5-c6ec-416a-9cbd-b49c011f590a/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Take comfort in knowing that God is infinite and ever-present, with a love for you that has no end.",
-          "duration": "155",
-          "date": "2026-10-29T04:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:47.051600+00:00",
+      "fetched": "2026-11-06T01:42:13.684092+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Mystery of History",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/5/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1105_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-11-05T08:00:00+00:00"
+        },
         {
           "title": "Glory in the Ordinary",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/4/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-10-30T07:00:00+00:00"
-        },
-        {
-          "title": "Extending God’s Kindness",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/10/29/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1029_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-10-29T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:47.426429+00:00",
+      "fetched": "2026-11-06T01:42:14.189330+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Faith, Perseverance & Prayer (2 Chronicles 35:22)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20077812-faith-perseverance-prayer-2-chronicles-35-22.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20077812-faith-perseverance-prayer-2-chronicles-35-22.mp3",
+          "summary": "In this episode of Pray the Word on 2 Chronicles 35:22, David Platt reflects on the necessity of prayer for perseverance. Explore more content from Radical.",
+          "duration": "267",
+          "date": "2026-11-05T08:00:00+00:00"
+        },
         {
           "title": "Pay Attention to God's Word (2 Chronicles 33:10)",
           "link": "https://www.buzzsprout.com/112848/episodes/20069814-pay-attention-to-god-s-word-2-chronicles-33-10.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on 2 Chronicles 28:22, David Platt encourages believers to deepen their trust in God amid difficulties. Explore more content from Radical.",
           "duration": "258",
           "date": "2026-10-30T07:00:00+00:00"
-        },
-        {
-          "title": "Living in Humility (2 Chronicles 26:16)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20039409-living-in-humility-2-chronicles-26-16.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20039409-living-in-humility-2-chronicles-26-16.mp3",
-          "summary": "In this episode of Pray the Word on 2 Chronicles 26:16, David Platt urges us to lay aside pride and embrace humility. Explore more content from Radical.",
-          "duration": "339",
-          "date": "2026-10-29T07:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:47.768354+00:00",
+      "fetched": "2026-11-06T01:42:14.315361+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-10-05T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-05T01:36:47.923586+00:00",
+      "fetched": "2026-11-06T01:42:14.359236+00:00",
       "error": null
     }
   ]
