@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T03:01:45.429681+00:00",
+  "generated": "2026-11-19T02:42:44.037111+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Piercing Power of the Word",
+          "link": "https://feed.desiringgod.org/link/18331/17310944/the-piercing-power-of-the-word",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181118-en-the-piercing-power-of-the-word.mp3?ts=1776715519&year=2026",
+          "summary": "The word of God is our only hope. It is sharp, living, and active. Therefore, be of good cheer in your battle to believe.",
+          "duration": "00:02:19",
+          "date": "2026-11-18T10:00:00+00:00"
+        },
         {
           "title": "Change Is Possible",
           "link": "https://feed.desiringgod.org/link/18331/17310945/change-is-possible",
@@ -54,17 +62,9 @@
           "summary": "Satan cannot destroy us. In fact, God turns all his attacks finally against him and for us.",
           "duration": "00:03:44",
           "date": "2026-11-12T10:00:00+00:00"
-        },
-        {
-          "title": "We Are His House",
-          "link": "https://feed.desiringgod.org/link/18331/17310951/we-are-his-house",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181111-en-we-are-his-house.mp3?ts=1776713396&year=2026",
-          "summary": "Becoming a Christian and being a Christian happen in the same way: by hoping in Jesus.",
-          "duration": "00:03:56",
-          "date": "2026-11-11T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:38.535455+00:00",
+      "fetched": "2026-11-19T02:42:40.126526+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-10-29T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:43.747831+00:00",
+      "fetched": "2026-11-19T02:42:43.105315+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "I Am the I Am",
+          "link": "http://podcast.gospelinlife.com/e/i-am-the-i-am/",
+          "audio": "https://mcdn.podbean.com/mf/web/yyc37vhqzv4axwpj/261118_IAmTheIAm.mp3",
+          "summary": "The more we hear about Jesus, the more we’re faced with an important question: who do we actually think Jesus is? Many of us tend to sit on the fence without choosing one side or the other—we may not want to declare that he really is the Son of God, but neither do we want to call him a liar. But Jesus himself says we…",
+          "duration": "2206",
+          "date": "2026-11-18T11:00:00+00:00"
+        },
         {
           "title": "I Am the Bread",
           "link": "http://podcast.gospelinlife.com/e/i-am-the-bread/",
@@ -170,17 +178,9 @@
           "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on November 15, 1998. Series: John – On Knowing the Christ. Scripture: John 1:35-51. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
           "duration": "2788",
           "date": "2026-11-06T15:04:09+00:00"
-        },
-        {
-          "title": "Sex and the Romantic Solution (Open Forum)",
-          "link": "http://podcast.gospelinlife.com/e/sex-and-the-romantic-solution-open-forum/",
-          "audio": "https://mcdn.podbean.com/mf/web/c6yh4dgxjpkfunde/261104_SexAndTheRomanticSolution.mp3",
-          "summary": "This talk was given by Dr. Timothy Keller at Redeemer Presbyterian Church on May 8, 2014. Series: Redeemer Open Forums. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer Presbyterian Church. If you've enjoyed listening to…",
-          "duration": "2845",
-          "date": "2026-11-04T11:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:44.337006+00:00",
+      "fetched": "2026-11-19T02:42:43.216917+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "A Living Hope",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/a-living-hope-1",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/f5d09466-9422-4aa3-a29f-b4b200cc5b5c/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "In our trials, we can find hope knowing that our faith is being refined and made stronger.",
+          "duration": "206",
+          "date": "2026-11-18T05:00:00+00:00"
+        },
         {
           "title": "When Facing Life’s Mountains",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/when-facing-life-s-mountains",
@@ -236,17 +244,9 @@
           "summary": "Prayer involves coming to God with an honest heart, expressing your needs, and making room to listen.",
           "duration": "125",
           "date": "2026-11-12T05:00:00+00:00"
-        },
-        {
-          "title": "Gratitude in Affliction",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/gratitude-in-affliction",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/f2784316-7dd3-42ff-80e3-b4b200cc3564/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Genuine praise can't be manufactured. It comes from thanking Him in both the sorrows and the joys.",
-          "duration": "145",
-          "date": "2026-11-11T05:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:44.574206+00:00",
+      "fetched": "2026-11-19T02:42:43.459139+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "The Heart of the Matter",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/18/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1118_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-11-18T08:00:00+00:00"
+        },
         {
           "title": "Blessings and Curses",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/17/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-11-12T08:00:00+00:00"
-        },
-        {
-          "title": "The Promise and the Blessing",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/11/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1111_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-11-11T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:45.166292+00:00",
+      "fetched": "2026-11-19T02:42:43.904332+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Revere His Word (Nehemiah 8:5–6)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20144009-revere-his-word-nehemiah-8-5-6.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20144009-revere-his-word-nehemiah-8-5-6.mp3",
+          "summary": "In this episode of Pray the Word on Nehemiah 8:5–6, David Platt helps us see what it means to honor the Bible as God’s inspired Word. Explore more content from Radical.",
+          "duration": "334",
+          "date": "2026-11-18T08:00:00+00:00"
+        },
         {
           "title": "Faithful Helper (Nehemiah 6:9)",
           "link": "https://www.buzzsprout.com/112848/episodes/20136089-faithful-helper-nehemiah-6-9.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on Ezra 9:3–6, David Platt asks God to give us a spirit of humility, confession, and repentance. Explore more content from Radical.",
           "duration": "345",
           "date": "2026-11-12T08:00:00+00:00"
-        },
-        {
-          "title": "The Hand of Providence (Ezra 7:6)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20103611-the-hand-of-providence-ezra-7-6.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20103611-the-hand-of-providence-ezra-7-6.mp3",
-          "summary": "In this episode of Pray the Word on Ezra 7:6, David Platt reminds us that apart from God's grace we can do no good thing. Explore more content from Radical.",
-          "duration": "351",
-          "date": "2026-11-11T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:45.349090+00:00",
+      "fetched": "2026-11-19T02:42:44.006642+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-10-19T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-18T03:01:45.429596+00:00",
+      "fetched": "2026-11-19T02:42:44.037048+00:00",
       "error": null
     }
   ]
