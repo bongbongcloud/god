@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T02:42:44.037111+00:00",
+  "generated": "2026-11-20T02:28:50.251258+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "We All Need Help",
+          "link": "https://feed.desiringgod.org/link/18331/17310943/we-all-need-help",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181119-en-we-all-need-help.mp3?ts=1755624577&year=2026",
+          "summary": "Because we have a Great High Priest, the throne of God is a throne of grace.",
+          "duration": "00:03:20",
+          "date": "2026-11-19T10:00:00+00:00"
+        },
         {
           "title": "The Piercing Power of the Word",
           "link": "https://feed.desiringgod.org/link/18331/17310944/the-piercing-power-of-the-word",
@@ -54,17 +62,9 @@
           "summary": "The Bible’s warnings are written that you might believe and endure, and have life.",
           "duration": "00:03:20",
           "date": "2026-11-13T10:00:00+00:00"
-        },
-        {
-          "title": "How Satan Serves God",
-          "link": "https://feed.desiringgod.org/link/18331/17310950/how-satan-serves-god",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181112-en-how-satan-serves-god.mp3?ts=1776714575&year=2026",
-          "summary": "Satan cannot destroy us. In fact, God turns all his attacks finally against him and for us.",
-          "duration": "00:03:44",
-          "date": "2026-11-12T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:40.126526+00:00",
+      "fetched": "2026-11-20T02:28:42.598741+00:00",
       "error": null
     },
     {
@@ -73,6 +73,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "listen",
       "items": [
+        {
+          "title": "Are My Prayers Selfish?",
+          "link": "https://feed.desiringgod.org/link/10715/17529148/are-my-prayers-selfish",
+          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17942/media/474ac50d-5bd5-45fa-aee0-b81d97953b38/20261119-en-are-my-prayers-selfish.mp3?ts=1793196936",
+          "summary": "How do we know if we’re praying according to God’s will? Pastor John distinguishes unfaithful, selfish prayer from God-honoring, faithful prayer.",
+          "duration": "00:11:44",
+          "date": "2026-11-19T11:00:00+00:00"
+        },
         {
           "title": "What We Get Wrong About the Tears of Jesus",
           "link": "https://feed.desiringgod.org/link/10715/17525443/what-we-get-wrong-about-the-tears-of-jesus",
@@ -112,17 +120,9 @@
           "summary": "How do we know when we’ve worked hard enough? Pastor John offers six ways to fight anxiety and rest in the grace of Christ.",
           "duration": "00:13:18",
           "date": "2026-11-02T11:00:00+00:00"
-        },
-        {
-          "title": "Was Piper Unprepared?",
-          "link": "https://feed.desiringgod.org/link/10715/17510548/was-piper-unprepared",
-          "audio": "https://media.blubrry.com/3817469/audio.desiringgod.org/resources/17906/media/d8322714-9be4-4ee6-b17b-c96abb23ae5d/20261029-en-was-piper-unprepared.mp3?ts=1791983036",
-          "summary": "In 1980, Bethlehem Baptist Church hired 34-year-old John Piper as lead pastor. Pastor John reflects on the life experience and biblical worldview that prepared him for ministry.",
-          "duration": "00:15:00",
-          "date": "2026-10-29T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:43.105315+00:00",
+      "fetched": "2026-11-20T02:28:48.887872+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-11-06T15:04:09+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:43.216917+00:00",
+      "fetched": "2026-11-20T02:28:49.207820+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "In God’s Hand",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/in-god-s-hand",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/844fb962-c1e1-484f-a2a0-b4b200cc2576/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "The assurance of our salvation isn't anchored in how convinced we feel. It's anchored in His testimony.",
+          "duration": "141",
+          "date": "2026-11-19T05:00:00+00:00"
+        },
         {
           "title": "A Living Hope",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/a-living-hope-1",
@@ -236,17 +244,9 @@
           "summary": "Sometimes God's answer is unexpected, but we can trust that it is always for our good.",
           "duration": "149",
           "date": "2026-11-13T05:00:00+00:00"
-        },
-        {
-          "title": "The God Who Answers",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-god-who-answers",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/de3e8a74-b6ea-4c81-b58e-b4b200cc11a6/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Prayer involves coming to God with an honest heart, expressing your needs, and making room to listen.",
-          "duration": "125",
-          "date": "2026-11-12T05:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:43.459139+00:00",
+      "fetched": "2026-11-20T02:28:49.398590+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "A Warning Against Complacency",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/19/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1119_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-11-19T08:00:00+00:00"
+        },
         {
           "title": "The Heart of the Matter",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/18/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-11-13T08:00:00+00:00"
-        },
-        {
-          "title": "The Reason We Forgive",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/12/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1112_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-11-12T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:43.904332+00:00",
+      "fetched": "2026-11-20T02:28:49.911326+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Immersed in the Word (Nehemiah 9:3)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20149009-immersed-in-the-word-nehemiah-9-3.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20149009-immersed-in-the-word-nehemiah-9-3.mp3",
+          "summary": "In this episode of Pray the Word on Nehemiah 9:3, David Platt encourages us to set apart significant periods of time to study Scripture. Explore more content from Radical.",
+          "duration": "270",
+          "date": "2026-11-19T08:00:00+00:00"
+        },
         {
           "title": "Revere His Word (Nehemiah 8:5–6)",
           "link": "https://www.buzzsprout.com/112848/episodes/20144009-revere-his-word-nehemiah-8-5-6.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on Ezra 10:1, David Platt asks God to bring us to weep over the seriousness of our sin. Explore more content from Radical.",
           "duration": "329",
           "date": "2026-11-13T08:00:00+00:00"
-        },
-        {
-          "title": "Humble Repentance (Ezra 9:3–6)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20113897-humble-repentance-ezra-9-3-6.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20113897-humble-repentance-ezra-9-3-6.mp3",
-          "summary": "In this episode of Pray the Word on Ezra 9:3–6, David Platt asks God to give us a spirit of humility, confession, and repentance. Explore more content from Radical.",
-          "duration": "345",
-          "date": "2026-11-12T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:44.006642+00:00",
+      "fetched": "2026-11-20T02:28:50.157067+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-10-19T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-19T02:42:44.037048+00:00",
+      "fetched": "2026-11-20T02:28:50.251172+00:00",
       "error": null
     }
   ]
