@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T01:28:52.996186+00:00",
+  "generated": "2026-11-23T01:53:45.084293+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "The Key to Spiritual Maturity",
+          "link": "https://feed.desiringgod.org/link/18331/17310940/the-key-to-spiritual-maturity",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181122-en-the-key-to-spiritual-maturity.mp3?ts=1776715686&year=2026",
+          "summary": "Getting ready to feast on all God’s word is not first an intellectual challenge; it is first a moral challenge.",
+          "duration": "00:03:18",
+          "date": "2026-11-22T10:00:00+00:00"
+        },
         {
           "title": "The Gravity of Gratitude",
           "link": "https://feed.desiringgod.org/link/18331/17310941/the-gravity-of-gratitude",
@@ -54,17 +62,9 @@
           "summary": "Take up the Bible, ask the Holy Spirit for help, lay the promises up in your heart, and fight the good fight — to live by faith in future grace.",
           "duration": "00:03:14",
           "date": "2026-11-16T10:00:00+00:00"
-        },
-        {
-          "title": "Fighting Words",
-          "link": "https://feed.desiringgod.org/link/18331/17310947/fighting-words",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181115-en-fighting-words.mp3?ts=1776714994&year=2026",
-          "summary": "When you feel discouraged and anxious, cling to God’s promises to be with you and uphold you.",
-          "duration": "00:03:30",
-          "date": "2026-11-15T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:47.857391+00:00",
+      "fetched": "2026-11-23T01:53:37.165406+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-11-02T11:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:52.534164+00:00",
+      "fetched": "2026-11-23T01:53:43.668448+00:00",
       "error": null
     },
     {
@@ -180,7 +180,7 @@
           "date": "2026-11-09T11:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:52.589954+00:00",
+      "fetched": "2026-11-23T01:53:44.024755+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "God Is in Control",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/god-is-in-control",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/260ca4b1-1926-4d2a-9afa-b4b200cc4d64/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "Life's difficulties may catch us off guard, but there is nothing that surprises God and nothing He can't redeem.",
+          "duration": "127",
+          "date": "2026-11-22T05:00:00+00:00"
+        },
         {
           "title": "Under Grace",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/under-grace",
@@ -236,17 +244,9 @@
           "summary": "When we wait for the Lord and trust His timing, we experience the fullness of His love, grace, and rest.",
           "duration": "122",
           "date": "2026-11-16T05:00:00+00:00"
-        },
-        {
-          "title": "Using Our Time Well",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/using-our-time-well",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/2dc3f74e-f547-4f5d-b7c9-b4b200cc24ba/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "The Lord wants us to use the time He's given us to love Him, serve others, and live with purpose.",
-          "duration": "240",
-          "date": "2026-11-15T05:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:52.702726+00:00",
+      "fetched": "2026-11-23T01:53:44.267802+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "A Picture of Heaven",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/22/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1122_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-11-22T08:00:00+00:00"
+        },
         {
           "title": "Be Silent and Listen",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/21/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-11-16T08:00:00+00:00"
-        },
-        {
-          "title": "The Father’s Tender Care",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/15/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1115_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-11-15T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:52.942596+00:00",
+      "fetched": "2026-11-23T01:53:44.822739+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "Rejoicing in Hope (Nehemiah 12:43)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20156545-rejoicing-in-hope-nehemiah-12-43.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20156545-rejoicing-in-hope-nehemiah-12-43.mp3",
+          "summary": "In this episode of Pray the Word on Nehemiah 12:43, David Platt asks God to help us rejoice, knowing that this world is not the end. Explore more content from Radical.",
+          "duration": "407",
+          "date": "2026-11-22T08:00:00+00:00"
+        },
         {
           "title": "Joyful Obedience (Nehemiah 11:2)",
           "link": "https://www.buzzsprout.com/112848/episodes/20156179-joyful-obedience-nehemiah-11-2.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on Nehemiah 4:17, David Platt exhorts us to stay focused on our calling and engage in spiritual warfare. Explore more content from Radical.",
           "duration": "361",
           "date": "2026-11-16T08:00:00+00:00"
-        },
-        {
-          "title": "Working Together (Nehemiah 3:1–2)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20126670-working-together-nehemiah-3-1-2.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20126670-working-together-nehemiah-3-1-2.mp3",
-          "summary": "In this episode of Pray the Word on Nehemiah 3:1–2, David Platt challenges us to work well together for the building up of the church. Explore more content from Radical.",
-          "duration": "363",
-          "date": "2026-11-15T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:52.978142+00:00",
+      "fetched": "2026-11-23T01:53:44.980168+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-10-19T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-22T01:28:52.996111+00:00",
+      "fetched": "2026-11-23T01:53:45.084200+00:00",
       "error": null
     }
   ]
