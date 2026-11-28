@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T03:42:21.271487+00:00",
+  "generated": "2026-11-28T03:26:04.209597+00:00",
   "sources": [
     {
       "id": "solid-joys",
@@ -7,6 +7,14 @@
       "speaker": "John Piper · Desiring God",
       "kind": "read",
       "items": [
+        {
+          "title": "How to Magnify God",
+          "link": "https://feed.desiringgod.org/link/18331/17310935/how-to-magnify-god",
+          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181127-en-how-to-magnify-god.mp3?ts=1776715884&year=2026",
+          "summary": "The whole duty of the Christian can be summed up in this: feel, think, and act in a way that will make God look as great as he really is.",
+          "duration": "00:02:53",
+          "date": "2026-11-27T10:00:00+00:00"
+        },
         {
           "title": "Jesus Prays for Us",
           "link": "https://feed.desiringgod.org/link/18331/17310936/jesus-prays-for-us",
@@ -54,17 +62,9 @@
           "summary": "A thankful spirit is others-exalting and glad-hearted. Therefore, pray for a great awakening of humble gratitude.",
           "duration": "00:03:06",
           "date": "2026-11-21T10:00:00+00:00"
-        },
-        {
-          "title": "Five Reasons Death Is Gain",
-          "link": "https://feed.desiringgod.org/link/18331/17310942/five-reasons-death-is-gain",
-          "audio": "https://media.blubrry.com/3817474/audio.desiringgod.org/20181120-en-five-reasons-death-is-gain.mp3?ts=1776715609&year=2026",
-          "summary": "Death is gain because Christians will then be perfect, pain-free, rested, at home, and with Christ.",
-          "duration": "00:05:04",
-          "date": "2026-11-20T10:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:16.986639+00:00",
+      "fetched": "2026-11-28T03:25:58.002552+00:00",
       "error": null
     },
     {
@@ -122,7 +122,7 @@
           "date": "2026-11-09T11:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:20.331505+00:00",
+      "fetched": "2026-11-28T03:26:02.842199+00:00",
       "error": null
     },
     {
@@ -131,6 +131,14 @@
       "speaker": "Tim Keller",
       "kind": "listen",
       "items": [
+        {
+          "title": "Generosity and Ministry",
+          "link": "http://podcast.gospelinlife.com/e/generosity-and-ministry-1795192543/",
+          "audio": "https://mcdn.podbean.com/mf/web/eqhfqfupmepgh5p6/261127_GenerosityAndMinistry.mp3",
+          "summary": "There are different currencies of generosity. And we come now to a very important, non-financial currency. It’s being generous with our time, our talents, our gifts. What I like about this passage in Luke is that it gets us deeper into the subject of how to develop the heart generosity. Where does that come from, a…",
+          "duration": "2837",
+          "date": "2026-11-27T11:00:00+00:00"
+        },
         {
           "title": "Hospitality and God’s Grace",
           "link": "http://podcast.gospelinlife.com/e/hospitality-and-god-s-grace-1795192317/",
@@ -170,17 +178,9 @@
           "summary": "As human beings, each of us not only experiences physical hunger, but spiritual hunger deep inside us. And it isn’t long before we find that whatever we try to fulfill ourselves with, whether it’s family, acceptance, money, or comfort, is never going to satisfy us. Jesus knows this all too well—and gives us a much…",
           "duration": "2048",
           "date": "2026-11-16T11:00:00+00:00"
-        },
-        {
-          "title": "I Am the Vine",
-          "link": "http://podcast.gospelinlife.com/e/i-am-the-vine/",
-          "audio": "https://mcdn.podbean.com/mf/web/j6753kdrqn265tci/261113_IAmTheVine.mp3",
-          "summary": "This sermon was preached by Dr. Timothy Keller at Redeemer Presbyterian Church on December 6, 1998. Series: John – On Knowing the Christ. Scripture: John 10:1-17. Today's podcast is brought to you by Gospel in Life, the site for all sermons, books, study guides and resources from Timothy Keller and Redeemer…",
-          "duration": "2499",
-          "date": "2026-11-13T16:47:26+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:20.482790+00:00",
+      "fetched": "2026-11-28T03:26:03.155491+00:00",
       "error": null
     },
     {
@@ -189,6 +189,14 @@
       "speaker": "Charles Stanley · In Touch Ministries",
       "kind": "listen",
       "items": [
+        {
+          "title": "A Quiet Witness",
+          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/a-quiet-witness",
+          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/c2bdcd7b-9487-4c8b-a4eb-b4b200cc0624/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
+          "summary": "As we tend to our faith, the way we speak and act toward others becomes a reflection of Christ.",
+          "duration": "140",
+          "date": "2026-11-27T05:00:00+00:00"
+        },
         {
           "title": "The Motivation for Gratitude",
           "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/the-motivation-for-gratitude",
@@ -236,17 +244,9 @@
           "summary": "Sin no longer has a grip on us. We can live in the freedom of His grace today and forever.",
           "duration": "130",
           "date": "2026-11-21T05:00:00+00:00"
-        },
-        {
-          "title": "Strengthened in the Lord",
-          "link": "https://omny.fm/shows/in-touch-ministries-daily-devotions/strengthened-in-the-lord",
-          "audio": "https://traffic.omny.fm/d/clips/7237c071-cd56-4495-998a-b23d00f69e8d/87d53d0c-9dc6-4151-b94e-b26701575b7f/a13ca530-7c13-4f69-bcf4-b4b200cc1da9/audio.mp3?utm_source=Podcast&in_playlist=20bba2fb-121b-493a-b694-b26701575b98",
-          "summary": "Though discouragement may shake us, God's steady hand is always there to hold us.",
-          "duration": "195",
-          "date": "2026-11-20T05:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:20.739796+00:00",
+      "fetched": "2026-11-28T03:26:03.476394+00:00",
       "error": null
     },
     {
@@ -255,6 +255,14 @@
       "speaker": "Alistair Begg · Truth For Life daily devotional",
       "kind": "read",
       "items": [
+        {
+          "title": "Through His Mercy",
+          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/27/2026/",
+          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1127_v1even.mp3",
+          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
+          "duration": "",
+          "date": "2026-11-27T08:00:00+00:00"
+        },
         {
           "title": "Why Give?",
           "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/26/2026/",
@@ -302,17 +310,9 @@
           "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
           "duration": "",
           "date": "2026-11-21T08:00:00+00:00"
-        },
-        {
-          "title": "Overflowing with Thankfulness",
-          "link": "https://www.truthforlife.org/devotionals/alistair-begg/11/20/2026/",
-          "audio": "https://tflmedia-new.s3.amazonaws.com/TFLDevo_Podcast/1120_v1even.mp3",
-          "summary": "----------------------------------------- To read along with the audio, visit Truth For Life's Today page. You can also purchase print copies of Alistair Begg's daily devotionals. Volume One is used during even-numbered years; Volume Two is used during odd-numbered years. Devotional material is taken from the Truth…",
-          "duration": "",
-          "date": "2026-11-20T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:21.015000+00:00",
+      "fetched": "2026-11-28T03:26:03.922937+00:00",
       "error": null
     },
     {
@@ -321,6 +321,14 @@
       "speaker": "David Platt · Radical",
       "kind": "listen",
       "items": [
+        {
+          "title": "The Path of Godliness (Esther 7:10)",
+          "link": "https://www.buzzsprout.com/112848/episodes/20168083-the-path-of-godliness-esther-7-10.mp3",
+          "audio": "https://www.buzzsprout.com/112848/episodes/20168083-the-path-of-godliness-esther-7-10.mp3",
+          "summary": "In this episode of Pray the Word on Esther 7:10, David Platt exhorts us to live for others instead of ourselves and to love God above all. Explore more content from Radical.",
+          "duration": "295",
+          "date": "2026-11-27T08:00:00+00:00"
+        },
         {
           "title": "Waiting in Faith (Esther 6:1)",
           "link": "https://www.buzzsprout.com/112848/episodes/20167994-waiting-in-faith-esther-6-1.mp3",
@@ -368,17 +376,9 @@
           "summary": "In this episode of Pray the Word on Nehemiah 11:2, David Platt asks God to help us be willing to do whatever he calls us to do. Explore more content from Radical.",
           "duration": "304",
           "date": "2026-11-21T08:00:00+00:00"
-        },
-        {
-          "title": "Worthy of Our Best (Nehemiah 10:35)",
-          "link": "https://www.buzzsprout.com/112848/episodes/20154822-worthy-of-our-best-nehemiah-10-35.mp3",
-          "audio": "https://www.buzzsprout.com/112848/episodes/20154822-worthy-of-our-best-nehemiah-10-35.mp3",
-          "summary": "In this episode of Pray the Word on Nehemiah 10:35, David Platt teaches us to give the first of all our resources completely to God. Explore more content from Radical.",
-          "duration": "342",
-          "date": "2026-11-20T08:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:21.218078+00:00",
+      "fetched": "2026-11-28T03:26:04.121297+00:00",
       "error": null
     },
     {
@@ -428,7 +428,7 @@
           "date": "2026-10-26T09:00:00+00:00"
         }
       ],
-      "fetched": "2026-11-27T03:42:21.271425+00:00",
+      "fetched": "2026-11-28T03:26:04.209503+00:00",
       "error": null
     }
   ]
